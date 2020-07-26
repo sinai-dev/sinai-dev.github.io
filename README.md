@@ -12,7 +12,7 @@ Please see the <b>[Releases](https://github.com/sinaioutlander/Outward-SideLoade
 
 See also: [Installing](GettingStarted/Installing).
 
-## Resources
+## Resources {docsify-ignore}
 
 See these Resources for useful references, files, examples, etc:
 * [Outward Tools](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=673914692) <i>(IDs, Tags, datamined info, etc).</i>
