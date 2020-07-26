@@ -2,9 +2,7 @@
 
 This is a brief summary of how to use the SideLoader directly from your own C# mod.
 
-## Important Notes
-
-This page is to help you get started with C# and show you some examples, it is not a complete C# documentation by any means.
+## C# API
 
 See the [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html) (work-in-progress) for proper documentation. This documentation can also be seen as hints in your IDE when you are using SideLoader's API.
 
