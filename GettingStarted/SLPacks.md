@@ -33,7 +33,7 @@ The `AudioClip\` folder is used for <b>.wav</b> files, either for replacing exis
 
 Your .wav files simply need to be placed inside the AudioClip folder. To replace Audio, use the same name that the game uses. 
 
-See also: <B>TODO</b> [Replacing Audio]() for more details.
+See also: [Replacing Audio](Replacing/Audio) for more details.
 
 ### AssetBundles
 
@@ -53,13 +53,13 @@ See also: [Unity AssetBundles Guide](https://docs.unity3d.com/Manual/AssetBundle
 
 The `Characters\` folder is used for defining custom Characters.
 
-See <B>TODO</b> [Custom Characters]().
+See [Custom Characters](Custom/Characters).
 
 ### Enchantments
 
 The `Enchantments\` folder is used for defining custom Enchantments.
 
-See <B>TODO</b> [Custom Enchantments]().
+See [Custom Enchantments](Custom/Enchantments).
 
 ### Items
 
@@ -69,22 +69,22 @@ You can place custom item xmls directly in this folder if you want (eg. `Items\M
 
 You can also create a <b>sub-folder for each item</b>. This is used if you are defining any <b>custom icons or textures</b> for the item (explained in more detail on the Custom Items page).
 
-See also: <B>TODO</b> [Custom Items]().
+See also: [Custom Items](Custom/Items).
 
 ### Recipes
 
 The `Recipes\` folder is obviously used to define custom recipes. Simply place the xml file(s) in this folder.
 
-See also: <B>TODO</b> [Custom Recipes]().
+See also: [Custom Recipes](Custom/ItemRecipes).
 
 ### StatusEffects
 
 The `StatusEffects\` folder is for custom Status Effects and Imbues. Similar to custom items, you can put the XMLs directly in this folder or you can create a folder for each status.
 
-See also: <B>TODO</b> [Custom Status Effects]().
+See also: [Custom Status Effects](Custom/StatusEffects).
 
 ### Texture2D
 
 The `Texture2D` folder is used for replacing textures. The SideLoader will find currently loaded textures which have the same name and replace them.
 
-See also: <B>TODO</b> [Replacing Textures]().
+See also: [Replacing Textures](Replacing/Textures).
