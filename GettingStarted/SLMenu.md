@@ -22,9 +22,9 @@ To use this generated template, simply place the item sub-folder in your `SideLo
 
 The Menu also lets you set the `EffectBehaviour` setting on the `SL_Item` template.
 
-* <b>Replace Effects</b>: `DestroyEffects`
-* <b>Ovveride by Transform</b>: `OverrideEffects`
-* <b>Add on top</b>: `NONE`
+* <b>Destroy Effects</b>: `DestroyEffects`
+* <b>Override Effects</b>: `OverrideEffects`
+* <b>None (leave all)</b>: `NONE`
 
 ### Status Effects
 
