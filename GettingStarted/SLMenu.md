@@ -17,10 +17,6 @@ You can also set the `New ID`. This will determine the ID which your template wi
 
 When you press the button to generate a template, it will be generated to <b>`Mods/SideLoader/_GENERATED/Items/`</b>. It will automatically create the proper sub-folder structure including the Textures and Icons.
 
-To use this generated template, simply place the item sub-folder in your `SideLoader/MyPack/Items/` folder.
-* eg, if the generated item folder was "2000010_IronSword", take that folder and put it in your pack so it looks like "MyPack/Items/2000010_IronSword".
-* You can rename this item sub-folder if you want. The name of that folder is not important.
-
 To use this generated template, take the folder (eg. `2000010_IronSword\`) and put it into the `Items\` folder of your SL Pack. It should look like `Items\2000010_IronSword\Iron Sword.xml`, for example.
 
 The Menu also lets you set the `EffectBehaviour` setting on the `SL_Item` template.
