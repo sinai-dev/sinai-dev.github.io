@@ -108,7 +108,8 @@
   <h6><strong>Assembly</strong>: SideLoader.dll</h6>
   <h5 id="SideLoader_ItemListDisplay_SortBySupport_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ItemListDisplay_SortBySupport</code></pre>
+    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(ItemListDisplay), &quot;SortBySupport&quot;)]
+public class ItemListDisplay_SortBySupport</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -117,7 +118,7 @@
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_ItemListDisplay_SortBySupport_Finalizer_System_Int32__System_Exception_.md&amp;value=---%0Auid%3A%20SideLoader.ItemListDisplay_SortBySupport.Finalizer(System.Int32%40%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/docfx_project/src/Hooks.cs/#L44">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Hooks.cs/#L44">View Source</a>
   </span>
   <a id="SideLoader_ItemListDisplay_SortBySupport_Finalizer_" data-uid="SideLoader.ItemListDisplay_SortBySupport.Finalizer*"></a>
   <h4 id="SideLoader_ItemListDisplay_SortBySupport_Finalizer_System_Int32__System_Exception_" data-uid="SideLoader.ItemListDisplay_SortBySupport.Finalizer(System.Int32@,System.Exception)">Finalizer(ref Int32, Exception)</h4>
@@ -125,7 +126,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Exception Finalizer(ref int __result, Exception __exception)</code></pre>
+    <pre><code class="lang-csharp hljs">[HarmonyFinalizer]
+public static Exception Finalizer(ref int __result, Exception __exception)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,7 +177,7 @@
                     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_ItemListDisplay_SortBySupport.md&amp;value=---%0Auid%3A%20SideLoader.ItemListDisplay_SortBySupport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/docfx_project/src/Hooks.cs/#L41" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Hooks.cs/#L41" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
