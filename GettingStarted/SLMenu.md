@@ -11,14 +11,17 @@ Press <b>Control + Alt + F6</b> to show or hide the SideLoader menu when in-game
 
 ### Items
 
-* <b>Item ID:</b> this is the ID of the Item you are cloning FROM. This sets "Target_ItemID" in the template.
-* <b>New ID:</b> the ID of the Item your template will be applied to. It can be an existing ID, or a new one. This sets "New_ItemID" in the template.
+To export an Item, simply enter the `Item ID` for the Item you want to export from. You can find these IDs on the [Outward Wiki](https://outward.gamepedia.com), or on the [Outward Tools Sheet](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=673914692).
 
-When you press the button to generate a template, it will be generated to <b>`Mods/SideLoader/_GENERATED/Items/`</b>. It will automatically create a sub-folder template for this item including the Textures and Icon(s).
+You can also set the `New ID`. This will determine the ID which your template will be <b>applied to</b>. If you want to edit an existing item, enter that ID here, otherwise enter a new unique ID.
+
+When you press the button to generate a template, it will be generated to <b>`Mods/SideLoader/_GENERATED/Items/`</b>. It will automatically create the proper sub-folder structure including the Textures and Icons.
 
 To use this generated template, simply place the item sub-folder in your `SideLoader/MyPack/Items/` folder.
 * eg, if the generated item folder was "2000010_IronSword", take that folder and put it in your pack so it looks like "MyPack/Items/2000010_IronSword".
 * You can rename this item sub-folder if you want. The name of that folder is not important.
+
+To use this generated template, take the folder (eg. `2000010_IronSword\`) and put it into the `Items\` folder of your SL Pack. It should look like `Items\2000010_IronSword\Iron Sword.xml`, for example.
 
 The Menu also lets you set the `EffectBehaviour` setting on the `SL_Item` template.
 
