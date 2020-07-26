@@ -10,8 +10,18 @@ The <b>Outward SideLoader</b> is an API and a tool for Mod Development in the ga
 
 Please see the <b>[Releases](https://github.com/sinaioutlander/Outward-SideLoader/releases)</b> page for the latest release.
 
-## About the Author {docsify-ignore}
+See also: [Installing](GettingStarted/Installing).
 
-My name is Sinai and I create mods and mod frameworks for Outward. See my other Outward mods [here](https://github.com/sinaioutlander/Outward-Mods).
+## Resources
 
-Discord: <b>Sinai#4637</b> (find me in the [Outward Discord](https://discord.gg/outward)).
+See these Resources for useful references, files, examples, etc:
+* [Outward Tools](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=673914692) <i>(IDs, Tags, datamined info, etc).<i>
+* [SideLoader Resources](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources) <i>GitHub repo of useful files</i>
+
+## Credits {docsify-ignore}
+
+SideLoader is written by Sinai.
+
+Discord: <b>Sinai#4637</b> (find me in the [Outward Discord](https://discord.gg/outward))
+
+[Sinai's Mods Repo](https://github.com/sinaioutlander/Outward-Mods)
