@@ -176,9 +176,9 @@ See [Custom Item Visuals](Custom/ItemVisuals) for instructions on setting up cus
 
 Even if you are not defining custom visuals at all, you can still use some of these settings to align and rotate the existing visuals.
 
-# SL_Item Sub-classes
+# SL_Item sub-classes
 
-<u><b><i>The sections below are specific to certain types of custom items.</i></b></u>
+The sections below are specific to certain types of custom items.
 
 ## SL_Skill
 SL_Skill is a rather involved topic, with many derived classes. See [Custom Skills](Custom/Skills.md) for more information.
