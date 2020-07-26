@@ -1,0 +1,2551 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/source/Outward Mods/SideLoader/_docs/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.At.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.At.html",
+          "hash": "iYi4JtgJXbOspv4JmmE2OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CharacterManager_ClearNonPersitentCharacters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CharacterManager_ClearNonPersitentCharacters.html",
+          "hash": "c9BJXxnvr0umIxwhIGwsMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.Character_ProcessOnEnable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.Character_ProcessOnEnable.html",
+          "hash": "lNOy99sXKTz0QtNqGZ13XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomAudio.html",
+          "hash": "ai10j6T3kUHrgqcUDx+qdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomCharacters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomCharacters.html",
+          "hash": "VaoVqppQ8RksJl8TbawQrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomItemVisuals.ItemVisualsLink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomItemVisuals.ItemVisualsLink.html",
+          "hash": "7BhkKRDKChn1/7J2zKC0+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomItemVisuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomItemVisuals.html",
+          "hash": "dy+fYjFBls4yNtUDLAZ+pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomItems.html",
+          "hash": "1bFqaj+kv+EMSlOnp/9D7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomScenes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomScenes.html",
+          "hash": "lAdb/oWe7/owjQLORMYBGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomStatusEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomStatusEffects.html",
+          "hash": "Kw1/acEsWBOqFuing4pr6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomTags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomTags.html",
+          "hash": "uqLGHgOTg5qQaYuBqRMFHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomTextures.ShaderPropType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomTextures.ShaderPropType.html",
+          "hash": "QpkdOCnCxsKz1eeIRex/Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomTextures.SpriteBorderTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomTextures.SpriteBorderTypes.html",
+          "hash": "bSr19hGcYgoPtMbTmd/yDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomTextures.TextureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomTextures.TextureType.html",
+          "hash": "knqSzyRMmGx6RLGnjOiKJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.CustomTextures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.CustomTextures.html",
+          "hash": "fiU5xaTU/Sah3QwBJXBbjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.EditBehaviours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.EditBehaviours.html",
+          "hash": "OYyKtxYmjvwfO9Wsp9SW2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.EffectBehaviours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.EffectBehaviours.html",
+          "hash": "BYuFCWvxl/gLRM1t0Bhm6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.Effect_OnEnable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.Effect_OnEnable.html",
+          "hash": "zphcq6RTFBUmR+Lpj2W9Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.ItemDetailsDisplay_RefreshDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.ItemDetailsDisplay_RefreshDetail.html",
+          "hash": "hm/snRWzmFkgX07u/QoODw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.ItemListDisplay_SortBySupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.ItemListDisplay_SortBySupport.html",
+          "hash": "6bkNDaBHk8iwPURsdM+Q4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.Item_GetItemVisuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.Item_GetItemVisuals.html",
+          "hash": "IA7kp+G7/OW54hXZjWb1gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.Item_ItemIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.Item_ItemIcon.html",
+          "hash": "MzmQ1frsLVL79KxGXTtj4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.NetworkLevelLoader_MidLoadLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.NetworkLevelLoader_MidLoadLevel.html",
+          "hash": "555fS+c7oUjSxCuz71+unw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.RPCManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.RPCManager.html",
+          "hash": "ybimbhTSWH0SPtTq5qdiqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.References.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.References.html",
+          "hash": "AttPp6slMV5buodYseUHTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.ResourcesPrefabManager_Load.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.ResourcesPrefabManager_Load.html",
+          "hash": "3w7UtoNLFv+PVG3tCwJCLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL.html",
+          "hash": "RnctRZQw722WQVuUg+IF/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SLPack.SubFolders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SLPack.SubFolders.html",
+          "hash": "c56Ta6dSH03UGQouhar+Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SLPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SLPack.html",
+          "hash": "0K3A2ay8+hRB3Tgh6kJZSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AddBoonEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AddBoonEffect.html",
+          "hash": "Qu5UjwxH+AeA7iif6VPP9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AddStatusEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AddStatusEffect.html",
+          "hash": "n3KTUaPW6hNUJtus2+BDuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AddStatusEffectBuildUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AddStatusEffectBuildUp.html",
+          "hash": "0FDd0U2T+I8OaMtJPYE/ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AddStatusEffectRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AddStatusEffectRandom.html",
+          "hash": "N4WPdMWw0u3c9OYdgCprbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AddStatusImmunity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AddStatusImmunity.html",
+          "hash": "gh8GxOtPDJwZcy44GwzoOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectBurntHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectBurntHealth.html",
+          "hash": "Gcoei1SgY9yw9DuKnT7PZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectBurntMana.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectBurntMana.html",
+          "hash": "jAZGqfZofETHLEXpaNFxMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectBurntStamina.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectBurntStamina.html",
+          "hash": "dL73S9ARWwNKdeytlUalPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectCorruption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectCorruption.html",
+          "hash": "rs+qqiJoP68MluTOj6GVdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectDrink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectDrink.html",
+          "hash": "bA3mYmugf5UYCMXyhtiDbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectFatigue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectFatigue.html",
+          "hash": "bATTv5FyFqmYSedRsdH2Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectFood.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectFood.html",
+          "hash": "VL0Nuz0LuI2IVoXf6E37Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectHealth.html",
+          "hash": "qDGX3/cZvdMwXtUXet5DnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectHealthParentOwner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectHealthParentOwner.html",
+          "hash": "xj1VIKwD/INrVtKty2P31Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectMana.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectMana.html",
+          "hash": "BukzIXaQPAsWp/UQIIfCJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectStability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectStability.html",
+          "hash": "DRZa4VO6bVDRKm7T8s+XRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectStamina.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectStamina.html",
+          "hash": "EC+ijSGsbhKqYOH7f6xt8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AffectStat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AffectStat.html",
+          "hash": "7ls6QBkH5SekhjBACzwq8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AngleFwdToTargetFwdCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AngleFwdToTargetFwdCondition.html",
+          "hash": "aQCoDOUaOtfFSZlTZJVVCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Armor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Armor.html",
+          "hash": "GdrCQ4u9FHdbx32unhq6wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ArmorVisuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ArmorVisuals.html",
+          "hash": "3+j+TbxlHJwc9y70ySQ+ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AttackSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AttackSkill.html",
+          "hash": "1D29b5DfMWV0SJ2Y9IP2AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AttackTypeCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AttackTypeCondition.html",
+          "hash": "ei8jpfPgNJQ/gbbkf84f/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_AutoKnock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_AutoKnock.html",
+          "hash": "6PW6LK5tjepBacV8J41MJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Bag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Bag.html",
+          "hash": "qS92S7N9dxuLNC0Awo7QjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_BaseSkillSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_BaseSkillSlot.html",
+          "hash": "fQUB8jbbv6F8/WekBVRIdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_BooleanCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_BooleanCondition.html",
+          "hash": "dFpp0KsMeqNY0m4Bt3pFBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CallSquadMembers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CallSquadMembers.html",
+          "hash": "FGTSBARoPL+D9CLBsAw33g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Character.Ethnicities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Character.Ethnicities.html",
+          "hash": "DvYK+tJr4XKK+WfWmHhK9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Character.VisualData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Character.VisualData.html",
+          "hash": "yI4g+0Ujp5nXZYVl/NLgmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Character.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Character.html",
+          "hash": "kSe0/l+QzexHCJDN3tBEhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ContainedWaterCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ContainedWaterCondition.html",
+          "hash": "pciT3N/MD9G/MEjKvZQf7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CorruptionLevelCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CorruptionLevelCondition.html",
+          "hash": "pYx4RyQ+Jn1W48ObWj48DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Cough.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Cough.html",
+          "hash": "JVwG532rhD2PdILDSc/+fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CounterAbsorbSkill.AbsorbType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CounterAbsorbSkill.AbsorbType.html",
+          "hash": "xeaRa5B8o30gTjT+Uxm36A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CounterAbsorbSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CounterAbsorbSkill.html",
+          "hash": "VXc1NYWseQvRvIdww25j+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CounterSelfSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CounterSelfSkill.html",
+          "hash": "BqHZZr8t/rKKXwjRZK9Y9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CounterSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CounterSkill.html",
+          "hash": "22l3tdfZJWorOVrFZiFdEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CounterSuccessCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CounterSuccessCondition.html",
+          "hash": "BYprdKtMhB2QyLIXOjUdiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CreateItemEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CreateItemEffect.html",
+          "hash": "8LBqo81v57d/Hcls2kCWAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_CureDisease.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_CureDisease.html",
+          "hash": "zJkB1e9quQxn+pPA2zdDwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Damage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Damage.html",
+          "hash": "no09LVt5a0phKc/bxPGUvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_DealtDamageCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_DealtDamageCondition.html",
+          "hash": "4xPQ+Gayrw6bo85UkMsEaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Death.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Death.html",
+          "hash": "Cx9qjEpj8pVcb758o0ozZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_DelayEffectCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_DelayEffectCondition.html",
+          "hash": "cfmweScs7bx+qHKNy9JRjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Deployable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Deployable.html",
+          "hash": "Oj8JcnF8PZ934+XKT0WZ9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_DeployableTrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_DeployableTrap.html",
+          "hash": "BpZVnIG5rSUYpPHW7OyItA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_DestroyOnOwnerDeath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_DestroyOnOwnerDeath.html",
+          "hash": "E46KCXOVSfFXkMyF+zp51w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_DetachParasite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_DetachParasite.html",
+          "hash": "v+tUIHHQ5NCjHkmhTPnFHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Effect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Effect.html",
+          "hash": "k8hiyoBLDQZ/XCCHGQ5bPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EffectCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EffectCondition.html",
+          "hash": "B1+1HcNVMa0DV5kS48wLMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EffectTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EffectTransform.html",
+          "hash": "Ev+Aj0k/6MglVXSCXXZ4Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.AdditionalDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.AdditionalDamage.html",
+          "hash": "ktcsSAr+yMy3ZZHukEb33g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.Directions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.Directions.html",
+          "hash": "yYs0uGdzcFpr1hMX+YU/1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.EquipmentData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.EquipmentData.html",
+          "hash": "AwlgFBpySc9sBrxzPnkCXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.IngredientData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.IngredientData.html",
+          "hash": "+5EOhjuKqzfkiM73ZHRMWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.IngredientTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.IngredientTypes.html",
+          "hash": "fK2Dc1iRQjFwRqBz1+lbKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.PillarData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.PillarData.html",
+          "hash": "FoR58RnZdmhs0xj3KOLxLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.StatModification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.StatModification.html",
+          "hash": "IZYO0v6uEIk5ABSb46tulQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.WeatherCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.WeatherCondition.html",
+          "hash": "XHE6xi2AT/LAT/L1UDh7AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.WeatherTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.WeatherTypes.html",
+          "hash": "xUaSlETXdOTwyGM52b8QQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EnchantmentRecipe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EnchantmentRecipe.html",
+          "hash": "pRT52Yc+U2TQjK0dC9B6hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Ephemeral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Ephemeral.html",
+          "hash": "E9OKzxD+KCe1eQfUcYv9Ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EquipDurabilityCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EquipDurabilityCondition.html",
+          "hash": "0HKE0mE6GHdN6iGk+6qlIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Equipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Equipment.html",
+          "hash": "iTjib9/8qPMvWUWYkURrJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_EquipmentStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_EquipmentStats.html",
+          "hash": "2qJwErgzgGK7oITaAmc9fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_GiveOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_GiveOrder.html",
+          "hash": "qy1W8lsQdj1g3gO+jXdr6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_HasQuantityItemsCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_HasQuantityItemsCondition.html",
+          "hash": "ek2ZHci+pricJcjpwXsaMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_HasStatusEffectEffectCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_HasStatusEffectEffectCondition.html",
+          "hash": "gbzP4ZDT21rci8ydYFT3XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_HasStatusLevelCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_HasStatusLevelCondition.html",
+          "hash": "M7fdLFdR700yhXhIpQKskQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_HeightCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_HeightCondition.html",
+          "hash": "eNEcVOOp/D6pkwu6m7UW3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ImbueEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ImbueEffect.html",
+          "hash": "d5rzrlblTuKBnFz7ej46iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ImbueEffectCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ImbueEffectCondition.html",
+          "hash": "dc12tC/GrqQQolA5p/0Xyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ImbueEffectORCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ImbueEffectORCondition.html",
+          "hash": "PeVGEeQCI+Q0Mf9Dlz2jAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ImbueWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ImbueWeapon.html",
+          "hash": "V3WLijtV9NxITTvTU+6mLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_InZoneCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_InZoneCondition.html",
+          "hash": "UWiCluuq3KQ3HbPUbZlAgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_IsEquipSlotFilledCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_IsEquipSlotFilledCondition.html",
+          "hash": "4ZdnyQuDTfiAaZ2RdMPV2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_IsWorldHostCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_IsWorldHostCondition.html",
+          "hash": "zE35tkiNKnic/UrT9OGDKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Item.html",
+          "hash": "cEuA2JeY+dmD5McaQwVmwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ItemAddOn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ItemAddOn.html",
+          "hash": "qz7qHm5lIn3onVW1jiM4/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ItemExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ItemExtension.html",
+          "hash": "AV7QqCknViXkif3btwNI3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ItemStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ItemStats.html",
+          "hash": "PJa7XPi7u/9y+I01DnQq9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ItemVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ItemVisual.html",
+          "hash": "lD1omYiA42N07XRzETJhMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_LightLantern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_LightLantern.html",
+          "hash": "bdBR/bGmwRCmHB7KnmXwGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_LoadWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_LoadWeapon.html",
+          "hash": "Adts1hiR9XyOawI+8vS3ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Material.ColorProp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Material.ColorProp.html",
+          "hash": "scpMDYAH5b6KD2Xp1m2Tsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Material.FloatProp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Material.FloatProp.html",
+          "hash": "umjQzXml1okGnPoTt04Jtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Material.ShaderProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Material.ShaderProperty.html",
+          "hash": "qbr1w4xW+zySqihPSJ8ihw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Material.TextureConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Material.TextureConfig.html",
+          "hash": "GL+kQRkI58v6TYfjfswPLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Material.VectorProp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Material.VectorProp.html",
+          "hash": "DC9lum4CYeRt8L/W9H3pbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Material.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Material.html",
+          "hash": "N9818AYScae/OrcwbyWMWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_MeleeSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_MeleeSkill.html",
+          "hash": "Pu0fA2nYFJNyTyalR3+X4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_MostRecentCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_MostRecentCondition.html",
+          "hash": "3og5NGS/JPqvxuSD/z83OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_MultiItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_MultiItem.html",
+          "hash": "un0rbXK/+gg5gsv1nFYOsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_MultipleUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_MultipleUsage.html",
+          "hash": "1OKwlzzwftNfFG+lu+xAzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_OwnsItemCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_OwnsItemCondition.html",
+          "hash": "WCnJZ+Pis4K5clsRhcuS0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_PassiveSkillCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_PassiveSkillCondition.html",
+          "hash": "Dfy3+3NU6z/jAKTQFdsk4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Perishable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Perishable.html",
+          "hash": "1ovX1Vz9MDVh2IGpWeIqxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_PlaySoundEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_PlaySoundEffect.html",
+          "hash": "hlGCu8jk/505DCs+kv6JNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Preserver.SL_PreservedElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Preserver.SL_PreservedElement.html",
+          "hash": "QVJuaQ8lsbGgfZk5yXftVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Preserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Preserver.html",
+          "hash": "9gUfP/Gi2HLD59kcNY3Tzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ProbabilityCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ProbabilityCondition.html",
+          "hash": "OIQcmZOBkDMepUJcAOEgjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ProximityCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ProximityCondition.html",
+          "hash": "G/srUp6f1zgHyJS+YshB1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ProximitySoulSpotCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ProximitySoulSpotCondition.html",
+          "hash": "Aalw3d7j5Afd5QQ8Dz1H0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Puke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Puke.html",
+          "hash": "UZS7Av+biKMryEl0fSkugA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_PunctualDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_PunctualDamage.html",
+          "hash": "sj0BnS3vL6SkyybE3cKh2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_PunctualDamageAoE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_PunctualDamageAoE.html",
+          "hash": "BGEU+RpIM1nh7jFc/FhVuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_QuestEventAreaCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_QuestEventAreaCondition.html",
+          "hash": "iJc7BDWEP8MVOKLhTjrqdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_RangeAttackSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_RangeAttackSkill.html",
+          "hash": "/Gs137yyeYNWkVB0AjXYDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Recipe.Ingredient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Recipe.Ingredient.html",
+          "hash": "hWWVjGv6lDf6Jd2mah11EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Recipe.ItemQty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Recipe.ItemQty.html",
+          "hash": "yFCXgGufemX/2iKCkvbe+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Recipe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Recipe.html",
+          "hash": "b45NHnU8WV9p4CTknOvJPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_RecipeItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_RecipeItem.html",
+          "hash": "nKzwAbVDs/4ni5Zs8zQkfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ReduceDurability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ReduceDurability.html",
+          "hash": "nMC/DFEK98J9hyXePoDvaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ReduceStatusLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ReduceStatusLevel.html",
+          "hash": "ikeQbw0Oj+avDn1cXCcAKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_RemoveImbueEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_RemoveImbueEffects.html",
+          "hash": "6SbPq9gh1YGdCIe18TiQcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_RemoveStatusEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_RemoveStatusEffect.html",
+          "hash": "n6HRnY4sZnNpuV6NFJMpLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_RunicBlade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_RunicBlade.html",
+          "hash": "FVuNVaPa2F8dsernPrvrtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Serialized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Serialized.html",
+          "hash": "jFjUAQZfsV0leuVni0d7iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootBlast.BlastPrefabs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootBlast.BlastPrefabs.html",
+          "hash": "J/tYuJN2sfEUyIi0syn68Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootBlast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootBlast.html",
+          "hash": "hpZtSlUdNUwwV6MbK5ei0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootBlastHornetControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootBlastHornetControl.html",
+          "hash": "+7eeuWD/yzgNka9ehgAAnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootBlastProximity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootBlastProximity.html",
+          "hash": "YNG8V02+QXinCD4YWldb0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootConeBlast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootConeBlast.html",
+          "hash": "F0p7CkF7dSUpR51/D/2uJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootEnchantmentBlast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootEnchantmentBlast.html",
+          "hash": "T3AEupUzADuIzQZ1LBH9MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootItem.html",
+          "hash": "EO/uJCsAMOElEzt94qN5OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootProjectile.ProjectilePrefabs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootProjectile.ProjectilePrefabs.html",
+          "hash": "bkrkIAKXexivd9IP/Jqe6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootProjectile.SL_ProjectileShot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootProjectile.SL_ProjectileShot.html",
+          "hash": "nNzmpXITlGKVQgikyZIWcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootProjectile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootProjectile.html",
+          "hash": "r9GwnV5LLAtLn7W5dEBedQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShootProjectilePistol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShootProjectilePistol.html",
+          "hash": "UxyISxImHz3IkFglkurajw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Shooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Shooter.html",
+          "hash": "W62oMwmjW3ODyesNA8+h4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ShooterPosStatusEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ShooterPosStatusEffect.html",
+          "hash": "H7S+2sIzxJZIH9cHWfca3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Skill.SkillItemReq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Skill.SkillItemReq.html",
+          "hash": "LL1e5coaxUrKJYbodG8Keg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Skill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Skill.html",
+          "hash": "ieciWi1x7YNvCiypUODfVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_SkillRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_SkillRow.html",
+          "hash": "k1jkQvbBVFzmQsZIKrf3og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_SkillSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_SkillSlot.html",
+          "hash": "g/bWS9nPDPaiSy5Ax7YRjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_SkillSlotFork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_SkillSlotFork.html",
+          "hash": "srYSpSq0ft/yM98V8z/rgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_SkillTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_SkillTree.html",
+          "hash": "/a+cBoz+4dYIbS7Fw3HdNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Sleepable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Sleepable.html",
+          "hash": "fMoOMdtGWjO97NpUdAD5sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_StartDuel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_StartDuel.html",
+          "hash": "NbyPnQBRKoCORi19tbxIXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_StatusEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_StatusEffect.html",
+          "hash": "vd+BpHMMGlAe7VRDEBRK6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_StatusEffectCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_StatusEffectCondition.html",
+          "hash": "ZeeJF0WEB5FqTDQL9LPipg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Stun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Stun.html",
+          "hash": "7bE4F4d5qElCqWs0rJzLkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Summon.PrefabTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Summon.PrefabTypes.html",
+          "hash": "6ZrOQeUjiWkBaD5OCYFe7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Summon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Summon.html",
+          "hash": "Ae+JVBkU+uMzmHEkCqKqxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_SummonAI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_SummonAI.html",
+          "hash": "2KzAVyzaU/tzCQ0NVFWXsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_SummonBloodSpirit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_SummonBloodSpirit.html",
+          "hash": "qkauCltQqBaQXmdmeJGiUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Teleport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Teleport.html",
+          "hash": "lIlTWhS19Yy7A2njhkN4Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ThrowItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ThrowItem.html",
+          "hash": "ZtUlmGUWdUZWppDpVJcV4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_ThrowSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_ThrowSkill.html",
+          "hash": "nYoBX4+rv9CHeJpAD/hj5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_TimeDelayCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_TimeDelayCondition.html",
+          "hash": "gcGpN1suJKxauLwxaNhPJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_TrapEffectRecipe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_TrapEffectRecipe.html",
+          "hash": "HxLWfYPATdx2k6Bhdqdevg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_TrinketSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_TrinketSkill.html",
+          "hash": "2P0a9PE8ceqAGOpyAjrzhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_UnloadWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_UnloadWeapon.html",
+          "hash": "0O439xw2Lmkh2orNQVOWQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_UseLoadoutAmmunition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_UseLoadoutAmmunition.html",
+          "hash": "h6/xVVZ7/O3jS578G3ehDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_VitalityDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_VitalityDamage.html",
+          "hash": "jnN6m7sGZEMZcy9iK8aFxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_Weapon.html",
+          "hash": "TIqA580MeOVJSjBIY4aFLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_WeaponCharger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_WeaponCharger.html",
+          "hash": "YUVkbbpvjWjATuul+9N1cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_WeaponDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_WeaponDamage.html",
+          "hash": "VeEoC317r7nQUx3PUt3bTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_WeaponDamageFlurry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_WeaponDamageFlurry.html",
+          "hash": "o0Z0GmX2bKDyH4mnjVYFfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_WeaponIsLoadedCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_WeaponIsLoadedCondition.html",
+          "hash": "mEz0415/tamze/PKGKvQ/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_WeaponLoadout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_WeaponLoadout.html",
+          "hash": "0cRWkivw3z6kzC9cDUJL/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_WeaponLoadoutItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_WeaponLoadoutItem.html",
+          "hash": "gFcVlH46aoX4AEK9K6n7ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_WeaponStats.WeaponStatData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_WeaponStats.WeaponStatData.html",
+          "hash": "O6tIVsqvIFiz3HnttJq8DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.SL_WeaponStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.SL_WeaponStats.html",
+          "hash": "demOHbRSu46xnm8bTGHTdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.Serializer.html",
+          "hash": "qQTz92tYUg61KrpCf2XV9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.ShootProjectile_Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.ShootProjectile_Setup.html",
+          "hash": "LMu423u8YfgD8ViP2snWDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.UI.SL_GUI.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.UI.SL_GUI.Pages.html",
+          "hash": "GZ5DLAsKIzRc8iOMTTjXjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.UI.SL_GUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.UI.SL_GUI.html",
+          "hash": "KP3Fm3XmVyvoHoaThpC64A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.UI.UIStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.UI.UIStyles.html",
+          "hash": "w6SWvo3ElWW1flhPnqiRYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.UI.html",
+          "hash": "7mM4xBFyn2+7cyqE7wvHUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.VisualPrefabType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.VisualPrefabType.html",
+          "hash": "fCsuMajeCYRNHITAMxw54Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SideLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SideLoader.html",
+          "hash": "hNbjKKKjbfMn33VNwWlzmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "geVU45H+2OKYVglQbEKV7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "V2EvIZB7OhpqLUZmpG0tZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "6/Oc+BQ+QnpXG4L9sB7cxQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ic+A72O0PcjL919i5nh2Jg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ManagedReferenceDocumentProcessor disable incremental build because last build doesn't contain version .",
+          "incrementalPhase": "build",
+          "total_file_count": 202,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

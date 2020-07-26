@@ -6,8 +6,12 @@
   - [Overview](GettingStarted/Overview.md)
   - [SL Packs](GettingStarted/SLPacks.md)
   - [SL Menu](GettingStarted/SLMenu.md)
-  - [C# Guide](GettingStarted/CSharpGuide.md)
 
+- C# Documentation
+
+  - [C# Overview](GettingStarted/CSharpGuide.md)
+  - [C# API](_docfx/index.html)
+  
 - Replacing Assets
 
   - [Replacing Audio](Replacing/Audio.md)
