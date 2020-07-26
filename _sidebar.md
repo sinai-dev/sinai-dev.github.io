@@ -10,8 +10,7 @@
 - C# Documentation
 
   - [C# Overview](GettingStarted/CSharpGuide.md)
-  - [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html)
-  - Test ?
+  - - [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html)
   
 - Replacing Assets
 
