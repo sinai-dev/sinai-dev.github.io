@@ -118,10 +118,11 @@
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_OnSpawnCallbacks.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.OnSpawnCallbacks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L45">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L46">View Source</a>
   </span>
   <h4 id="SideLoader_CustomCharacters_OnSpawnCallbacks" data-uid="SideLoader.CustomCharacters.OnSpawnCallbacks">OnSpawnCallbacks</h4>
-  <div class="markdown level1 summary"><p>Key: Spawn callback UID (generally template UID), Value: SL_Character with OnSpawn event to invoke</p>
+  <div class="markdown level1 summary"><p>Internal dictionary which manages the OnSpawn callbacks.
+Key: Spawn callback UID (generally template UID), Value: SL_Character with OnSpawn event to invoke</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -181,47 +182,14 @@ Note: Do not modify this Prefab directly. If you want to change it, clone it fir
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_AddActiveCharacter_Character_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.AddActiveCharacter(Character)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L363">View Source</a>
-  </span>
-  <a id="SideLoader_CustomCharacters_AddActiveCharacter_" data-uid="SideLoader.CustomCharacters.AddActiveCharacter*"></a>
-  <h4 id="SideLoader_CustomCharacters_AddActiveCharacter_Character_" data-uid="SideLoader.CustomCharacters.AddActiveCharacter(Character)">AddActiveCharacter(Character)</h4>
-  <div class="markdown level1 summary"><p>Used internally by this class. Use CreateCharacter to create a new character.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddActiveCharacter(Character character)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Character</span></td>
-        <td><span class="parametername">character</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_CleanupCharacters.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.CleanupCharacters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L289">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L290">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_CleanupCharacters_" data-uid="SideLoader.CustomCharacters.CleanupCharacters*"></a>
   <h4 id="SideLoader_CustomCharacters_CleanupCharacters" data-uid="SideLoader.CustomCharacters.CleanupCharacters">CleanupCharacters()</h4>
-  <div class="markdown level1 summary"><p>The host calls this on Scene Changes to cleanup non-persistent characters (currently all SL_Character are non-persistent)</p>
+  <div class="markdown level1 summary"><p>Internal. The host calls this on Scene Changes to cleanup non-persistent characters (currently all SL_Character are non-persistent)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -233,7 +201,7 @@ Note: Do not modify this Prefab directly. If you want to change it, clone it fir
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_CreateCharacter_SideLoader_SL_Character_UnityEngine_Vector3_System_String_System_String_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.CreateCharacter(SideLoader.SL_Character%2CUnityEngine.Vector3%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L81">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L82">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_CreateCharacter_" data-uid="SideLoader.CustomCharacters.CreateCharacter*"></a>
   <h4 id="SideLoader_CustomCharacters_CreateCharacter_SideLoader_SL_Character_UnityEngine_Vector3_System_String_System_String_" data-uid="SideLoader.CustomCharacters.CreateCharacter(SideLoader.SL_Character,UnityEngine.Vector3,System.String,System.String)">CreateCharacter(SL_Character, Vector3, String, String)</h4>
@@ -301,7 +269,7 @@ The OnSpawn callback is based on the Template UID. You should have already calle
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_CreateCharacter_UnityEngine_Vector3_System_String_System_String_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L107">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L108">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_CreateCharacter_" data-uid="SideLoader.CustomCharacters.CreateCharacter*"></a>
   <h4 id="SideLoader_CustomCharacters_CreateCharacter_UnityEngine_Vector3_System_String_System_String_System_Boolean_System_String_" data-uid="SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3,System.String,System.String,System.Boolean,System.String)">CreateCharacter(Vector3, String, String, Boolean, String)</h4>
@@ -375,7 +343,7 @@ The OnSpawn callback is based on the Template UID. You should have already calle
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_CreateCharacter_UnityEngine_Vector3_System_String_System_String_System_String_System_Boolean_System_String_System_String_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L124">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L125">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_CreateCharacter_" data-uid="SideLoader.CustomCharacters.CreateCharacter*"></a>
   <h4 id="SideLoader_CustomCharacters_CreateCharacter_UnityEngine_Vector3_System_String_System_String_System_String_System_Boolean_System_String_System_String_" data-uid="SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3,System.String,System.String,System.String,System.Boolean,System.String,System.String)">CreateCharacter(Vector3, String, String, String, Boolean, String, String)</h4>
@@ -462,7 +430,7 @@ This is the main CreateCharacter method, called by the other CreateCharacter met
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_DestroyCharacterLocal_Character_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.DestroyCharacterLocal(Character)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L315">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L316">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_DestroyCharacterLocal_" data-uid="SideLoader.CustomCharacters.DestroyCharacterLocal*"></a>
   <h4 id="SideLoader_CustomCharacters_DestroyCharacterLocal_Character_" data-uid="SideLoader.CustomCharacters.DestroyCharacterLocal(Character)">DestroyCharacterLocal(Character)</h4>
@@ -495,7 +463,7 @@ This is the main CreateCharacter method, called by the other CreateCharacter met
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_DestroyCharacterRPC_Character_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.DestroyCharacterRPC(Character)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L53">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L54">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_DestroyCharacterRPC_" data-uid="SideLoader.CustomCharacters.DestroyCharacterRPC*"></a>
   <h4 id="SideLoader_CustomCharacters_DestroyCharacterRPC_Character_" data-uid="SideLoader.CustomCharacters.DestroyCharacterRPC(Character)">DestroyCharacterRPC(Character)</h4>
@@ -529,11 +497,11 @@ This is the main CreateCharacter method, called by the other CreateCharacter met
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_FixStats_Character_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.FixStats(Character)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L374">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L375">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_FixStats_" data-uid="SideLoader.CustomCharacters.FixStats*"></a>
   <h4 id="SideLoader_CustomCharacters_FixStats_Character_" data-uid="SideLoader.CustomCharacters.FixStats(Character)">FixStats(Character)</h4>
-  <div class="markdown level1 summary"><p>Removes PlayerCharacterStats and replaces with CharacterStats</p>
+  <div class="markdown level1 summary"><p>Removes PlayerCharacterStats and replaces with CharacterStats.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -562,7 +530,7 @@ This is the main CreateCharacter method, called by the other CreateCharacter met
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_InstantiatePlayerPrefab_UnityEngine_Vector3_System_String_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.InstantiatePlayerPrefab(UnityEngine.Vector3%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L539">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L544">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_InstantiatePlayerPrefab_" data-uid="SideLoader.CustomCharacters.InstantiatePlayerPrefab*"></a>
   <h4 id="SideLoader_CustomCharacters_InstantiatePlayerPrefab_UnityEngine_Vector3_System_String_" data-uid="SideLoader.CustomCharacters.InstantiatePlayerPrefab(UnityEngine.Vector3,System.String)">InstantiatePlayerPrefab(Vector3, String)</h4>
@@ -615,7 +583,7 @@ public static GameObject InstantiatePlayerPrefab(Vector3 _position, string _UID)
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_InvokeSpawnCharacters.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.InvokeSpawnCharacters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L61">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L62">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_InvokeSpawnCharacters_" data-uid="SideLoader.CustomCharacters.InvokeSpawnCharacters*"></a>
   <h4 id="SideLoader_CustomCharacters_InvokeSpawnCharacters" data-uid="SideLoader.CustomCharacters.InvokeSpawnCharacters">InvokeSpawnCharacters()</h4>
@@ -631,11 +599,11 @@ public static GameObject InstantiatePlayerPrefab(Vector3 _position, string _UID)
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_SetupBasicAI_Character_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.SetupBasicAI(Character)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L241">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L242">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_SetupBasicAI_" data-uid="SideLoader.CustomCharacters.SetupBasicAI*"></a>
   <h4 id="SideLoader_CustomCharacters_SetupBasicAI_Character_" data-uid="SideLoader.CustomCharacters.SetupBasicAI(Character)">SetupBasicAI(Character)</h4>
-  <div class="markdown level1 summary"><p>Add basic combat AI to a Character.</p>
+  <div class="markdown level1 summary"><p>Helper to add basic combat AI to a Character.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -676,14 +644,47 @@ public static GameObject InstantiatePlayerPrefab(Vector3 _position, string _UID)
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_SetupBlankCharacterStats_CharacterStats_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.SetupBlankCharacterStats(CharacterStats)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L399">View Source</a>
+  </span>
+  <a id="SideLoader_CustomCharacters_SetupBlankCharacterStats_" data-uid="SideLoader.CustomCharacters.SetupBlankCharacterStats*"></a>
+  <h4 id="SideLoader_CustomCharacters_SetupBlankCharacterStats_CharacterStats_" data-uid="SideLoader.CustomCharacters.SetupBlankCharacterStats(CharacterStats)">SetupBlankCharacterStats(CharacterStats)</h4>
+  <div class="markdown level1 summary"><p>Resets a CharacterStats to have all default stats (default for the Player).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetupBlankCharacterStats(CharacterStats stats)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterStats</span></td>
+        <td><span class="parametername">stats</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomCharacters_SpawnCharacterCoroutine_System_String_System_Int32_System_String_System_String_System_Boolean_System_String_System_String_.md&amp;value=---%0Auid%3A%20SideLoader.CustomCharacters.SpawnCharacterCoroutine(System.String%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L163">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Custom/CustomCharacters.cs/#L164">View Source</a>
   </span>
   <a id="SideLoader_CustomCharacters_SpawnCharacterCoroutine_" data-uid="SideLoader.CustomCharacters.SpawnCharacterCoroutine*"></a>
   <h4 id="SideLoader_CustomCharacters_SpawnCharacterCoroutine_System_String_System_Int32_System_String_System_String_System_Boolean_System_String_System_String_" data-uid="SideLoader.CustomCharacters.SpawnCharacterCoroutine(System.String,System.Int32,System.String,System.String,System.Boolean,System.String,System.String)">SpawnCharacterCoroutine(String, Int32, String, String, Boolean, String, String)</h4>
-  <div class="markdown level1 summary"><p>INTERNAL. Coroutine that executes locally for all clients to spawn a Character (continues directly from CreateCharacter)</p>
+  <div class="markdown level1 summary"><p>Internal coroutine that executes locally for all clients to spawn a Character (continues directly from CreateCharacter)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
