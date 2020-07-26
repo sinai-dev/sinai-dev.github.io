@@ -4,12 +4,9 @@ This is a brief summary of how to use the SideLoader directly from your own C# m
 
 ## Important Notes
 
-There are two important things to know about using SideLoder from C#:
-
-1. Everything that applies to the XML templates is exactly the same for C# too. The API Documentation is for the XML / SLPack approach since those users are probably less experienced and might find it confusing to see the C# docs. 
-2. I have added documentation to the source code itself with summaries. If you look at the SideLoader methods and classes from your own mod in your IDE, there will be instructions on what the method is for and how to use it.
-
 This page is to help you get started with C# and show you some examples, it is not a complete C# documentation by any means.
+
+See the [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html) (work-in-progress) for proper documentation. This documentation can also be seen as hints in your IDE when you are using SideLoader's API.
 
 ## Adding the Reference
 
