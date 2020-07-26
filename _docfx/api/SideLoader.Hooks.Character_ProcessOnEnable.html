@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ItemListDisplay_SortBySupport
+    <title>Class Character_ProcessOnEnable
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ItemListDisplay_SortBySupport
+    <meta name="title" content="Class Character_ProcessOnEnable
    ">
     <meta name="generator" content="docfx 2.56.1.0">
     
@@ -68,17 +68,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SideLoader.ItemListDisplay_SortBySupport">
+            <article class="content wrap" id="_content" data-uid="SideLoader.Hooks.Character_ProcessOnEnable">
   
   
-  <h1 id="SideLoader_ItemListDisplay_SortBySupport" data-uid="SideLoader.ItemListDisplay_SortBySupport" class="text-break">Class ItemListDisplay_SortBySupport
+  <h1 id="SideLoader_Hooks_Character_ProcessOnEnable" data-uid="SideLoader.Hooks.Character_ProcessOnEnable" class="text-break">Class Character_ProcessOnEnable
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ItemListDisplay_SortBySupport</span></div>
+    <div class="level1"><span class="xref">Character_ProcessOnEnable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,53 +104,31 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SideLoader.html">SideLoader</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SideLoader.Hooks.html">SideLoader.Hooks</a></h6>
   <h6><strong>Assembly</strong>: SideLoader.dll</h6>
-  <h5 id="SideLoader_ItemListDisplay_SortBySupport_syntax">Syntax</h5>
+  <h5 id="SideLoader_Hooks_Character_ProcessOnEnable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(ItemListDisplay), &quot;SortBySupport&quot;)]
-public class ItemListDisplay_SortBySupport</code></pre>
+    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(Character), &quot;ProcessOnEnable&quot;)]
+public class Character_ProcessOnEnable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_ItemListDisplay_SortBySupport_Finalizer_System_Int32__System_Exception_.md&amp;value=---%0Auid%3A%20SideLoader.ItemListDisplay_SortBySupport.Finalizer(System.Int32%40%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_Hooks_Character_ProcessOnEnable_Finalizer.md&amp;value=---%0Auid%3A%20SideLoader.Hooks.Character_ProcessOnEnable.Finalizer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Hooks.cs/#L44">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Hooks.cs/#L209">View Source</a>
   </span>
-  <a id="SideLoader_ItemListDisplay_SortBySupport_Finalizer_" data-uid="SideLoader.ItemListDisplay_SortBySupport.Finalizer*"></a>
-  <h4 id="SideLoader_ItemListDisplay_SortBySupport_Finalizer_System_Int32__System_Exception_" data-uid="SideLoader.ItemListDisplay_SortBySupport.Finalizer(System.Int32@,System.Exception)">Finalizer(ref Int32, Exception)</h4>
+  <a id="SideLoader_Hooks_Character_ProcessOnEnable_Finalizer_" data-uid="SideLoader.Hooks.Character_ProcessOnEnable.Finalizer*"></a>
+  <h4 id="SideLoader_Hooks_Character_ProcessOnEnable_Finalizer" data-uid="SideLoader.Hooks.Character_ProcessOnEnable.Finalizer">Finalizer()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HarmonyFinalizer]
-public static Exception Finalizer(ref int __result, Exception __exception)</code></pre>
+public static Exception Finalizer()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">__result</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">__exception</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -174,10 +152,10 @@ public static Exception Finalizer(ref int __result, Exception __exception)</code
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_ItemListDisplay_SortBySupport.md&amp;value=---%0Auid%3A%20SideLoader.ItemListDisplay_SortBySupport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_Hooks_Character_ProcessOnEnable.md&amp;value=---%0Auid%3A%20SideLoader.Hooks.Character_ProcessOnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Hooks.cs/#L41" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/_docs/src/Hooks.cs/#L206" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
