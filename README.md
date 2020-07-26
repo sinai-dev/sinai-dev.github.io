@@ -15,7 +15,7 @@ See also: [Installing](GettingStarted/Installing).
 ## Resources
 
 See these Resources for useful references, files, examples, etc:
-* [Outward Tools](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=673914692) <i>(IDs, Tags, datamined info, etc).<i>
+* [Outward Tools](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=673914692) <i>(IDs, Tags, datamined info, etc).</i>
 * [SideLoader Resources](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources) <i>GitHub repo of useful files</i>
 
 ## Credits {docsify-ignore}
