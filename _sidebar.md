@@ -10,7 +10,7 @@
 - C# Documentation
 
   - [C# Overview](GettingStarted/CSharpGuide.md)
-  - [C# API](_docfx/index.html)
+  - [C# API](_docfx/api/SideLoader.html)
   
 - Replacing Assets
 
