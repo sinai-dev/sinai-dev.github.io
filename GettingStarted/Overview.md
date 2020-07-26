@@ -16,16 +16,29 @@ There are two ways you can use SideLoader:
 1. Using <b>SL Packs</b> and <b>XML</b>
 2. Using <b>C#</b> directly from your own mod
 
-The SL Documentation focuses on SLPacks / XML, however all of the same rules apply to C# as well.
+This Wiki mainly focuses on SL Packs / XML, however all of the same rules generally apply to C# as well.
 
-* Any XML file can also be applied from C# as well, since these XML files are simply wrappers for the C# class.
-* The SL Pack approach is used for loading non-XML Assets, such as Textures, Audio and AssetBundles.
-* You can use either or both of these approaches, simply use whatever is most convenient for you.
+For documentation on the C#, see the [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html).
 
 ## F.A.Q ##
+### What should I do to get started? {docsify-ignore}
+First, have a quick read of the [SL Packs](GettingStarted/SLPacks) article to understand how to work with SideLoader from folders. No knowledge of C# is necessary for this.
+
+Next, use the [SL Menu](GettingStarted/SLMenu) to generate a template from an existing asset, then have a look at the files SideLoader created.
+
+Have a look at the related article (eg. [Custom Items](Custom/Items), [Custom Status Effects](Custom/StatusEffects), etc) to get a better understanding of what you're looking at. There might be a lot of information, don't worry if you don't understand it all right away.
+
+Take the generated files and put them in your first SL Pack (eg. `Outward\Mods\SideLoader\Test\`), and make sure to use the correct sub-folder structure for your asset (eg `\Test\Items\MyItem\MyItem.xml`, `\Test\StatusEffects\MyStatus\MyStatus.xml`, etc).
+
+Now start editing the XML or the PNG files however you like. If you're not used to editing XML, there are various tools you can use online to help with editing and verifying it.
+
+Start the game and spawn or debug in your asset, and have a look at the changes.
+
+If there were any errors, SideLoader should log them in the file `Outward\output_log.txt`.
+
 ### Can I use this to edit existing Items/Skills/etc? {docsify-ignore}
 
-Yes. When editing an existing item, you should remove (delete or comment out) all other fields on the template that you don't want to change, to avoid conflicts with other SideLoader edits to the same item. Some Skills may not be fully supported yet.
+Yes, SideLoader allows you to control whether you are creating a completely new asset or just editing an existing one. When editing an existing item or status effect, you should remove (delete or comment out) all other things on the template that you don't want to change, to avoid conflicts with other SideLoader edits to the same item.
 
 ### How can I know the possible values for X setting on a template? {docsify-ignore}
 
