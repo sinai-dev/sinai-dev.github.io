@@ -17,7 +17,6 @@
   - [Replacing Audio](Replacing/Audio.md)
   - [Replacing Textures](Replacing/Textures.md)
   
-  
 - Items
   
   - [Custom Items](Custom/Items.md)  
