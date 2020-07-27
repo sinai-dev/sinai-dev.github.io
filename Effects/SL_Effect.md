@@ -470,6 +470,10 @@ ShootBlast inherits from SL_Shooter, and contains some extra fields.
 ## SL_ShootBlastHornetControl
 Derives from `SL_ShootBlast`. Used by Hive AI enemies to shoot a lingering blast which tracks to the target.
 
+<b>Notes:</b>
+* Set the `BlastLifespan` (a ShootBlast field) to control how long the effect lasts. 
+* You should only have an `InstantiatedAmount` of <b>1</b> at most. This effect doesn't expect more than 1 at a time.
+
 `BurstSkillID` (int)
 * The skill Item ID for the burst (detonation) effect
 
