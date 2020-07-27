@@ -119,44 +119,6 @@ references:
   fullName.vb: SideLoader.At.SetValue(Of T)(T, System.Type, System.Object, System.String)
   nameWithType: At.SetValue<T>(T, Type, Object, String)
   nameWithType.vb: At.SetValue(Of T)(T, Type, Object, String)
-- uid: SideLoader.Character_ProcessOnEnable
-  name: Character_ProcessOnEnable
-  href: api/SideLoader.Character_ProcessOnEnable.html
-  commentId: T:SideLoader.Character_ProcessOnEnable
-  fullName: SideLoader.Character_ProcessOnEnable
-  nameWithType: Character_ProcessOnEnable
-- uid: SideLoader.Character_ProcessOnEnable.Finalizer
-  name: Finalizer()
-  href: api/SideLoader.Character_ProcessOnEnable.html#SideLoader_Character_ProcessOnEnable_Finalizer
-  commentId: M:SideLoader.Character_ProcessOnEnable.Finalizer
-  fullName: SideLoader.Character_ProcessOnEnable.Finalizer()
-  nameWithType: Character_ProcessOnEnable.Finalizer()
-- uid: SideLoader.Character_ProcessOnEnable.Finalizer*
-  name: Finalizer
-  href: api/SideLoader.Character_ProcessOnEnable.html#SideLoader_Character_ProcessOnEnable_Finalizer_
-  commentId: Overload:SideLoader.Character_ProcessOnEnable.Finalizer
-  isSpec: "True"
-  fullName: SideLoader.Character_ProcessOnEnable.Finalizer
-  nameWithType: Character_ProcessOnEnable.Finalizer
-- uid: SideLoader.CharacterManager_ClearNonPersitentCharacters
-  name: CharacterManager_ClearNonPersitentCharacters
-  href: api/SideLoader.CharacterManager_ClearNonPersitentCharacters.html
-  commentId: T:SideLoader.CharacterManager_ClearNonPersitentCharacters
-  fullName: SideLoader.CharacterManager_ClearNonPersitentCharacters
-  nameWithType: CharacterManager_ClearNonPersitentCharacters
-- uid: SideLoader.CharacterManager_ClearNonPersitentCharacters.Prefix
-  name: Prefix()
-  href: api/SideLoader.CharacterManager_ClearNonPersitentCharacters.html#SideLoader_CharacterManager_ClearNonPersitentCharacters_Prefix
-  commentId: M:SideLoader.CharacterManager_ClearNonPersitentCharacters.Prefix
-  fullName: SideLoader.CharacterManager_ClearNonPersitentCharacters.Prefix()
-  nameWithType: CharacterManager_ClearNonPersitentCharacters.Prefix()
-- uid: SideLoader.CharacterManager_ClearNonPersitentCharacters.Prefix*
-  name: Prefix
-  href: api/SideLoader.CharacterManager_ClearNonPersitentCharacters.html#SideLoader_CharacterManager_ClearNonPersitentCharacters_Prefix_
-  commentId: Overload:SideLoader.CharacterManager_ClearNonPersitentCharacters.Prefix
-  isSpec: "True"
-  fullName: SideLoader.CharacterManager_ClearNonPersitentCharacters.Prefix
-  nameWithType: CharacterManager_ClearNonPersitentCharacters.Prefix
 - uid: SideLoader.CustomAudio
   name: CustomAudio
   href: api/SideLoader.CustomAudio.html
@@ -166,7 +128,14 @@ references:
 - uid: SideLoader.CustomAudio.GAMInstance
   name: GAMInstance
   href: api/SideLoader.CustomAudio.html#SideLoader_CustomAudio_GAMInstance
-  commentId: F:SideLoader.CustomAudio.GAMInstance
+  commentId: P:SideLoader.CustomAudio.GAMInstance
+  fullName: SideLoader.CustomAudio.GAMInstance
+  nameWithType: CustomAudio.GAMInstance
+- uid: SideLoader.CustomAudio.GAMInstance*
+  name: GAMInstance
+  href: api/SideLoader.CustomAudio.html#SideLoader_CustomAudio_GAMInstance_
+  commentId: Overload:SideLoader.CustomAudio.GAMInstance
+  isSpec: "True"
   fullName: SideLoader.CustomAudio.GAMInstance
   nameWithType: CustomAudio.GAMInstance
 - uid: SideLoader.CustomAudio.LoadClip(System.String,SideLoader.SLPack)
@@ -182,11 +151,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomAudio.LoadClip
   nameWithType: CustomAudio.LoadClip
-- uid: SideLoader.CustomAudio.ReplaceAudio(GlobalAudioManager.Sounds,AudioClip)
+- uid: SideLoader.CustomAudio.ReplaceAudio(GlobalAudioManager.Sounds,UnityEngine.AudioClip)
   name: ReplaceAudio(GlobalAudioManager.Sounds, AudioClip)
-  href: api/SideLoader.CustomAudio.html#SideLoader_CustomAudio_ReplaceAudio_GlobalAudioManager_Sounds_AudioClip_
-  commentId: M:SideLoader.CustomAudio.ReplaceAudio(GlobalAudioManager.Sounds,AudioClip)
-  fullName: SideLoader.CustomAudio.ReplaceAudio(GlobalAudioManager.Sounds, AudioClip)
+  href: api/SideLoader.CustomAudio.html#SideLoader_CustomAudio_ReplaceAudio_GlobalAudioManager_Sounds_UnityEngine_AudioClip_
+  commentId: M:SideLoader.CustomAudio.ReplaceAudio(GlobalAudioManager.Sounds,UnityEngine.AudioClip)
+  fullName: SideLoader.CustomAudio.ReplaceAudio(GlobalAudioManager.Sounds, UnityEngine.AudioClip)
   nameWithType: CustomAudio.ReplaceAudio(GlobalAudioManager.Sounds, AudioClip)
 - uid: SideLoader.CustomAudio.ReplaceAudio*
   name: ReplaceAudio
@@ -201,19 +170,6 @@ references:
   commentId: T:SideLoader.CustomCharacters
   fullName: SideLoader.CustomCharacters
   nameWithType: CustomCharacters
-- uid: SideLoader.CustomCharacters.AddActiveCharacter(Character)
-  name: AddActiveCharacter(Character)
-  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_AddActiveCharacter_Character_
-  commentId: M:SideLoader.CustomCharacters.AddActiveCharacter(Character)
-  fullName: SideLoader.CustomCharacters.AddActiveCharacter(Character)
-  nameWithType: CustomCharacters.AddActiveCharacter(Character)
-- uid: SideLoader.CustomCharacters.AddActiveCharacter*
-  name: AddActiveCharacter
-  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_AddActiveCharacter_
-  commentId: Overload:SideLoader.CustomCharacters.AddActiveCharacter
-  isSpec: "True"
-  fullName: SideLoader.CustomCharacters.AddActiveCharacter
-  nameWithType: CustomCharacters.AddActiveCharacter
 - uid: SideLoader.CustomCharacters.BasicAIPrefab
   name: BasicAIPrefab
   href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_BasicAIPrefab
@@ -240,23 +196,23 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomCharacters.CleanupCharacters
   nameWithType: CustomCharacters.CleanupCharacters
-- uid: SideLoader.CustomCharacters.CreateCharacter(SideLoader.SL_Character,Vector3,System.String,System.String)
+- uid: SideLoader.CustomCharacters.CreateCharacter(SideLoader.SL_Character,UnityEngine.Vector3,System.String,System.String)
   name: CreateCharacter(SL_Character, Vector3, String, String)
-  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_CreateCharacter_SideLoader_SL_Character_Vector3_System_String_System_String_
-  commentId: M:SideLoader.CustomCharacters.CreateCharacter(SideLoader.SL_Character,Vector3,System.String,System.String)
-  fullName: SideLoader.CustomCharacters.CreateCharacter(SideLoader.SL_Character, Vector3, System.String, System.String)
+  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_CreateCharacter_SideLoader_SL_Character_UnityEngine_Vector3_System_String_System_String_
+  commentId: M:SideLoader.CustomCharacters.CreateCharacter(SideLoader.SL_Character,UnityEngine.Vector3,System.String,System.String)
+  fullName: SideLoader.CustomCharacters.CreateCharacter(SideLoader.SL_Character, UnityEngine.Vector3, System.String, System.String)
   nameWithType: CustomCharacters.CreateCharacter(SL_Character, Vector3, String, String)
-- uid: SideLoader.CustomCharacters.CreateCharacter(Vector3,System.String,System.String,System.Boolean,System.String)
+- uid: SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3,System.String,System.String,System.Boolean,System.String)
   name: CreateCharacter(Vector3, String, String, Boolean, String)
-  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_CreateCharacter_Vector3_System_String_System_String_System_Boolean_System_String_
-  commentId: M:SideLoader.CustomCharacters.CreateCharacter(Vector3,System.String,System.String,System.Boolean,System.String)
-  fullName: SideLoader.CustomCharacters.CreateCharacter(Vector3, System.String, System.String, System.Boolean, System.String)
+  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_CreateCharacter_UnityEngine_Vector3_System_String_System_String_System_Boolean_System_String_
+  commentId: M:SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3,System.String,System.String,System.Boolean,System.String)
+  fullName: SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3, System.String, System.String, System.Boolean, System.String)
   nameWithType: CustomCharacters.CreateCharacter(Vector3, String, String, Boolean, String)
-- uid: SideLoader.CustomCharacters.CreateCharacter(Vector3,System.String,System.String,System.String,System.Boolean,System.String,System.String)
+- uid: SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3,System.String,System.String,System.String,System.Boolean,System.String,System.String)
   name: CreateCharacter(Vector3, String, String, String, Boolean, String, String)
-  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_CreateCharacter_Vector3_System_String_System_String_System_String_System_Boolean_System_String_System_String_
-  commentId: M:SideLoader.CustomCharacters.CreateCharacter(Vector3,System.String,System.String,System.String,System.Boolean,System.String,System.String)
-  fullName: SideLoader.CustomCharacters.CreateCharacter(Vector3, System.String, System.String, System.String, System.Boolean, System.String, System.String)
+  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_CreateCharacter_UnityEngine_Vector3_System_String_System_String_System_String_System_Boolean_System_String_System_String_
+  commentId: M:SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3,System.String,System.String,System.String,System.Boolean,System.String,System.String)
+  fullName: SideLoader.CustomCharacters.CreateCharacter(UnityEngine.Vector3, System.String, System.String, System.String, System.Boolean, System.String, System.String)
   nameWithType: CustomCharacters.CreateCharacter(Vector3, String, String, String, Boolean, String, String)
 - uid: SideLoader.CustomCharacters.CreateCharacter*
   name: CreateCharacter
@@ -304,19 +260,6 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomCharacters.FixStats
   nameWithType: CustomCharacters.FixStats
-- uid: SideLoader.CustomCharacters.InstantiatePlayerPrefab(Vector3,System.String)
-  name: InstantiatePlayerPrefab(Vector3, String)
-  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_InstantiatePlayerPrefab_Vector3_System_String_
-  commentId: M:SideLoader.CustomCharacters.InstantiatePlayerPrefab(Vector3,System.String)
-  fullName: SideLoader.CustomCharacters.InstantiatePlayerPrefab(Vector3, System.String)
-  nameWithType: CustomCharacters.InstantiatePlayerPrefab(Vector3, String)
-- uid: SideLoader.CustomCharacters.InstantiatePlayerPrefab*
-  name: InstantiatePlayerPrefab
-  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_InstantiatePlayerPrefab_
-  commentId: Overload:SideLoader.CustomCharacters.InstantiatePlayerPrefab
-  isSpec: "True"
-  fullName: SideLoader.CustomCharacters.InstantiatePlayerPrefab
-  nameWithType: CustomCharacters.InstantiatePlayerPrefab
 - uid: SideLoader.CustomCharacters.INTERNAL_SpawnCharacters
   name: INTERNAL_SpawnCharacters
   href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_INTERNAL_SpawnCharacters
@@ -355,6 +298,19 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomCharacters.SetupBasicAI
   nameWithType: CustomCharacters.SetupBasicAI
+- uid: SideLoader.CustomCharacters.SetupBlankCharacterStats(CharacterStats)
+  name: SetupBlankCharacterStats(CharacterStats)
+  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_SetupBlankCharacterStats_CharacterStats_
+  commentId: M:SideLoader.CustomCharacters.SetupBlankCharacterStats(CharacterStats)
+  fullName: SideLoader.CustomCharacters.SetupBlankCharacterStats(CharacterStats)
+  nameWithType: CustomCharacters.SetupBlankCharacterStats(CharacterStats)
+- uid: SideLoader.CustomCharacters.SetupBlankCharacterStats*
+  name: SetupBlankCharacterStats
+  href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_SetupBlankCharacterStats_
+  commentId: Overload:SideLoader.CustomCharacters.SetupBlankCharacterStats
+  isSpec: "True"
+  fullName: SideLoader.CustomCharacters.SetupBlankCharacterStats
+  nameWithType: CustomCharacters.SetupBlankCharacterStats
 - uid: SideLoader.CustomCharacters.SpawnCharacterCoroutine(System.String,System.Int32,System.String,System.String,System.Boolean,System.String,System.String)
   name: SpawnCharacterCoroutine(String, Int32, String, String, Boolean, String, String)
   href: api/SideLoader.CustomCharacters.html#SideLoader_CustomCharacters_SpawnCharacterCoroutine_System_String_System_Int32_System_String_System_String_System_Boolean_System_String_System_String_
@@ -406,19 +362,6 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomItems.CreateTag
   nameWithType: CustomItems.CreateTag
-- uid: SideLoader.CustomItems.DestroyChildren(Transform,System.Boolean)
-  name: DestroyChildren(Transform, Boolean)
-  href: api/SideLoader.CustomItems.html#SideLoader_CustomItems_DestroyChildren_Transform_System_Boolean_
-  commentId: M:SideLoader.CustomItems.DestroyChildren(Transform,System.Boolean)
-  fullName: SideLoader.CustomItems.DestroyChildren(Transform, System.Boolean)
-  nameWithType: CustomItems.DestroyChildren(Transform, Boolean)
-- uid: SideLoader.CustomItems.DestroyChildren*
-  name: DestroyChildren
-  href: api/SideLoader.CustomItems.html#SideLoader_CustomItems_DestroyChildren_
-  commentId: Overload:SideLoader.CustomItems.DestroyChildren
-  isSpec: "True"
-  fullName: SideLoader.CustomItems.DestroyChildren
-  nameWithType: CustomItems.DestroyChildren
 - uid: SideLoader.CustomItems.GetOriginalItemPrefab(System.Int32)
   name: GetOriginalItemPrefab(Int32)
   href: api/SideLoader.CustomItems.html#SideLoader_CustomItems_GetOriginalItemPrefab_System_Int32_
@@ -545,13 +488,13 @@ references:
   commentId: T:SideLoader.CustomItemVisuals
   fullName: SideLoader.CustomItemVisuals
   nameWithType: CustomItemVisuals
-- uid: SideLoader.CustomItemVisuals.ApplyIconsByName(Sprite[],Item)
+- uid: SideLoader.CustomItemVisuals.ApplyIconsByName(UnityEngine.Sprite[],Item)
   name: ApplyIconsByName(Sprite[], Item)
-  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_ApplyIconsByName_Sprite___Item_
-  commentId: M:SideLoader.CustomItemVisuals.ApplyIconsByName(Sprite[],Item)
+  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_ApplyIconsByName_UnityEngine_Sprite___Item_
+  commentId: M:SideLoader.CustomItemVisuals.ApplyIconsByName(UnityEngine.Sprite[],Item)
   name.vb: ApplyIconsByName(Sprite(), Item)
-  fullName: SideLoader.CustomItemVisuals.ApplyIconsByName(Sprite[], Item)
-  fullName.vb: SideLoader.CustomItemVisuals.ApplyIconsByName(Sprite(), Item)
+  fullName: SideLoader.CustomItemVisuals.ApplyIconsByName(UnityEngine.Sprite[], Item)
+  fullName.vb: SideLoader.CustomItemVisuals.ApplyIconsByName(UnityEngine.Sprite(), Item)
   nameWithType: CustomItemVisuals.ApplyIconsByName(Sprite[], Item)
   nameWithType.vb: CustomItemVisuals.ApplyIconsByName(Sprite(), Item)
 - uid: SideLoader.CustomItemVisuals.ApplyIconsByName*
@@ -561,13 +504,13 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomItemVisuals.ApplyIconsByName
   nameWithType: CustomItemVisuals.ApplyIconsByName
-- uid: SideLoader.CustomItemVisuals.ApplyTexturesByName(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Texture2D}},System.Collections.Generic.Dictionary{System.String,SideLoader.SL_Material},Item)
+- uid: SideLoader.CustomItemVisuals.ApplyTexturesByName(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{UnityEngine.Texture2D}},System.Collections.Generic.Dictionary{System.String,SideLoader.SL_Material},Item)
   name: ApplyTexturesByName(Dictionary<String, List<Texture2D>>, Dictionary<String, SL_Material>, Item)
-  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_ApplyTexturesByName_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_Texture2D___System_Collections_Generic_Dictionary_System_String_SideLoader_SL_Material__Item_
-  commentId: M:SideLoader.CustomItemVisuals.ApplyTexturesByName(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Texture2D}},System.Collections.Generic.Dictionary{System.String,SideLoader.SL_Material},Item)
+  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_ApplyTexturesByName_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_UnityEngine_Texture2D___System_Collections_Generic_Dictionary_System_String_SideLoader_SL_Material__Item_
+  commentId: M:SideLoader.CustomItemVisuals.ApplyTexturesByName(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{UnityEngine.Texture2D}},System.Collections.Generic.Dictionary{System.String,SideLoader.SL_Material},Item)
   name.vb: ApplyTexturesByName(Dictionary(Of String, List(Of Texture2D)), Dictionary(Of String, SL_Material), Item)
-  fullName: SideLoader.CustomItemVisuals.ApplyTexturesByName(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<Texture2D>>, System.Collections.Generic.Dictionary<System.String, SideLoader.SL_Material>, Item)
-  fullName.vb: SideLoader.CustomItemVisuals.ApplyTexturesByName(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of Texture2D)), System.Collections.Generic.Dictionary(Of System.String, SideLoader.SL_Material), Item)
+  fullName: SideLoader.CustomItemVisuals.ApplyTexturesByName(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<UnityEngine.Texture2D>>, System.Collections.Generic.Dictionary<System.String, SideLoader.SL_Material>, Item)
+  fullName.vb: SideLoader.CustomItemVisuals.ApplyTexturesByName(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of UnityEngine.Texture2D)), System.Collections.Generic.Dictionary(Of System.String, SideLoader.SL_Material), Item)
   nameWithType: CustomItemVisuals.ApplyTexturesByName(Dictionary<String, List<Texture2D>>, Dictionary<String, SL_Material>, Item)
   nameWithType.vb: CustomItemVisuals.ApplyTexturesByName(Dictionary(Of String, List(Of Texture2D)), Dictionary(Of String, SL_Material), Item)
 - uid: SideLoader.CustomItemVisuals.ApplyTexturesByName*
@@ -577,11 +520,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomItemVisuals.ApplyTexturesByName
   nameWithType: CustomItemVisuals.ApplyTexturesByName
-- uid: SideLoader.CustomItemVisuals.ApplyTexturesFromAssetBundle(AssetBundle)
+- uid: SideLoader.CustomItemVisuals.ApplyTexturesFromAssetBundle(UnityEngine.AssetBundle)
   name: ApplyTexturesFromAssetBundle(AssetBundle)
-  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_ApplyTexturesFromAssetBundle_AssetBundle_
-  commentId: M:SideLoader.CustomItemVisuals.ApplyTexturesFromAssetBundle(AssetBundle)
-  fullName: SideLoader.CustomItemVisuals.ApplyTexturesFromAssetBundle(AssetBundle)
+  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_ApplyTexturesFromAssetBundle_UnityEngine_AssetBundle_
+  commentId: M:SideLoader.CustomItemVisuals.ApplyTexturesFromAssetBundle(UnityEngine.AssetBundle)
+  fullName: SideLoader.CustomItemVisuals.ApplyTexturesFromAssetBundle(UnityEngine.AssetBundle)
   nameWithType: CustomItemVisuals.ApplyTexturesFromAssetBundle(AssetBundle)
 - uid: SideLoader.CustomItemVisuals.ApplyTexturesFromAssetBundle*
   name: ApplyTexturesFromAssetBundle
@@ -759,11 +702,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomItemVisuals.SaveAllItemTextures
   nameWithType: CustomItemVisuals.SaveAllItemTextures
-- uid: SideLoader.CustomItemVisuals.SetSpriteLink(Item,Sprite,System.Boolean)
+- uid: SideLoader.CustomItemVisuals.SetSpriteLink(Item,UnityEngine.Sprite,System.Boolean)
   name: SetSpriteLink(Item, Sprite, Boolean)
-  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_SetSpriteLink_Item_Sprite_System_Boolean_
-  commentId: M:SideLoader.CustomItemVisuals.SetSpriteLink(Item,Sprite,System.Boolean)
-  fullName: SideLoader.CustomItemVisuals.SetSpriteLink(Item, Sprite, System.Boolean)
+  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_SetSpriteLink_Item_UnityEngine_Sprite_System_Boolean_
+  commentId: M:SideLoader.CustomItemVisuals.SetSpriteLink(Item,UnityEngine.Sprite,System.Boolean)
+  fullName: SideLoader.CustomItemVisuals.SetSpriteLink(Item, UnityEngine.Sprite, System.Boolean)
   nameWithType: CustomItemVisuals.SetSpriteLink(Item, Sprite, Boolean)
 - uid: SideLoader.CustomItemVisuals.SetSpriteLink*
   name: SetSpriteLink
@@ -772,11 +715,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomItemVisuals.SetSpriteLink
   nameWithType: CustomItemVisuals.SetSpriteLink
-- uid: SideLoader.CustomItemVisuals.SetVisualPrefabLink(Item,GameObject,SideLoader.VisualPrefabType)
+- uid: SideLoader.CustomItemVisuals.SetVisualPrefabLink(Item,UnityEngine.GameObject,SideLoader.VisualPrefabType)
   name: SetVisualPrefabLink(Item, GameObject, VisualPrefabType)
-  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_SetVisualPrefabLink_Item_GameObject_SideLoader_VisualPrefabType_
-  commentId: M:SideLoader.CustomItemVisuals.SetVisualPrefabLink(Item,GameObject,SideLoader.VisualPrefabType)
-  fullName: SideLoader.CustomItemVisuals.SetVisualPrefabLink(Item, GameObject, SideLoader.VisualPrefabType)
+  href: api/SideLoader.CustomItemVisuals.html#SideLoader_CustomItemVisuals_SetVisualPrefabLink_Item_UnityEngine_GameObject_SideLoader_VisualPrefabType_
+  commentId: M:SideLoader.CustomItemVisuals.SetVisualPrefabLink(Item,UnityEngine.GameObject,SideLoader.VisualPrefabType)
+  fullName: SideLoader.CustomItemVisuals.SetVisualPrefabLink(Item, UnityEngine.GameObject, SideLoader.VisualPrefabType)
   nameWithType: CustomItemVisuals.SetVisualPrefabLink(Item, GameObject, VisualPrefabType)
 - uid: SideLoader.CustomItemVisuals.SetVisualPrefabLink*
   name: SetVisualPrefabLink
@@ -810,11 +753,11 @@ references:
   commentId: T:SideLoader.CustomScenes
   fullName: SideLoader.CustomScenes
   nameWithType: CustomScenes
-- uid: SideLoader.CustomScenes.LoadSceneFromBundle(AssetBundle,Vector3,System.Int32,System.Single)
+- uid: SideLoader.CustomScenes.LoadSceneFromBundle(UnityEngine.AssetBundle,UnityEngine.Vector3,System.Int32,System.Single)
   name: LoadSceneFromBundle(AssetBundle, Vector3, Int32, Single)
-  href: api/SideLoader.CustomScenes.html#SideLoader_CustomScenes_LoadSceneFromBundle_AssetBundle_Vector3_System_Int32_System_Single_
-  commentId: M:SideLoader.CustomScenes.LoadSceneFromBundle(AssetBundle,Vector3,System.Int32,System.Single)
-  fullName: SideLoader.CustomScenes.LoadSceneFromBundle(AssetBundle, Vector3, System.Int32, System.Single)
+  href: api/SideLoader.CustomScenes.html#SideLoader_CustomScenes_LoadSceneFromBundle_UnityEngine_AssetBundle_UnityEngine_Vector3_System_Int32_System_Single_
+  commentId: M:SideLoader.CustomScenes.LoadSceneFromBundle(UnityEngine.AssetBundle,UnityEngine.Vector3,System.Int32,System.Single)
+  fullName: SideLoader.CustomScenes.LoadSceneFromBundle(UnityEngine.AssetBundle, UnityEngine.Vector3, System.Int32, System.Single)
   nameWithType: CustomScenes.LoadSceneFromBundle(AssetBundle, Vector3, Int32, Single)
 - uid: SideLoader.CustomScenes.LoadSceneFromBundle*
   name: LoadSceneFromBundle
@@ -989,17 +932,17 @@ references:
   commentId: T:SideLoader.CustomTextures
   fullName: SideLoader.CustomTextures
   nameWithType: CustomTextures
-- uid: SideLoader.CustomTextures.CreateSprite(Texture2D)
+- uid: SideLoader.CustomTextures.CreateSprite(UnityEngine.Texture2D)
   name: CreateSprite(Texture2D)
-  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_CreateSprite_Texture2D_
-  commentId: M:SideLoader.CustomTextures.CreateSprite(Texture2D)
-  fullName: SideLoader.CustomTextures.CreateSprite(Texture2D)
+  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_CreateSprite_UnityEngine_Texture2D_
+  commentId: M:SideLoader.CustomTextures.CreateSprite(UnityEngine.Texture2D)
+  fullName: SideLoader.CustomTextures.CreateSprite(UnityEngine.Texture2D)
   nameWithType: CustomTextures.CreateSprite(Texture2D)
-- uid: SideLoader.CustomTextures.CreateSprite(Texture2D,SideLoader.CustomTextures.SpriteBorderTypes)
+- uid: SideLoader.CustomTextures.CreateSprite(UnityEngine.Texture2D,SideLoader.CustomTextures.SpriteBorderTypes)
   name: CreateSprite(Texture2D, CustomTextures.SpriteBorderTypes)
-  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_CreateSprite_Texture2D_SideLoader_CustomTextures_SpriteBorderTypes_
-  commentId: M:SideLoader.CustomTextures.CreateSprite(Texture2D,SideLoader.CustomTextures.SpriteBorderTypes)
-  fullName: SideLoader.CustomTextures.CreateSprite(Texture2D, SideLoader.CustomTextures.SpriteBorderTypes)
+  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_CreateSprite_UnityEngine_Texture2D_SideLoader_CustomTextures_SpriteBorderTypes_
+  commentId: M:SideLoader.CustomTextures.CreateSprite(UnityEngine.Texture2D,SideLoader.CustomTextures.SpriteBorderTypes)
+  fullName: SideLoader.CustomTextures.CreateSprite(UnityEngine.Texture2D, SideLoader.CustomTextures.SpriteBorderTypes)
   nameWithType: CustomTextures.CreateSprite(Texture2D, CustomTextures.SpriteBorderTypes)
 - uid: SideLoader.CustomTextures.CreateSprite*
   name: CreateSprite
@@ -1020,11 +963,11 @@ references:
   commentId: F:SideLoader.CustomTextures.CUSTOM_MAINSET_MAINSTANDARD
   fullName: SideLoader.CustomTextures.CUSTOM_MAINSET_MAINSTANDARD
   nameWithType: CustomTextures.CUSTOM_MAINSET_MAINSTANDARD
-- uid: SideLoader.CustomTextures.GetProperties(Material)
+- uid: SideLoader.CustomTextures.GetProperties(UnityEngine.Material)
   name: GetProperties(Material)
-  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_GetProperties_Material_
-  commentId: M:SideLoader.CustomTextures.GetProperties(Material)
-  fullName: SideLoader.CustomTextures.GetProperties(Material)
+  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_GetProperties_UnityEngine_Material_
+  commentId: M:SideLoader.CustomTextures.GetProperties(UnityEngine.Material)
+  fullName: SideLoader.CustomTextures.GetProperties(UnityEngine.Material)
   nameWithType: CustomTextures.GetProperties(Material)
 - uid: SideLoader.CustomTextures.GetProperties*
   name: GetProperties
@@ -1072,11 +1015,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomTextures.ReplaceActiveTextures
   nameWithType: CustomTextures.ReplaceActiveTextures
-- uid: SideLoader.CustomTextures.SaveIconAsPNG(Sprite,System.String,System.String)
+- uid: SideLoader.CustomTextures.SaveIconAsPNG(UnityEngine.Sprite,System.String,System.String)
   name: SaveIconAsPNG(Sprite, String, String)
-  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_SaveIconAsPNG_Sprite_System_String_System_String_
-  commentId: M:SideLoader.CustomTextures.SaveIconAsPNG(Sprite,System.String,System.String)
-  fullName: SideLoader.CustomTextures.SaveIconAsPNG(Sprite, System.String, System.String)
+  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_SaveIconAsPNG_UnityEngine_Sprite_System_String_System_String_
+  commentId: M:SideLoader.CustomTextures.SaveIconAsPNG(UnityEngine.Sprite,System.String,System.String)
+  fullName: SideLoader.CustomTextures.SaveIconAsPNG(UnityEngine.Sprite, System.String, System.String)
   nameWithType: CustomTextures.SaveIconAsPNG(Sprite, String, String)
 - uid: SideLoader.CustomTextures.SaveIconAsPNG*
   name: SaveIconAsPNG
@@ -1085,11 +1028,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.CustomTextures.SaveIconAsPNG
   nameWithType: CustomTextures.SaveIconAsPNG
-- uid: SideLoader.CustomTextures.SaveTextureAsPNG(Texture2D,System.String,System.String,System.Boolean)
+- uid: SideLoader.CustomTextures.SaveTextureAsPNG(UnityEngine.Texture2D,System.String,System.String,System.Boolean)
   name: SaveTextureAsPNG(Texture2D, String, String, Boolean)
-  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_SaveTextureAsPNG_Texture2D_System_String_System_String_System_Boolean_
-  commentId: M:SideLoader.CustomTextures.SaveTextureAsPNG(Texture2D,System.String,System.String,System.Boolean)
-  fullName: SideLoader.CustomTextures.SaveTextureAsPNG(Texture2D, System.String, System.String, System.Boolean)
+  href: api/SideLoader.CustomTextures.html#SideLoader_CustomTextures_SaveTextureAsPNG_UnityEngine_Texture2D_System_String_System_String_System_Boolean_
+  commentId: M:SideLoader.CustomTextures.SaveTextureAsPNG(UnityEngine.Texture2D,System.String,System.String,System.Boolean)
+  fullName: SideLoader.CustomTextures.SaveTextureAsPNG(UnityEngine.Texture2D, System.String, System.String, System.Boolean)
   nameWithType: CustomTextures.SaveTextureAsPNG(Texture2D, String, String, Boolean)
 - uid: SideLoader.CustomTextures.SaveTextureAsPNG*
   name: SaveTextureAsPNG
@@ -1200,25 +1143,6 @@ references:
   commentId: F:SideLoader.EditBehaviours.Override
   fullName: SideLoader.EditBehaviours.Override
   nameWithType: EditBehaviours.Override
-- uid: SideLoader.Effect_OnEnable
-  name: Effect_OnEnable
-  href: api/SideLoader.Effect_OnEnable.html
-  commentId: T:SideLoader.Effect_OnEnable
-  fullName: SideLoader.Effect_OnEnable
-  nameWithType: Effect_OnEnable
-- uid: SideLoader.Effect_OnEnable.Prefix(Effect)
-  name: Prefix(Effect)
-  href: api/SideLoader.Effect_OnEnable.html#SideLoader_Effect_OnEnable_Prefix_Effect_
-  commentId: M:SideLoader.Effect_OnEnable.Prefix(Effect)
-  fullName: SideLoader.Effect_OnEnable.Prefix(Effect)
-  nameWithType: Effect_OnEnable.Prefix(Effect)
-- uid: SideLoader.Effect_OnEnable.Prefix*
-  name: Prefix
-  href: api/SideLoader.Effect_OnEnable.html#SideLoader_Effect_OnEnable_Prefix_
-  commentId: Overload:SideLoader.Effect_OnEnable.Prefix
-  isSpec: "True"
-  fullName: SideLoader.Effect_OnEnable.Prefix
-  nameWithType: Effect_OnEnable.Prefix
 - uid: SideLoader.EffectBehaviours
   name: EffectBehaviours
   href: api/SideLoader.EffectBehaviours.html
@@ -1243,110 +1167,6 @@ references:
   commentId: F:SideLoader.EffectBehaviours.OverrideEffects
   fullName: SideLoader.EffectBehaviours.OverrideEffects
   nameWithType: EffectBehaviours.OverrideEffects
-- uid: SideLoader.Item_GetItemVisuals
-  name: Item_GetItemVisuals
-  href: api/SideLoader.Item_GetItemVisuals.html
-  commentId: T:SideLoader.Item_GetItemVisuals
-  fullName: SideLoader.Item_GetItemVisuals
-  nameWithType: Item_GetItemVisuals
-- uid: SideLoader.Item_GetItemVisuals.Prefix(Item,System.Boolean,Transform@)
-  name: Prefix(Item, Boolean, ref Transform)
-  href: api/SideLoader.Item_GetItemVisuals.html#SideLoader_Item_GetItemVisuals_Prefix_Item_System_Boolean_Transform__
-  commentId: M:SideLoader.Item_GetItemVisuals.Prefix(Item,System.Boolean,Transform@)
-  name.vb: Prefix(Item, Boolean, ByRef Transform)
-  fullName: SideLoader.Item_GetItemVisuals.Prefix(Item, System.Boolean, ref Transform)
-  fullName.vb: SideLoader.Item_GetItemVisuals.Prefix(Item, System.Boolean, ByRef Transform)
-  nameWithType: Item_GetItemVisuals.Prefix(Item, Boolean, ref Transform)
-  nameWithType.vb: Item_GetItemVisuals.Prefix(Item, Boolean, ByRef Transform)
-- uid: SideLoader.Item_GetItemVisuals.Prefix*
-  name: Prefix
-  href: api/SideLoader.Item_GetItemVisuals.html#SideLoader_Item_GetItemVisuals_Prefix_
-  commentId: Overload:SideLoader.Item_GetItemVisuals.Prefix
-  isSpec: "True"
-  fullName: SideLoader.Item_GetItemVisuals.Prefix
-  nameWithType: Item_GetItemVisuals.Prefix
-- uid: SideLoader.Item_ItemIcon
-  name: Item_ItemIcon
-  href: api/SideLoader.Item_ItemIcon.html
-  commentId: T:SideLoader.Item_ItemIcon
-  fullName: SideLoader.Item_ItemIcon
-  nameWithType: Item_ItemIcon
-- uid: SideLoader.Item_ItemIcon.Prefix(Item,Sprite@)
-  name: Prefix(Item, ref Sprite)
-  href: api/SideLoader.Item_ItemIcon.html#SideLoader_Item_ItemIcon_Prefix_Item_Sprite__
-  commentId: M:SideLoader.Item_ItemIcon.Prefix(Item,Sprite@)
-  name.vb: Prefix(Item, ByRef Sprite)
-  fullName: SideLoader.Item_ItemIcon.Prefix(Item, ref Sprite)
-  fullName.vb: SideLoader.Item_ItemIcon.Prefix(Item, ByRef Sprite)
-  nameWithType: Item_ItemIcon.Prefix(Item, ref Sprite)
-  nameWithType.vb: Item_ItemIcon.Prefix(Item, ByRef Sprite)
-- uid: SideLoader.Item_ItemIcon.Prefix*
-  name: Prefix
-  href: api/SideLoader.Item_ItemIcon.html#SideLoader_Item_ItemIcon_Prefix_
-  commentId: Overload:SideLoader.Item_ItemIcon.Prefix
-  isSpec: "True"
-  fullName: SideLoader.Item_ItemIcon.Prefix
-  nameWithType: Item_ItemIcon.Prefix
-- uid: SideLoader.ItemDetailsDisplay_RefreshDetail
-  name: ItemDetailsDisplay_RefreshDetail
-  href: api/SideLoader.ItemDetailsDisplay_RefreshDetail.html
-  commentId: T:SideLoader.ItemDetailsDisplay_RefreshDetail
-  fullName: SideLoader.ItemDetailsDisplay_RefreshDetail
-  nameWithType: ItemDetailsDisplay_RefreshDetail
-- uid: SideLoader.ItemDetailsDisplay_RefreshDetail.Finalizer
-  name: Finalizer()
-  href: api/SideLoader.ItemDetailsDisplay_RefreshDetail.html#SideLoader_ItemDetailsDisplay_RefreshDetail_Finalizer
-  commentId: M:SideLoader.ItemDetailsDisplay_RefreshDetail.Finalizer
-  fullName: SideLoader.ItemDetailsDisplay_RefreshDetail.Finalizer()
-  nameWithType: ItemDetailsDisplay_RefreshDetail.Finalizer()
-- uid: SideLoader.ItemDetailsDisplay_RefreshDetail.Finalizer*
-  name: Finalizer
-  href: api/SideLoader.ItemDetailsDisplay_RefreshDetail.html#SideLoader_ItemDetailsDisplay_RefreshDetail_Finalizer_
-  commentId: Overload:SideLoader.ItemDetailsDisplay_RefreshDetail.Finalizer
-  isSpec: "True"
-  fullName: SideLoader.ItemDetailsDisplay_RefreshDetail.Finalizer
-  nameWithType: ItemDetailsDisplay_RefreshDetail.Finalizer
-- uid: SideLoader.ItemListDisplay_SortBySupport
-  name: ItemListDisplay_SortBySupport
-  href: api/SideLoader.ItemListDisplay_SortBySupport.html
-  commentId: T:SideLoader.ItemListDisplay_SortBySupport
-  fullName: SideLoader.ItemListDisplay_SortBySupport
-  nameWithType: ItemListDisplay_SortBySupport
-- uid: SideLoader.ItemListDisplay_SortBySupport.Finalizer(System.Int32@,System.Exception)
-  name: Finalizer(ref Int32, Exception)
-  href: api/SideLoader.ItemListDisplay_SortBySupport.html#SideLoader_ItemListDisplay_SortBySupport_Finalizer_System_Int32__System_Exception_
-  commentId: M:SideLoader.ItemListDisplay_SortBySupport.Finalizer(System.Int32@,System.Exception)
-  name.vb: Finalizer(ByRef Int32, Exception)
-  fullName: SideLoader.ItemListDisplay_SortBySupport.Finalizer(ref System.Int32, System.Exception)
-  fullName.vb: SideLoader.ItemListDisplay_SortBySupport.Finalizer(ByRef System.Int32, System.Exception)
-  nameWithType: ItemListDisplay_SortBySupport.Finalizer(ref Int32, Exception)
-  nameWithType.vb: ItemListDisplay_SortBySupport.Finalizer(ByRef Int32, Exception)
-- uid: SideLoader.ItemListDisplay_SortBySupport.Finalizer*
-  name: Finalizer
-  href: api/SideLoader.ItemListDisplay_SortBySupport.html#SideLoader_ItemListDisplay_SortBySupport_Finalizer_
-  commentId: Overload:SideLoader.ItemListDisplay_SortBySupport.Finalizer
-  isSpec: "True"
-  fullName: SideLoader.ItemListDisplay_SortBySupport.Finalizer
-  nameWithType: ItemListDisplay_SortBySupport.Finalizer
-- uid: SideLoader.NetworkLevelLoader_MidLoadLevel
-  name: NetworkLevelLoader_MidLoadLevel
-  href: api/SideLoader.NetworkLevelLoader_MidLoadLevel.html
-  commentId: T:SideLoader.NetworkLevelLoader_MidLoadLevel
-  fullName: SideLoader.NetworkLevelLoader_MidLoadLevel
-  nameWithType: NetworkLevelLoader_MidLoadLevel
-- uid: SideLoader.NetworkLevelLoader_MidLoadLevel.Postfix
-  name: Postfix()
-  href: api/SideLoader.NetworkLevelLoader_MidLoadLevel.html#SideLoader_NetworkLevelLoader_MidLoadLevel_Postfix
-  commentId: M:SideLoader.NetworkLevelLoader_MidLoadLevel.Postfix
-  fullName: SideLoader.NetworkLevelLoader_MidLoadLevel.Postfix()
-  nameWithType: NetworkLevelLoader_MidLoadLevel.Postfix()
-- uid: SideLoader.NetworkLevelLoader_MidLoadLevel.Postfix*
-  name: Postfix
-  href: api/SideLoader.NetworkLevelLoader_MidLoadLevel.html#SideLoader_NetworkLevelLoader_MidLoadLevel_Postfix_
-  commentId: Overload:SideLoader.NetworkLevelLoader_MidLoadLevel.Postfix
-  isSpec: "True"
-  fullName: SideLoader.NetworkLevelLoader_MidLoadLevel.Postfix
-  nameWithType: NetworkLevelLoader_MidLoadLevel.Postfix
 - uid: SideLoader.References
   name: References
   href: api/SideLoader.References.html
@@ -1405,6 +1225,19 @@ references:
   isSpec: "True"
   fullName: SideLoader.References.GENERAL_LOCALIZATION
   nameWithType: References.GENERAL_LOCALIZATION
+- uid: SideLoader.References.GLOBALAUDIOMANAGER
+  name: GLOBALAUDIOMANAGER
+  href: api/SideLoader.References.html#SideLoader_References_GLOBALAUDIOMANAGER
+  commentId: P:SideLoader.References.GLOBALAUDIOMANAGER
+  fullName: SideLoader.References.GLOBALAUDIOMANAGER
+  nameWithType: References.GLOBALAUDIOMANAGER
+- uid: SideLoader.References.GLOBALAUDIOMANAGER*
+  name: GLOBALAUDIOMANAGER
+  href: api/SideLoader.References.html#SideLoader_References_GLOBALAUDIOMANAGER_
+  commentId: Overload:SideLoader.References.GLOBALAUDIOMANAGER
+  isSpec: "True"
+  fullName: SideLoader.References.GLOBALAUDIOMANAGER
+  nameWithType: References.GLOBALAUDIOMANAGER
 - uid: SideLoader.References.ITEM_LOCALIZATION
   name: ITEM_LOCALIZATION
   href: api/SideLoader.References.html#SideLoader_References_ITEM_LOCALIZATION
@@ -1470,25 +1303,6 @@ references:
   isSpec: "True"
   fullName: SideLoader.References.RPM_STATUS_EFFECTS
   nameWithType: References.RPM_STATUS_EFFECTS
-- uid: SideLoader.ResourcesPrefabManager_Load
-  name: ResourcesPrefabManager_Load
-  href: api/SideLoader.ResourcesPrefabManager_Load.html
-  commentId: T:SideLoader.ResourcesPrefabManager_Load
-  fullName: SideLoader.ResourcesPrefabManager_Load
-  nameWithType: ResourcesPrefabManager_Load
-- uid: SideLoader.ResourcesPrefabManager_Load.Finalizer(System.Exception)
-  name: Finalizer(Exception)
-  href: api/SideLoader.ResourcesPrefabManager_Load.html#SideLoader_ResourcesPrefabManager_Load_Finalizer_System_Exception_
-  commentId: M:SideLoader.ResourcesPrefabManager_Load.Finalizer(System.Exception)
-  fullName: SideLoader.ResourcesPrefabManager_Load.Finalizer(System.Exception)
-  nameWithType: ResourcesPrefabManager_Load.Finalizer(Exception)
-- uid: SideLoader.ResourcesPrefabManager_Load.Finalizer*
-  name: Finalizer
-  href: api/SideLoader.ResourcesPrefabManager_Load.html#SideLoader_ResourcesPrefabManager_Load_Finalizer_
-  commentId: Overload:SideLoader.ResourcesPrefabManager_Load.Finalizer
-  isSpec: "True"
-  fullName: SideLoader.ResourcesPrefabManager_Load.Finalizer
-  nameWithType: ResourcesPrefabManager_Load.Finalizer
 - uid: SideLoader.RPCManager
   name: RPCManager
   href: api/SideLoader.RPCManager.html
@@ -1669,25 +1483,6 @@ references:
   isSpec: "True"
   fullName: SideLoader.Serializer.SLTypes
   nameWithType: Serializer.SLTypes
-- uid: SideLoader.ShootProjectile_Setup
-  name: ShootProjectile_Setup
-  href: api/SideLoader.ShootProjectile_Setup.html
-  commentId: T:SideLoader.ShootProjectile_Setup
-  fullName: SideLoader.ShootProjectile_Setup
-  nameWithType: ShootProjectile_Setup
-- uid: SideLoader.ShootProjectile_Setup.Prefix(Shooter)
-  name: Prefix(Shooter)
-  href: api/SideLoader.ShootProjectile_Setup.html#SideLoader_ShootProjectile_Setup_Prefix_Shooter_
-  commentId: M:SideLoader.ShootProjectile_Setup.Prefix(Shooter)
-  fullName: SideLoader.ShootProjectile_Setup.Prefix(Shooter)
-  nameWithType: ShootProjectile_Setup.Prefix(Shooter)
-- uid: SideLoader.ShootProjectile_Setup.Prefix*
-  name: Prefix
-  href: api/SideLoader.ShootProjectile_Setup.html#SideLoader_ShootProjectile_Setup_Prefix_
-  commentId: Overload:SideLoader.ShootProjectile_Setup.Prefix
-  isSpec: "True"
-  fullName: SideLoader.ShootProjectile_Setup.Prefix
-  nameWithType: ShootProjectile_Setup.Prefix
 - uid: SideLoader.SL
   name: SL
   href: api/SideLoader.SL.html
@@ -1700,11 +1495,11 @@ references:
   commentId: E:SideLoader.SL.BeforePacksLoaded
   fullName: SideLoader.SL.BeforePacksLoaded
   nameWithType: SL.BeforePacksLoaded
-- uid: SideLoader.SL.DestroyChildren(Transform,System.Boolean,System.Boolean)
+- uid: SideLoader.SL.DestroyChildren(UnityEngine.Transform,System.Boolean,System.Boolean)
   name: DestroyChildren(Transform, Boolean, Boolean)
-  href: api/SideLoader.SL.html#SideLoader_SL_DestroyChildren_Transform_System_Boolean_System_Boolean_
-  commentId: M:SideLoader.SL.DestroyChildren(Transform,System.Boolean,System.Boolean)
-  fullName: SideLoader.SL.DestroyChildren(Transform, System.Boolean, System.Boolean)
+  href: api/SideLoader.SL.html#SideLoader_SL_DestroyChildren_UnityEngine_Transform_System_Boolean_System_Boolean_
+  commentId: M:SideLoader.SL.DestroyChildren(UnityEngine.Transform,System.Boolean,System.Boolean)
+  fullName: SideLoader.SL.DestroyChildren(UnityEngine.Transform, System.Boolean, System.Boolean)
   nameWithType: SL.DestroyChildren(Transform, Boolean, Boolean)
 - uid: SideLoader.SL.DestroyChildren*
   name: DestroyChildren
@@ -1713,11 +1508,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.SL.DestroyChildren
   nameWithType: SL.DestroyChildren
-- uid: SideLoader.SL.FixComponentType(System.Type,Component)
+- uid: SideLoader.SL.FixComponentType(System.Type,UnityEngine.Component)
   name: FixComponentType(Type, Component)
-  href: api/SideLoader.SL.html#SideLoader_SL_FixComponentType_System_Type_Component_
-  commentId: M:SideLoader.SL.FixComponentType(System.Type,Component)
-  fullName: SideLoader.SL.FixComponentType(System.Type, Component)
+  href: api/SideLoader.SL.html#SideLoader_SL_FixComponentType_System_Type_UnityEngine_Component_
+  commentId: M:SideLoader.SL.FixComponentType(System.Type,UnityEngine.Component)
+  fullName: SideLoader.SL.FixComponentType(System.Type, UnityEngine.Component)
   nameWithType: SL.FixComponentType(Type, Component)
 - uid: SideLoader.SL.FixComponentType*
   name: FixComponentType
@@ -1746,13 +1541,13 @@ references:
   isSpec: "True"
   fullName: SideLoader.SL.GetCopyOf
   nameWithType: SL.GetCopyOf
-- uid: SideLoader.SL.GetCopyOf``1(``0,Transform)
+- uid: SideLoader.SL.GetCopyOf``1(``0,UnityEngine.Transform)
   name: GetCopyOf<T>(T, Transform)
-  href: api/SideLoader.SL.html#SideLoader_SL_GetCopyOf__1___0_Transform_
-  commentId: M:SideLoader.SL.GetCopyOf``1(``0,Transform)
+  href: api/SideLoader.SL.html#SideLoader_SL_GetCopyOf__1___0_UnityEngine_Transform_
+  commentId: M:SideLoader.SL.GetCopyOf``1(``0,UnityEngine.Transform)
   name.vb: GetCopyOf(Of T)(T, Transform)
-  fullName: SideLoader.SL.GetCopyOf<T>(T, Transform)
-  fullName.vb: SideLoader.SL.GetCopyOf(Of T)(T, Transform)
+  fullName: SideLoader.SL.GetCopyOf<T>(T, UnityEngine.Transform)
+  fullName.vb: SideLoader.SL.GetCopyOf(Of T)(T, UnityEngine.Transform)
   nameWithType: SL.GetCopyOf<T>(T, Transform)
   nameWithType.vb: SL.GetCopyOf(Of T)(T, Transform)
 - uid: SideLoader.SL.GUID
@@ -2909,11 +2704,11 @@ references:
   commentId: T:SideLoader.SL_ArmorVisuals
   fullName: SideLoader.SL_ArmorVisuals
   nameWithType: SL_ArmorVisuals
-- uid: SideLoader.SL_ArmorVisuals.ApplyToVisuals(ItemVisual,Transform)
+- uid: SideLoader.SL_ArmorVisuals.ApplyToVisuals(ItemVisual,UnityEngine.Transform)
   name: ApplyToVisuals(ItemVisual, Transform)
-  href: api/SideLoader.SL_ArmorVisuals.html#SideLoader_SL_ArmorVisuals_ApplyToVisuals_ItemVisual_Transform_
-  commentId: M:SideLoader.SL_ArmorVisuals.ApplyToVisuals(ItemVisual,Transform)
-  fullName: SideLoader.SL_ArmorVisuals.ApplyToVisuals(ItemVisual, Transform)
+  href: api/SideLoader.SL_ArmorVisuals.html#SideLoader_SL_ArmorVisuals_ApplyToVisuals_ItemVisual_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_ArmorVisuals.ApplyToVisuals(ItemVisual,UnityEngine.Transform)
+  fullName: SideLoader.SL_ArmorVisuals.ApplyToVisuals(ItemVisual, UnityEngine.Transform)
   nameWithType: SL_ArmorVisuals.ApplyToVisuals(ItemVisual, Transform)
 - uid: SideLoader.SL_ArmorVisuals.ApplyToVisuals*
   name: ApplyToVisuals
@@ -3122,18 +2917,6 @@ references:
   commentId: F:SideLoader.SL_Bag.InventoryProtection
   fullName: SideLoader.SL_Bag.InventoryProtection
   nameWithType: SL_Bag.InventoryProtection
-- uid: SideLoader.SL_Bag.Nullify_Perish
-  name: Nullify_Perish
-  href: api/SideLoader.SL_Bag.html#SideLoader_SL_Bag_Nullify_Perish
-  commentId: F:SideLoader.SL_Bag.Nullify_Perish
-  fullName: SideLoader.SL_Bag.Nullify_Perish
-  nameWithType: SL_Bag.Nullify_Perish
-- uid: SideLoader.SL_Bag.Preserver_Amount
-  name: Preserver_Amount
-  href: api/SideLoader.SL_Bag.html#SideLoader_SL_Bag_Preserver_Amount
-  commentId: F:SideLoader.SL_Bag.Preserver_Amount
-  fullName: SideLoader.SL_Bag.Preserver_Amount
-  nameWithType: SL_Bag.Preserver_Amount
 - uid: SideLoader.SL_Bag.Restrict_Dodge
   name: Restrict_Dodge
   href: api/SideLoader.SL_Bag.html#SideLoader_SL_Bag_Restrict_Dodge
@@ -3340,11 +3123,11 @@ references:
   commentId: F:SideLoader.SL_Character.Chest_ID
   fullName: SideLoader.SL_Character.Chest_ID
   nameWithType: SL_Character.Chest_ID
-- uid: SideLoader.SL_Character.CreateCharacter(Vector3,System.String,System.String)
+- uid: SideLoader.SL_Character.CreateCharacter(UnityEngine.Vector3,System.String,System.String)
   name: CreateCharacter(Vector3, String, String)
-  href: api/SideLoader.SL_Character.html#SideLoader_SL_Character_CreateCharacter_Vector3_System_String_System_String_
-  commentId: M:SideLoader.SL_Character.CreateCharacter(Vector3,System.String,System.String)
-  fullName: SideLoader.SL_Character.CreateCharacter(Vector3, System.String, System.String)
+  href: api/SideLoader.SL_Character.html#SideLoader_SL_Character_CreateCharacter_UnityEngine_Vector3_System_String_System_String_
+  commentId: M:SideLoader.SL_Character.CreateCharacter(UnityEngine.Vector3,System.String,System.String)
+  fullName: SideLoader.SL_Character.CreateCharacter(UnityEngine.Vector3, System.String, System.String)
   nameWithType: SL_Character.CreateCharacter(Vector3, String, String)
 - uid: SideLoader.SL_Character.CreateCharacter*
   name: CreateCharacter
@@ -4448,11 +4231,11 @@ references:
   fullName.vb: SideLoader.SL_Effect.ApplyToComponent(Of T)(T)
   nameWithType: SL_Effect.ApplyToComponent<T>(T)
   nameWithType.vb: SL_Effect.ApplyToComponent(Of T)(T)
-- uid: SideLoader.SL_Effect.ApplyToTransform(Transform)
+- uid: SideLoader.SL_Effect.ApplyToTransform(UnityEngine.Transform)
   name: ApplyToTransform(Transform)
-  href: api/SideLoader.SL_Effect.html#SideLoader_SL_Effect_ApplyToTransform_Transform_
-  commentId: M:SideLoader.SL_Effect.ApplyToTransform(Transform)
-  fullName: SideLoader.SL_Effect.ApplyToTransform(Transform)
+  href: api/SideLoader.SL_Effect.html#SideLoader_SL_Effect_ApplyToTransform_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_Effect.ApplyToTransform(UnityEngine.Transform)
+  fullName: SideLoader.SL_Effect.ApplyToTransform(UnityEngine.Transform)
   nameWithType: SL_Effect.ApplyToTransform(Transform)
 - uid: SideLoader.SL_Effect.ApplyToTransform*
   name: ApplyToTransform
@@ -4530,11 +4313,11 @@ references:
   fullName.vb: SideLoader.SL_EffectCondition.ApplyToComponent(Of T)(T)
   nameWithType: SL_EffectCondition.ApplyToComponent<T>(T)
   nameWithType.vb: SL_EffectCondition.ApplyToComponent(Of T)(T)
-- uid: SideLoader.SL_EffectCondition.ApplyToTransform(Transform)
+- uid: SideLoader.SL_EffectCondition.ApplyToTransform(UnityEngine.Transform)
   name: ApplyToTransform(Transform)
-  href: api/SideLoader.SL_EffectCondition.html#SideLoader_SL_EffectCondition_ApplyToTransform_Transform_
-  commentId: M:SideLoader.SL_EffectCondition.ApplyToTransform(Transform)
-  fullName: SideLoader.SL_EffectCondition.ApplyToTransform(Transform)
+  href: api/SideLoader.SL_EffectCondition.html#SideLoader_SL_EffectCondition_ApplyToTransform_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_EffectCondition.ApplyToTransform(UnityEngine.Transform)
+  fullName: SideLoader.SL_EffectCondition.ApplyToTransform(UnityEngine.Transform)
   nameWithType: SL_EffectCondition.ApplyToTransform(Transform)
 - uid: SideLoader.SL_EffectCondition.ApplyToTransform*
   name: ApplyToTransform
@@ -4584,11 +4367,11 @@ references:
   commentId: T:SideLoader.SL_EffectTransform
   fullName: SideLoader.SL_EffectTransform
   nameWithType: SL_EffectTransform
-- uid: SideLoader.SL_EffectTransform.ApplyToTransform(Transform,SideLoader.EffectBehaviours)
+- uid: SideLoader.SL_EffectTransform.ApplyToTransform(UnityEngine.Transform,SideLoader.EffectBehaviours)
   name: ApplyToTransform(Transform, EffectBehaviours)
-  href: api/SideLoader.SL_EffectTransform.html#SideLoader_SL_EffectTransform_ApplyToTransform_Transform_SideLoader_EffectBehaviours_
-  commentId: M:SideLoader.SL_EffectTransform.ApplyToTransform(Transform,SideLoader.EffectBehaviours)
-  fullName: SideLoader.SL_EffectTransform.ApplyToTransform(Transform, SideLoader.EffectBehaviours)
+  href: api/SideLoader.SL_EffectTransform.html#SideLoader_SL_EffectTransform_ApplyToTransform_UnityEngine_Transform_SideLoader_EffectBehaviours_
+  commentId: M:SideLoader.SL_EffectTransform.ApplyToTransform(UnityEngine.Transform,SideLoader.EffectBehaviours)
+  fullName: SideLoader.SL_EffectTransform.ApplyToTransform(UnityEngine.Transform, SideLoader.EffectBehaviours)
   nameWithType: SL_EffectTransform.ApplyToTransform(Transform, EffectBehaviours)
 - uid: SideLoader.SL_EffectTransform.ApplyToTransform*
   name: ApplyToTransform
@@ -4597,13 +4380,13 @@ references:
   isSpec: "True"
   fullName: SideLoader.SL_EffectTransform.ApplyToTransform
   nameWithType: SL_EffectTransform.ApplyToTransform
-- uid: SideLoader.SL_EffectTransform.ApplyTransformList(Transform,System.Collections.Generic.List{SideLoader.SL_EffectTransform},SideLoader.EffectBehaviours)
+- uid: SideLoader.SL_EffectTransform.ApplyTransformList(UnityEngine.Transform,System.Collections.Generic.List{SideLoader.SL_EffectTransform},SideLoader.EffectBehaviours)
   name: ApplyTransformList(Transform, List<SL_EffectTransform>, EffectBehaviours)
-  href: api/SideLoader.SL_EffectTransform.html#SideLoader_SL_EffectTransform_ApplyTransformList_Transform_System_Collections_Generic_List_SideLoader_SL_EffectTransform__SideLoader_EffectBehaviours_
-  commentId: M:SideLoader.SL_EffectTransform.ApplyTransformList(Transform,System.Collections.Generic.List{SideLoader.SL_EffectTransform},SideLoader.EffectBehaviours)
+  href: api/SideLoader.SL_EffectTransform.html#SideLoader_SL_EffectTransform_ApplyTransformList_UnityEngine_Transform_System_Collections_Generic_List_SideLoader_SL_EffectTransform__SideLoader_EffectBehaviours_
+  commentId: M:SideLoader.SL_EffectTransform.ApplyTransformList(UnityEngine.Transform,System.Collections.Generic.List{SideLoader.SL_EffectTransform},SideLoader.EffectBehaviours)
   name.vb: ApplyTransformList(Transform, List(Of SL_EffectTransform), EffectBehaviours)
-  fullName: SideLoader.SL_EffectTransform.ApplyTransformList(Transform, System.Collections.Generic.List<SideLoader.SL_EffectTransform>, SideLoader.EffectBehaviours)
-  fullName.vb: SideLoader.SL_EffectTransform.ApplyTransformList(Transform, System.Collections.Generic.List(Of SideLoader.SL_EffectTransform), SideLoader.EffectBehaviours)
+  fullName: SideLoader.SL_EffectTransform.ApplyTransformList(UnityEngine.Transform, System.Collections.Generic.List<SideLoader.SL_EffectTransform>, SideLoader.EffectBehaviours)
+  fullName.vb: SideLoader.SL_EffectTransform.ApplyTransformList(UnityEngine.Transform, System.Collections.Generic.List(Of SideLoader.SL_EffectTransform), SideLoader.EffectBehaviours)
   nameWithType: SL_EffectTransform.ApplyTransformList(Transform, List<SL_EffectTransform>, EffectBehaviours)
   nameWithType.vb: SL_EffectTransform.ApplyTransformList(Transform, List(Of SL_EffectTransform), EffectBehaviours)
 - uid: SideLoader.SL_EffectTransform.ApplyTransformList*
@@ -4631,11 +4414,11 @@ references:
   commentId: F:SideLoader.SL_EffectTransform.Effects
   fullName: SideLoader.SL_EffectTransform.Effects
   nameWithType: SL_EffectTransform.Effects
-- uid: SideLoader.SL_EffectTransform.ParseTransform(Transform)
+- uid: SideLoader.SL_EffectTransform.ParseTransform(UnityEngine.Transform)
   name: ParseTransform(Transform)
-  href: api/SideLoader.SL_EffectTransform.html#SideLoader_SL_EffectTransform_ParseTransform_Transform_
-  commentId: M:SideLoader.SL_EffectTransform.ParseTransform(Transform)
-  fullName: SideLoader.SL_EffectTransform.ParseTransform(Transform)
+  href: api/SideLoader.SL_EffectTransform.html#SideLoader_SL_EffectTransform_ParseTransform_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_EffectTransform.ParseTransform(UnityEngine.Transform)
+  fullName: SideLoader.SL_EffectTransform.ParseTransform(UnityEngine.Transform)
   nameWithType: SL_EffectTransform.ParseTransform(Transform)
 - uid: SideLoader.SL_EffectTransform.ParseTransform*
   name: ParseTransform
@@ -5968,19 +5751,6 @@ references:
   isSpec: "True"
   fullName: SideLoader.SL_Item.ApplyItemVisuals
   nameWithType: SL_Item.ApplyItemVisuals
-- uid: SideLoader.SL_Item.ApplyTemplateToItem
-  name: ApplyTemplateToItem()
-  href: api/SideLoader.SL_Item.html#SideLoader_SL_Item_ApplyTemplateToItem
-  commentId: M:SideLoader.SL_Item.ApplyTemplateToItem
-  fullName: SideLoader.SL_Item.ApplyTemplateToItem()
-  nameWithType: SL_Item.ApplyTemplateToItem()
-- uid: SideLoader.SL_Item.ApplyTemplateToItem*
-  name: ApplyTemplateToItem
-  href: api/SideLoader.SL_Item.html#SideLoader_SL_Item_ApplyTemplateToItem_
-  commentId: Overload:SideLoader.SL_Item.ApplyTemplateToItem
-  isSpec: "True"
-  fullName: SideLoader.SL_Item.ApplyTemplateToItem
-  nameWithType: SL_Item.ApplyTemplateToItem
 - uid: SideLoader.SL_Item.ApplyToItem
   name: ApplyToItem()
   href: api/SideLoader.SL_Item.html#SideLoader_SL_Item_ApplyToItem
@@ -6450,11 +6220,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.SL_ItemVisual.ApplyToItem
   nameWithType: SL_ItemVisual.ApplyToItem
-- uid: SideLoader.SL_ItemVisual.ApplyToVisuals(ItemVisual,Transform)
+- uid: SideLoader.SL_ItemVisual.ApplyToVisuals(ItemVisual,UnityEngine.Transform)
   name: ApplyToVisuals(ItemVisual, Transform)
-  href: api/SideLoader.SL_ItemVisual.html#SideLoader_SL_ItemVisual_ApplyToVisuals_ItemVisual_Transform_
-  commentId: M:SideLoader.SL_ItemVisual.ApplyToVisuals(ItemVisual,Transform)
-  fullName: SideLoader.SL_ItemVisual.ApplyToVisuals(ItemVisual, Transform)
+  href: api/SideLoader.SL_ItemVisual.html#SideLoader_SL_ItemVisual_ApplyToVisuals_ItemVisual_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_ItemVisual.ApplyToVisuals(ItemVisual,UnityEngine.Transform)
+  fullName: SideLoader.SL_ItemVisual.ApplyToVisuals(ItemVisual, UnityEngine.Transform)
   nameWithType: SL_ItemVisual.ApplyToVisuals(ItemVisual, Transform)
 - uid: SideLoader.SL_ItemVisual.ApplyToVisuals*
   name: ApplyToVisuals
@@ -6531,11 +6301,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.SL_ItemVisual.SerializeItemVisuals
   nameWithType: SL_ItemVisual.SerializeItemVisuals
-- uid: SideLoader.SL_ItemVisual.SetVisualPrefab(Item,SideLoader.VisualPrefabType,Transform,Transform)
+- uid: SideLoader.SL_ItemVisual.SetVisualPrefab(Item,SideLoader.VisualPrefabType,UnityEngine.Transform,UnityEngine.Transform)
   name: SetVisualPrefab(Item, VisualPrefabType, Transform, Transform)
-  href: api/SideLoader.SL_ItemVisual.html#SideLoader_SL_ItemVisual_SetVisualPrefab_Item_SideLoader_VisualPrefabType_Transform_Transform_
-  commentId: M:SideLoader.SL_ItemVisual.SetVisualPrefab(Item,SideLoader.VisualPrefabType,Transform,Transform)
-  fullName: SideLoader.SL_ItemVisual.SetVisualPrefab(Item, SideLoader.VisualPrefabType, Transform, Transform)
+  href: api/SideLoader.SL_ItemVisual.html#SideLoader_SL_ItemVisual_SetVisualPrefab_Item_SideLoader_VisualPrefabType_UnityEngine_Transform_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_ItemVisual.SetVisualPrefab(Item,SideLoader.VisualPrefabType,UnityEngine.Transform,UnityEngine.Transform)
+  fullName: SideLoader.SL_ItemVisual.SetVisualPrefab(Item, SideLoader.VisualPrefabType, UnityEngine.Transform, UnityEngine.Transform)
   nameWithType: SL_ItemVisual.SetVisualPrefab(Item, VisualPrefabType, Transform, Transform)
 - uid: SideLoader.SL_ItemVisual.SetVisualPrefab*
   name: SetVisualPrefab
@@ -6650,11 +6420,11 @@ references:
   commentId: T:SideLoader.SL_Material
   fullName: SideLoader.SL_Material
   nameWithType: SL_Material
-- uid: SideLoader.SL_Material.ApplyTextureSettings(Material)
+- uid: SideLoader.SL_Material.ApplyTextureSettings(UnityEngine.Material)
   name: ApplyTextureSettings(Material)
-  href: api/SideLoader.SL_Material.html#SideLoader_SL_Material_ApplyTextureSettings_Material_
-  commentId: M:SideLoader.SL_Material.ApplyTextureSettings(Material)
-  fullName: SideLoader.SL_Material.ApplyTextureSettings(Material)
+  href: api/SideLoader.SL_Material.html#SideLoader_SL_Material_ApplyTextureSettings_UnityEngine_Material_
+  commentId: M:SideLoader.SL_Material.ApplyTextureSettings(UnityEngine.Material)
+  fullName: SideLoader.SL_Material.ApplyTextureSettings(UnityEngine.Material)
   nameWithType: SL_Material.ApplyTextureSettings(Material)
 - uid: SideLoader.SL_Material.ApplyTextureSettings*
   name: ApplyTextureSettings
@@ -6663,11 +6433,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.SL_Material.ApplyTextureSettings
   nameWithType: SL_Material.ApplyTextureSettings
-- uid: SideLoader.SL_Material.ApplyToMaterial(Material)
+- uid: SideLoader.SL_Material.ApplyToMaterial(UnityEngine.Material)
   name: ApplyToMaterial(Material)
-  href: api/SideLoader.SL_Material.html#SideLoader_SL_Material_ApplyToMaterial_Material_
-  commentId: M:SideLoader.SL_Material.ApplyToMaterial(Material)
-  fullName: SideLoader.SL_Material.ApplyToMaterial(Material)
+  href: api/SideLoader.SL_Material.html#SideLoader_SL_Material_ApplyToMaterial_UnityEngine_Material_
+  commentId: M:SideLoader.SL_Material.ApplyToMaterial(UnityEngine.Material)
+  fullName: SideLoader.SL_Material.ApplyToMaterial(UnityEngine.Material)
   nameWithType: SL_Material.ApplyToMaterial(Material)
 - uid: SideLoader.SL_Material.ApplyToMaterial*
   name: ApplyToMaterial
@@ -6719,11 +6489,11 @@ references:
   isSpec: "True"
   fullName: SideLoader.SL_Material.Name
   nameWithType: SL_Material.Name
-- uid: SideLoader.SL_Material.ParseMaterial(Material)
+- uid: SideLoader.SL_Material.ParseMaterial(UnityEngine.Material)
   name: ParseMaterial(Material)
-  href: api/SideLoader.SL_Material.html#SideLoader_SL_Material_ParseMaterial_Material_
-  commentId: M:SideLoader.SL_Material.ParseMaterial(Material)
-  fullName: SideLoader.SL_Material.ParseMaterial(Material)
+  href: api/SideLoader.SL_Material.html#SideLoader_SL_Material_ParseMaterial_UnityEngine_Material_
+  commentId: M:SideLoader.SL_Material.ParseMaterial(UnityEngine.Material)
+  fullName: SideLoader.SL_Material.ParseMaterial(UnityEngine.Material)
   nameWithType: SL_Material.ParseMaterial(Material)
 - uid: SideLoader.SL_Material.ParseMaterial*
   name: ParseMaterial
@@ -9603,44 +9373,6 @@ references:
   commentId: F:SideLoader.SL_ShooterPosStatusEffect.StatusIdentifier
   fullName: SideLoader.SL_ShooterPosStatusEffect.StatusIdentifier
   nameWithType: SL_ShooterPosStatusEffect.StatusIdentifier
-- uid: SideLoader.SL_ShootItem
-  name: SL_ShootItem
-  href: api/SideLoader.SL_ShootItem.html
-  commentId: T:SideLoader.SL_ShootItem
-  fullName: SideLoader.SL_ShootItem
-  nameWithType: SL_ShootItem
-- uid: SideLoader.SL_ShootItem.ApplyToComponent*
-  name: ApplyToComponent
-  href: api/SideLoader.SL_ShootItem.html#SideLoader_SL_ShootItem_ApplyToComponent_
-  commentId: Overload:SideLoader.SL_ShootItem.ApplyToComponent
-  isSpec: "True"
-  fullName: SideLoader.SL_ShootItem.ApplyToComponent
-  nameWithType: SL_ShootItem.ApplyToComponent
-- uid: SideLoader.SL_ShootItem.ApplyToComponent``1(``0)
-  name: ApplyToComponent<T>(T)
-  href: api/SideLoader.SL_ShootItem.html#SideLoader_SL_ShootItem_ApplyToComponent__1___0_
-  commentId: M:SideLoader.SL_ShootItem.ApplyToComponent``1(``0)
-  name.vb: ApplyToComponent(Of T)(T)
-  fullName: SideLoader.SL_ShootItem.ApplyToComponent<T>(T)
-  fullName.vb: SideLoader.SL_ShootItem.ApplyToComponent(Of T)(T)
-  nameWithType: SL_ShootItem.ApplyToComponent<T>(T)
-  nameWithType.vb: SL_ShootItem.ApplyToComponent(Of T)(T)
-- uid: SideLoader.SL_ShootItem.SerializeEffect*
-  name: SerializeEffect
-  href: api/SideLoader.SL_ShootItem.html#SideLoader_SL_ShootItem_SerializeEffect_
-  commentId: Overload:SideLoader.SL_ShootItem.SerializeEffect
-  isSpec: "True"
-  fullName: SideLoader.SL_ShootItem.SerializeEffect
-  nameWithType: SL_ShootItem.SerializeEffect
-- uid: SideLoader.SL_ShootItem.SerializeEffect``1(``0,SideLoader.SL_Effect)
-  name: SerializeEffect<T>(T, SL_Effect)
-  href: api/SideLoader.SL_ShootItem.html#SideLoader_SL_ShootItem_SerializeEffect__1___0_SideLoader_SL_Effect_
-  commentId: M:SideLoader.SL_ShootItem.SerializeEffect``1(``0,SideLoader.SL_Effect)
-  name.vb: SerializeEffect(Of T)(T, SL_Effect)
-  fullName: SideLoader.SL_ShootItem.SerializeEffect<T>(T, SideLoader.SL_Effect)
-  fullName.vb: SideLoader.SL_ShootItem.SerializeEffect(Of T)(T, SideLoader.SL_Effect)
-  nameWithType: SL_ShootItem.SerializeEffect<T>(T, SL_Effect)
-  nameWithType.vb: SL_ShootItem.SerializeEffect(Of T)(T, SL_Effect)
 - uid: SideLoader.SL_ShootProjectile
   name: SL_ShootProjectile
   href: api/SideLoader.SL_ShootProjectile.html
@@ -10743,11 +10475,11 @@ references:
   commentId: T:SideLoader.SL_SkillRow
   fullName: SideLoader.SL_SkillRow
   nameWithType: SL_SkillRow
-- uid: SideLoader.SL_SkillRow.ApplyToSchoolTransform(Transform)
+- uid: SideLoader.SL_SkillRow.ApplyToSchoolTransform(UnityEngine.Transform)
   name: ApplyToSchoolTransform(Transform)
-  href: api/SideLoader.SL_SkillRow.html#SideLoader_SL_SkillRow_ApplyToSchoolTransform_Transform_
-  commentId: M:SideLoader.SL_SkillRow.ApplyToSchoolTransform(Transform)
-  fullName: SideLoader.SL_SkillRow.ApplyToSchoolTransform(Transform)
+  href: api/SideLoader.SL_SkillRow.html#SideLoader_SL_SkillRow_ApplyToSchoolTransform_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_SkillRow.ApplyToSchoolTransform(UnityEngine.Transform)
+  fullName: SideLoader.SL_SkillRow.ApplyToSchoolTransform(UnityEngine.Transform)
   nameWithType: SL_SkillRow.ApplyToSchoolTransform(Transform)
 - uid: SideLoader.SL_SkillRow.ApplyToSchoolTransform*
   name: ApplyToSchoolTransform
@@ -10774,11 +10506,11 @@ references:
   commentId: T:SideLoader.SL_SkillSlot
   fullName: SideLoader.SL_SkillSlot
   nameWithType: SL_SkillSlot
-- uid: SideLoader.SL_SkillSlot.ApplyToRow(Transform)
+- uid: SideLoader.SL_SkillSlot.ApplyToRow(UnityEngine.Transform)
   name: ApplyToRow(Transform)
-  href: api/SideLoader.SL_SkillSlot.html#SideLoader_SL_SkillSlot_ApplyToRow_Transform_
-  commentId: M:SideLoader.SL_SkillSlot.ApplyToRow(Transform)
-  fullName: SideLoader.SL_SkillSlot.ApplyToRow(Transform)
+  href: api/SideLoader.SL_SkillSlot.html#SideLoader_SL_SkillSlot_ApplyToRow_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_SkillSlot.ApplyToRow(UnityEngine.Transform)
+  fullName: SideLoader.SL_SkillSlot.ApplyToRow(UnityEngine.Transform)
   nameWithType: SL_SkillSlot.ApplyToRow(Transform)
 - uid: SideLoader.SL_SkillSlot.ApplyToRow*
   name: ApplyToRow
@@ -10811,11 +10543,11 @@ references:
   commentId: T:SideLoader.SL_SkillSlotFork
   fullName: SideLoader.SL_SkillSlotFork
   nameWithType: SL_SkillSlotFork
-- uid: SideLoader.SL_SkillSlotFork.ApplyToRow(Transform)
+- uid: SideLoader.SL_SkillSlotFork.ApplyToRow(UnityEngine.Transform)
   name: ApplyToRow(Transform)
-  href: api/SideLoader.SL_SkillSlotFork.html#SideLoader_SL_SkillSlotFork_ApplyToRow_Transform_
-  commentId: M:SideLoader.SL_SkillSlotFork.ApplyToRow(Transform)
-  fullName: SideLoader.SL_SkillSlotFork.ApplyToRow(Transform)
+  href: api/SideLoader.SL_SkillSlotFork.html#SideLoader_SL_SkillSlotFork_ApplyToRow_UnityEngine_Transform_
+  commentId: M:SideLoader.SL_SkillSlotFork.ApplyToRow(UnityEngine.Transform)
+  fullName: SideLoader.SL_SkillSlotFork.ApplyToRow(UnityEngine.Transform)
   nameWithType: SL_SkillSlotFork.ApplyToRow(Transform)
 - uid: SideLoader.SL_SkillSlotFork.ApplyToRow*
   name: ApplyToRow
@@ -11927,12 +11659,6 @@ references:
   commentId: F:SideLoader.SL_Weapon.HealthLeechRatio
   fullName: SideLoader.SL_Weapon.HealthLeechRatio
   nameWithType: SL_Weapon.HealthLeechRatio
-- uid: SideLoader.SL_Weapon.MaxProjectileShots
-  name: MaxProjectileShots
-  href: api/SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_MaxProjectileShots
-  commentId: F:SideLoader.SL_Weapon.MaxProjectileShots
-  fullName: SideLoader.SL_Weapon.MaxProjectileShots
-  nameWithType: SL_Weapon.MaxProjectileShots
 - uid: SideLoader.SL_Weapon.SerializeItem(Item,SideLoader.SL_Item)
   name: SerializeItem(Item, SL_Item)
   href: api/SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_SerializeItem_Item_SideLoader_SL_Item_
@@ -12603,11 +12329,11 @@ references:
   commentId: F:SideLoader.UI.SL_GUI.Instance
   fullName: SideLoader.UI.SL_GUI.Instance
   nameWithType: SL_GUI.Instance
-- uid: SideLoader.UI.SL_GUI.MakeTex(System.Int32,System.Int32,Color)
+- uid: SideLoader.UI.SL_GUI.MakeTex(System.Int32,System.Int32,UnityEngine.Color)
   name: MakeTex(Int32, Int32, Color)
-  href: api/SideLoader.UI.SL_GUI.html#SideLoader_UI_SL_GUI_MakeTex_System_Int32_System_Int32_Color_
-  commentId: M:SideLoader.UI.SL_GUI.MakeTex(System.Int32,System.Int32,Color)
-  fullName: SideLoader.UI.SL_GUI.MakeTex(System.Int32, System.Int32, Color)
+  href: api/SideLoader.UI.SL_GUI.html#SideLoader_UI_SL_GUI_MakeTex_System_Int32_System_Int32_UnityEngine_Color_
+  commentId: M:SideLoader.UI.SL_GUI.MakeTex(System.Int32,System.Int32,UnityEngine.Color)
+  fullName: SideLoader.UI.SL_GUI.MakeTex(System.Int32, System.Int32, UnityEngine.Color)
   nameWithType: SL_GUI.MakeTex(Int32, Int32, Color)
 - uid: SideLoader.UI.SL_GUI.MakeTex*
   name: MakeTex
@@ -12652,11 +12378,11 @@ references:
   commentId: T:SideLoader.UI.UIStyles
   fullName: SideLoader.UI.UIStyles
   nameWithType: UIStyles
-- uid: SideLoader.UI.UIStyles.HorizontalLine(Color)
+- uid: SideLoader.UI.UIStyles.HorizontalLine(UnityEngine.Color)
   name: HorizontalLine(Color)
-  href: api/SideLoader.UI.UIStyles.html#SideLoader_UI_UIStyles_HorizontalLine_Color_
-  commentId: M:SideLoader.UI.UIStyles.HorizontalLine(Color)
-  fullName: SideLoader.UI.UIStyles.HorizontalLine(Color)
+  href: api/SideLoader.UI.UIStyles.html#SideLoader_UI_UIStyles_HorizontalLine_UnityEngine_Color_
+  commentId: M:SideLoader.UI.UIStyles.HorizontalLine(UnityEngine.Color)
+  fullName: SideLoader.UI.UIStyles.HorizontalLine(UnityEngine.Color)
   nameWithType: UIStyles.HorizontalLine(Color)
 - uid: SideLoader.UI.UIStyles.HorizontalLine*
   name: HorizontalLine
@@ -12677,13 +12403,13 @@ references:
   commentId: F:SideLoader.UI.UIStyles.m_nofocusTex
   fullName: SideLoader.UI.UIStyles.m_nofocusTex
   nameWithType: UIStyles.m_nofocusTex
-- uid: SideLoader.UI.UIStyles.Translate(System.String,Vector3,System.Single@,System.Boolean)
+- uid: SideLoader.UI.UIStyles.Translate(System.String,UnityEngine.Vector3,System.Single@,System.Boolean)
   name: Translate(String, Vector3, ref Single, Boolean)
-  href: api/SideLoader.UI.UIStyles.html#SideLoader_UI_UIStyles_Translate_System_String_Vector3_System_Single__System_Boolean_
-  commentId: M:SideLoader.UI.UIStyles.Translate(System.String,Vector3,System.Single@,System.Boolean)
+  href: api/SideLoader.UI.UIStyles.html#SideLoader_UI_UIStyles_Translate_System_String_UnityEngine_Vector3_System_Single__System_Boolean_
+  commentId: M:SideLoader.UI.UIStyles.Translate(System.String,UnityEngine.Vector3,System.Single@,System.Boolean)
   name.vb: Translate(String, Vector3, ByRef Single, Boolean)
-  fullName: SideLoader.UI.UIStyles.Translate(System.String, Vector3, ref System.Single, System.Boolean)
-  fullName.vb: SideLoader.UI.UIStyles.Translate(System.String, Vector3, ByRef System.Single, System.Boolean)
+  fullName: SideLoader.UI.UIStyles.Translate(System.String, UnityEngine.Vector3, ref System.Single, System.Boolean)
+  fullName.vb: SideLoader.UI.UIStyles.Translate(System.String, UnityEngine.Vector3, ByRef System.Single, System.Boolean)
   nameWithType: UIStyles.Translate(String, Vector3, ref Single, Boolean)
   nameWithType.vb: UIStyles.Translate(String, Vector3, ByRef Single, Boolean)
 - uid: SideLoader.UI.UIStyles.Translate*
@@ -12693,13 +12419,13 @@ references:
   isSpec: "True"
   fullName: SideLoader.UI.UIStyles.Translate
   nameWithType: UIStyles.Translate
-- uid: SideLoader.UI.UIStyles.TranslateControls(Transform,System.Single@,System.Single@)
+- uid: SideLoader.UI.UIStyles.TranslateControls(UnityEngine.Transform,System.Single@,System.Single@)
   name: TranslateControls(Transform, ref Single, ref Single)
-  href: api/SideLoader.UI.UIStyles.html#SideLoader_UI_UIStyles_TranslateControls_Transform_System_Single__System_Single__
-  commentId: M:SideLoader.UI.UIStyles.TranslateControls(Transform,System.Single@,System.Single@)
+  href: api/SideLoader.UI.UIStyles.html#SideLoader_UI_UIStyles_TranslateControls_UnityEngine_Transform_System_Single__System_Single__
+  commentId: M:SideLoader.UI.UIStyles.TranslateControls(UnityEngine.Transform,System.Single@,System.Single@)
   name.vb: TranslateControls(Transform, ByRef Single, ByRef Single)
-  fullName: SideLoader.UI.UIStyles.TranslateControls(Transform, ref System.Single, ref System.Single)
-  fullName.vb: SideLoader.UI.UIStyles.TranslateControls(Transform, ByRef System.Single, ByRef System.Single)
+  fullName: SideLoader.UI.UIStyles.TranslateControls(UnityEngine.Transform, ref System.Single, ref System.Single)
+  fullName.vb: SideLoader.UI.UIStyles.TranslateControls(UnityEngine.Transform, ByRef System.Single, ByRef System.Single)
   nameWithType: UIStyles.TranslateControls(Transform, ref Single, ref Single)
   nameWithType.vb: UIStyles.TranslateControls(Transform, ByRef Single, ByRef Single)
 - uid: SideLoader.UI.UIStyles.TranslateControls*
