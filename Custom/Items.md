@@ -284,7 +284,7 @@ For example:
 
 ## SL_Weapon
 
-As long as all the fields on SL_Item and SL_Equipment, weapons also have a few more values and their own stats.
+As well as all the fields on SL_Item and SL_Equipment, weapons also have a few more values and their own stats.
 
 `WeaponType` (enum)
 * Sets the type of weapon.
