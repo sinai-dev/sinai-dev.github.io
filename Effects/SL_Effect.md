@@ -80,7 +80,7 @@ It's exactly the same as `SL_AddStatusEffect`, except that you have one addition
 For adding a build-up effect, usually used by Hit effects.
 
 `StatusEffect` (string)
-* Same as StatusEffect on SL_AddStatusEffect
+* Must use a <b>Status Identifier</b>, not the actual name of the status effect. (Same as StatusEffect on SL_AddStatusEffect)
 
 `Buildup` (float)
 * The effect build-up value, between 0 and 100.
@@ -468,8 +468,52 @@ ShootBlast inherits from SL_Shooter, and contains some extra fields.
 * See [the Effects article](Effects/EffectTransforms) for more information.
 
 ## SL_ShootBlastHornetControl
-* Derives from `SL_ShootBlast`.
-* Used by Hive AI enemies. Dump one of the Hornet skills to see how this is used.
+Derives from `SL_ShootBlast`. Used by Hive AI enemies to shoot a lingering blast which tracks to the target.
+
+`BurstSkillID` (int)
+* The skill Item ID for the burst (detonation) effect
+
+`HealSkillID` (int)
+* The skill Item ID for the heal effect (used by the AI)
+
+`Acceleration` (float)
+* The acceleration speed of the tracking
+
+`Speed` (float)
+* The default speed of the tracking
+
+`SpeedDistLerpWhenCloseMult`
+* Multiplier to lerp the speed as it approaches the target
+
+`DistStayOnTarget` (float)
+* Distance at which the effect considers itself to be 'on' the target
+
+`EndEffectTriggerDist` (float)
+* The radius of the 'end effects' blast (for the effect to know when to detonate, at end of life)
+
+`EnvironmentCheckRadius` (float)
+* Checks for collision within this radius in the environment
+
+`TimeFlight` (float)
+* Maximum time to be in flight with no target in range (I think?)
+
+`TimeStayOnTarget` (float)
+* Maximum time to stay on the target
+
+`PassiveTimeFlight` (float)
+* Max flight time when in 'passive effect' mode (I'm not sure what this really means)
+
+`PassiveTimeStayOnTarget` (float)
+* Maximum time to stay on target in 'passive effect' mode
+
+`HornetLookForTargetRange` (float)
+* Range which the effect will look for targets in
+
+`HornetPassiveAttackTimer` (float)
+* Timeout on the passive attacks?
+
+`HornetPassiveTargetRange` (float)
+* Max range of the passive attacks
 
 ## SL_ShootBlastProximity
 * Derives from `SL_ShootBlast`.
