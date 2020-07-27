@@ -12,6 +12,13 @@ Note - to get the ID of a Status Effect to clone from, use [this Google Sheet](h
 
 Pick a Status Effect similar to what you want to make (or pick the Status Effect you want to edit), and generate a template for it.
 
+Your custom status XML can be placed in the `StatusEffects\` sub-folder of your [SL Pack](GettingStarted/SLPacks). The XML can be named anything.
+* Eg, `[SLPack Folder]\StatusEffects\MyStatus.xml`
+
+If you want to use a custom icon, you need to create a <b>sub-folder for each status</b>.
+* Eg, `[SLPack Folder]\StatusEffects\MyStatus\MyStatus.xml`
+* The icon needs to be called <b>icon.png</b> and placed in this same folder as the xml.
+
 ## Editing Etiquette
 
 If you are editing <b>existing Status Effects</b>, see [the Editing Etiquette section](GettingStarted/Overview.md) on the SL_Item page about editing etiquette. The same rules apply to Status Effects and Imbues too.
@@ -20,15 +27,9 @@ On <b>SL_StatusEffect</b>, you need to set either the TargetStatusID or the Targ
 
 On <b>SL_ImbueEffect</b>, you need to set the TargetStatusID and the NewStatusID.
 
-## Configuring the template
-Your custom status XML can be placed in the `StatusEffects\` sub-folder of your [SL Pack](GettingStarted/SLPacks). The XML can be named anything.
-* Eg, `[SLPack Folder]\StatusEffects\MyStatus.xml`
+## SL_StatusEffect
 
-If you want to use a custom icon, you need to create a <b>sub-folder for each status</b>.
-* Eg, `[SLPack Folder]\StatusEffects\MyStatus\MyStatus.xml`
-* The icon needs to be called <b>icon.png</b> and placed in this same folder as the xml.
-
-## SL_StatusEffect Fields
+<b>Note:</b> you must set either the <b>TargetStatusID</b> or the <b>TargetStatusIdentifier</b>. If you set both, the TargetStatusID will be used.
 
 `TargetStatusID` (integer)
 * The ID of the Status Effect you want to clone from
@@ -37,10 +38,10 @@ If you want to use a custom icon, you need to create a <b>sub-folder for each st
 * The Identifier Name of the Status Effect you want to clone from (only if you did not set a `TargetStatusID`)
 * This is used by a few status effects which do not have a Preset ID.
 
-`NewStatusID` (integer)
+`NewStatusID` (integer) <b>[REQUIRED]</b>
 * The ID of the Status Effect you want to apply to. Can be a new or existing ID.
 
-`StatusIdentifier` (string)
+`StatusIdentifier` (string) <b>[REQUIRED]</b>
 * The new Identifier Name of your Status Effect, this is used by the game for some things.
 * For example, used by SL_AddStatusEffect components, they use the Identifier instead of ID.
 
