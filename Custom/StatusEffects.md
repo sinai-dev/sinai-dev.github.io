@@ -29,7 +29,7 @@ On <b>SL_ImbueEffect</b>, you need to set the TargetStatusID and the NewStatusID
 
 ## SL_StatusEffect
 
-<b>Note:</b> you must set either the <b>TargetStatusID</b> or the <b>TargetStatusIdentifier</b>. If you set both, the TargetStatusID will be used.
+!> <b>Note:</b> You must set either the <b>TargetStatusID</b> or the <b>TargetStatusIdentifier</b>. If you set both, the TargetStatusID will be used.
 
 `TargetStatusID` (integer)
 * The ID of the Status Effect you want to clone from

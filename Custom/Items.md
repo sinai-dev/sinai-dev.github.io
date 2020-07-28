@@ -419,8 +419,6 @@ Bags inherit from SL_Equipment, and contain a few extra fields.
 * The UID of the recipe you want this scroll to teach.
 * This corresponds to the `UID` in a [SL_Recipe](Custom/ItemRecipes) template.
 
-<b>Note:</b> Unlike other items, Recipe Scrolls are not listed on the wiki, so it may be difficult to get an ID to clone from. They are usually in the `5700000` range, you can use `5700022` for example and change the Name, Description and Recipe UID.
-
 ## SL_MultiItem
 
 SL_MultiItem can be used from XML to define multiple item edits from one template. This might be useful if you are making bulk edits, or lots of very small edits.

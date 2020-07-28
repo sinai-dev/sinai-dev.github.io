@@ -43,7 +43,7 @@ For example:
 
 Below are all the subclasses of SL_Effect. These contain the 3 fields above, as well as extra fields.
 
-Note: There are a lot of subclasses. Use Ctrl+F to find the effects you are interested in.
+?> <b>Note:</b> There are a lot of subclasses. Use Ctrl+F to find the effects you are interested in.
 
 ## SL_AddStatusEffect
 Used for simply adding a status effect on activation.

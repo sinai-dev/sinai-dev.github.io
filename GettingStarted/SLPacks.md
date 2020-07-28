@@ -45,9 +45,7 @@ AssetBundles which you place in this folder can be referenced by the <b>file nam
 
 See also: [Unity AssetBundles Guide](https://docs.unity3d.com/Manual/AssetBundles-Workflow.html)
 
-!> Important note:
-* You must use the same version of the Unity Editor that Outward uses to build your asset bundles.
-* Currently, this is <b>[Unity 2018.4.8](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)</b>.
+!> <b>Note:</b> You must use the same version of the Unity Editor that Outward uses to build your asset bundles. Currently, this is <b>[Unity 2018.4.8](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)</b>.
 
 ### Characters
 

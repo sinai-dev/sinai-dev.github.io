@@ -6,11 +6,7 @@ Enchantment XMLs should be placed in the `Enchantments\` sub-folder of your SL P
 
 SideLoader does not currently support EnchantmentRecipeItems (recipe scrolls), but this will be added at some point. In the mean time, making one with C# would be fairly trivial (clone an existing scroll and change the EnchantmentRecipeItem.Recipes field). You would need to use C# anyway if you wanted to add this scroll to merchant stock, loot, etc.
 
-## Important Note
-
-Unlike SL_Item and SL_StatusEffect templates, you cannot leave out fields on a SL_EnchantmentRecipe template, even if you are editing an existing Enchantment.
-
-SideLoader does not clone from an existing Enchantment when it applies your template, so the values you set will define everything about the Enchantment.
+!> <b>Note:</b> Unlike SL_Item and SL_StatusEffect templates, you cannot leave out fields on a SL_EnchantmentRecipe template, even if you are editing an existing Enchantment. SideLoader does not clone from an existing Enchantment when it applies your template, so the values you set will define everything about the Enchantment.
 
 ## Generating A Template
 

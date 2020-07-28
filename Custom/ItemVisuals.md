@@ -52,9 +52,7 @@ There are two parts to setting up your custom Visual Prefab(s).
 
 ## In Unity Editor
 
-<b>Important note:</b> 
-* You must use the same version of the Unity Editor that Outward uses to build your asset bundles.
-* Currently, this is <b>[Unity 2018.4.8](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)</b>.
+!> <b>Note:</b> You must use the same version of the Unity Editor that Outward uses to build your asset bundles. Currently, this is <b>[Unity 2018.4.8](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)</b>.
 
 First, make sure you are familiar with the [AssetBundle Workflow](https://docs.unity3d.com/Manual/AssetBundles-Workflow.html) in the Unity Editor as well as working with [SL Pack AssetBundles](SL-Packs#assetbundles).
 
@@ -193,7 +191,7 @@ You should now see the option to "Build AssetBundles" in the Assets drop-down me
 ### Step 2: {docsify-ignore}
 Now you need to create a folder corresponding to each Item you want to set. These folders should be placed directly into the root "Assets" folder of your project. Your "Assets" folder can be thought of as the same as the "Items" folder in your SL Pack.
 
-<b>IMPORTANT:</b> These folder names <b>must start with</b> the Item ID of the item the textures correspond to. When generating from the SL Menu, it will be in this structure by default. You can put whatever you want after the ID, but it must start with the ID.
+!> <b>Note:</b> These folder names <b>must start with</b> the Item ID of the item the textures correspond to. When generating from the SL Menu, it will be in this structure by default. You can put whatever you want after the ID, but it must start with the ID.
 
 If you generated the items using the SL Menu, you can simply copy the folder (eg. `2000010_IronSword`) and drag it into your Unity Project into the Assets window.
 

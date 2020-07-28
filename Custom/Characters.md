@@ -91,8 +91,6 @@ Currently, there is no debug menu generator for characters, so I'll just provide
 </SL_Character>
 ```
 
-* <b>Note:</b> If you find examples helpful, there is an example Xml template at the bottom of this page.
-
 ## SL_Character Fields
 
 `UID` (string)

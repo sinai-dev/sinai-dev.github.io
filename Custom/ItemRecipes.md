@@ -4,7 +4,7 @@
 
 Recipes XMLs should be placed in the `Recipes\` sub-folder of your SL Pack.
 
-Note that custom recipes are applied after all Custom Items have been set up, so you can safely reference those here.
+?> <b>Note:</b> Custom recipes are applied after all Custom Items have been set up, so you can safely reference those here.
 
 ## Template
 Currently there is no template generator for Recipes, so here's how it should look:
