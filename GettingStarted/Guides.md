@@ -9,9 +9,9 @@ Next, start Outward. We are going to use the [SL Menu](GettingStarted/SLMenu) to
 
 In game, press <b>Ctrl + Alt + F6</b> to open the SL Menu. In the Items panel, enter `2000010` as the Target Item ID, as well as the New Item ID. Press the button to generate the template.
 
-Now, open the folder `Outward\Mods\SideLoader\_GENERATED\`, this is SideLoader's folder for generated templates. Inside here, you should see an `\Items\` sub-folder, which should contain a folder called `2000010_IronSword\`.
+Now, open the folder `Outward\Mods\SideLoader\_GENERATED\`, this is SideLoader's folder for generated templates. Inside here, you should see an `Items\` sub-folder, which should contain a folder called `2000010_IronSword\`.
 
-<b>Cut</b> this Iron Sword folder (Ctrl+X), and go back to the `SideLoader\` folder. Create a new folder in here called `Test\` (so it looks like `Outward\Mods\SideLoader\Test\`), create a sub-folder for Items (`Test\Items\`), and <b>Paste</b> (Ctrl+V) the Iron Sword folder in here. It should now look like this: `Outward\Mods\SideLoader\Test\Items\2000010_IronSword\`.
+<b>Cut</b> this Iron Sword folder (Ctrl+X), and go back to the `SideLoader\` folder. Create a new folder in here called `Test\`, create a sub-folder for Items (`Test\Items\`), and <b>Paste</b> (Ctrl+V) the Iron Sword folder in here. It should now look like this: `Outward\Mods\SideLoader\Test\Items\2000010_IronSword\`.
 
 Have a look at the related article ([Custom Items](Custom/Items)) to get a better understanding of what you're looking at. There might be a lot of information, don't worry if you don't understand it all right away.
 

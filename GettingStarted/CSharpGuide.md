@@ -34,6 +34,8 @@ The `SLPack` class is the C# wrapper for SL Pack folders.
 
 The main SideLoader classes for custom items are `CustomItems` and `SL_Item`, and `CustomItemVisuals`.
 
+See also: [SideLoader.CustomItems (C# API)](https://sinaioutlander.github.io/_docfx/api/SideLoader.CustomItems.html).
+
 Defining custom items from C# is the same as the XML method, except you're defining the SL_Item object from code instead of XML. You should subscribe to `SL.BeforePacksLoaded` and set up your custom items at this point. For any changes you want to make which depend on the template being applied, you should make those changes on `SL.OnPacksLoaded`.
 
 ```csharp
@@ -91,8 +93,6 @@ There are some helpers in the CustomItems class you can use to make things easie
 `CustomItems.CreateCustomItem(int cloneTargetID, int newID, string name, SL_Item template = null)`
 * You can use this to clone an item and get the cloned prefab back.
 * Helpful if you just want to do your own custom item mods and not use the SideLoader templates at all, while still being compatible with other mods.
-
-You can also look at the source of SideLoader to see how it does things and use the public methods. Most of the code is documented with summaries, so you can see a tip in your IDE when you start trying to write a SideLoader method.
 
 ## Custom Textures
 
