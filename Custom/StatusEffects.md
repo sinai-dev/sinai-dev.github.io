@@ -93,7 +93,7 @@ Your tags XML should look like this, for example:
 `Effects` (list of `SL_EffectTransform`)
 * See the [Effects](Effects/EffectTransforms) page for documentation on all SL_Effect classes, and more details on how to set up EffectTransforms.
 
-## SL_ImbueEffect Fields
+## SL_ImbueEffect
 
 Imbues are similar to Status Effects, but much simpler overall.
 
