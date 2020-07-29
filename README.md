@@ -11,7 +11,7 @@ The <b>Outward SideLoader</b> is an API and a tool for Mod Development in the ga
 * <b>[Latest Release](https://github.com/sinaioutlander/Outward-SideLoader/releases)</b>
 * [How To Install](GettingStarted/Installation)
 
-## Getting Started
+## Getting Started {docsify-ignore}
 
 See these articles to get started making SL mods:
 * [Overview](GettingStarted/Overview.md)
