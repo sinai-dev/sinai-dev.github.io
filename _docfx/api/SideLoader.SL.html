@@ -360,7 +360,7 @@
   <h6><strong>Assembly</strong>: SideLoader.dll</h6>
   <h5 id="SideLoader_SL_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[BepInPlugin(&quot;com.sinai.SideLoader&quot;, &quot;SideLoader&quot;, &quot;2.7.2&quot;)]
+    <pre><code class="lang-csharp hljs">[BepInPlugin(&quot;com.sinai.SideLoader&quot;, &quot;SideLoader&quot;, &quot;2.7.3&quot;)]
 public class SL : BaseUnityPlugin</code></pre>
   </div>
   <h3 id="fields">Fields
@@ -523,7 +523,7 @@ public class SL : BaseUnityPlugin</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string VERSION = &quot;2.7.2&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public const string VERSION = &quot;2.7.3&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -683,10 +683,62 @@ public class SL : BaseUnityPlugin</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_DestroyChildren_UnityEngine_Transform_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20SideLoader.SL.DestroyChildren(UnityEngine.Transform%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L245">View Source</a>
+  </span>
+  <a id="SideLoader_SL_DestroyChildren_" data-uid="SideLoader.SL.DestroyChildren*"></a>
+  <h4 id="SideLoader_SL_DestroyChildren_UnityEngine_Transform_System_Boolean_System_Boolean_System_Boolean_" data-uid="SideLoader.SL.DestroyChildren(UnityEngine.Transform,System.Boolean,System.Boolean,System.Boolean)">DestroyChildren(Transform, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Small helper for destroying all children on a given Transform 't'. Uses DestroyImmediate().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyChildren(Transform t, bool destroyContent, bool destroyActivator, bool destroyVFX)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>The transform whose children you want to destroy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">destroyContent</span></td>
+        <td><p>If true, will destroy children called &quot;Content&quot; (used for Bags)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">destroyActivator</span></td>
+        <td><p>If true, will destroy children called &quot;Activator&quot; (used for Deployables / Traps)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">destroyVFX</span></td>
+        <td><p>If true, will destroy children whose names begin with &quot;VFX&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_FixComponentType_System_Type_UnityEngine_Component_.md&amp;value=---%0Auid%3A%20SideLoader.SL.FixComponentType(System.Type%2CUnityEngine.Component)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L260">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L272">View Source</a>
   </span>
   <a id="SideLoader_SL_FixComponentType_" data-uid="SideLoader.SL.FixComponentType*"></a>
   <h4 id="SideLoader_SL_FixComponentType_System_Type_UnityEngine_Component_" data-uid="SideLoader.SL.FixComponentType(System.Type,UnityEngine.Component)">FixComponentType(Type, Component)</h4>
@@ -745,7 +797,7 @@ Otherwise, this will replace existingComponent with a desiredType component and 
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_GetCopyOf__1___0_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20SideLoader.SL.GetCopyOf%60%601(%60%600%2CUnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L313">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L325">View Source</a>
   </span>
   <a id="SideLoader_SL_GetCopyOf_" data-uid="SideLoader.SL.GetCopyOf*"></a>
   <h4 id="SideLoader_SL_GetCopyOf__1___0_UnityEngine_Transform_" data-uid="SideLoader.SL.GetCopyOf``1(``0,UnityEngine.Transform)">GetCopyOf&lt;T&gt;(T, Transform)</h4>
@@ -865,7 +917,7 @@ Otherwise, this will replace existingComponent with a desiredType component and 
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Log_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20SideLoader.SL.Log(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L328">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L340">View Source</a>
   </span>
   <a id="SideLoader_SL_Log_" data-uid="SideLoader.SL.Log*"></a>
   <h4 id="SideLoader_SL_Log_System_String_System_Int32_" data-uid="SideLoader.SL.Log(System.String,System.Int32)">Log(String, Int32)</h4>
@@ -905,7 +957,7 @@ Otherwise, this will replace existingComponent with a desiredType component and 
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_LogInnerException_System_Exception_.md&amp;value=---%0Auid%3A%20SideLoader.SL.LogInnerException(System.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L348">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/SL.cs/#L360">View Source</a>
   </span>
   <a id="SideLoader_SL_LogInnerException_" data-uid="SideLoader.SL.LogInnerException*"></a>
   <h4 id="SideLoader_SL_LogInnerException_System_Exception_" data-uid="SideLoader.SL.LogInnerException(System.Exception)">LogInnerException(Exception)</h4>
