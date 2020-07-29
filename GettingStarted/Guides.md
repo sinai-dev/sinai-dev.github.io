@@ -1,4 +1,4 @@
-# SideLoader Guides & Examples
+# Guides & Examples
 
 This page contains some guides and examples to help you get started using SideLoader.
 
