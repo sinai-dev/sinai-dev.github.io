@@ -38,7 +38,7 @@ On <b>SL_ImbueEffect</b>, you need to set the TargetStatusID and the NewStatusID
 
 `NewStatusID` (integer) <b>[REQUIRED]</b>
 * Sets the Preset ID of the Status Effect. This isn't really used by many things, but you should still set it.
-* If you set to -1, SideLoader will ignore this value completely.
+* If you set to 0 or below, SideLoader will ignore this value completely.
 
 `Name` (string)
 * The name of your Status Effect. Unity rich text supported.
