@@ -32,12 +32,13 @@ On <b>SL_ImbueEffect</b>, you need to set the TargetStatusID and the NewStatusID
 `TargetStatusIdentifier` (string) <b>[REQUIRED]</b>
 * The Identifier Name of the Status Effect you want to clone from
 
-`NewStatusID` (integer) <b>[REQUIRED]</b>
-* The ID of the Status Effect you want to apply to. Can be a new or existing ID.
-
 `StatusIdentifier` (string) <b>[REQUIRED]</b>
-* The new Identifier Name of your Status Effect, this is used by the game for some things.
-* For example, used by SL_AddStatusEffect components, they use the Identifier instead of ID.
+* Determines the Status Effect your template will be applied to, or the new Identifier Name of your custom status.
+* Set to an existing Identifier to apply to an existing Status, or create a new one to create a new Status.
+
+`NewStatusID` (integer) <b>[REQUIRED]</b>
+* Sets the Preset ID of the Status Effect. This isn't really used by many things, but you should still set it.
+* If you set to -1, SideLoader will ignore this value completely.
 
 `Name` (string)
 * The name of your Status Effect. Unity rich text supported.
