@@ -44,7 +44,7 @@ The game checks if your TransformName <b>contains</b> one of the following <b>ke
 * For passive effects. 
 
 `Activation`
-* Used inmediately on activation, before the animation begins.
+* Used immediately on activation, before the animation begins.
 
 `Block`
 * used for skills that have on-block effects
