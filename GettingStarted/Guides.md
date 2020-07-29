@@ -2,7 +2,7 @@
 
 This page contains some guides and examples to help you get started using SideLoader.
 
-## My First SL Mod
+## Making a Custom Item
 ?> This guide introduces you to the concept of SL Packs, and shows you how to edit an Item.
 
 First, have a quick read of the [SL Packs](GettingStarted/SLPacks) article to understand how to work with SideLoader from folders. No knowledge of C# is necessary for this.
