@@ -8,7 +8,7 @@ The SL Pack sub-folder for custom Status Effects is `StatusEffects\`.
 
 Use the <b>[SideLoader Menu](GettingStarted/SLMenu)</b> to generate templates for you from existing Status Effects or Imbues. It will also dump the icon and set it up in an SLPack structure ready to go for you.
 
-Note - to get the ID of a Status Effect to clone from, use [this Google Sheet](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=1969601658) - find your effect on the list, and use the number to the left of it.
+Note - to get the ID of a Status Effect to clone from, use [this Google Sheet](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=1969601658) - find your effect on the list. For Status Effects, use the "Identifier Name", for Imbue Effects use the number to the left of it.
 
 Pick a Status Effect similar to what you want to make (or pick the Status Effect you want to edit), and generate a template for it.
 
@@ -23,20 +23,14 @@ If you want to use a custom icon, you need to create a <b>sub-folder for each st
 
 If you are editing <b>existing Status Effects</b>, see [the Editing Etiquette section](GettingStarted/Overview.md) on the SL_Item page about editing etiquette. The same rules apply to Status Effects and Imbues too.
 
-On <b>SL_StatusEffect</b>, you need to set either the TargetStatusID or the TargetStatusIdentifier, and you need to set both the NewStatusID and the StatusIdentifier.
+On <b>SL_StatusEffect</b>, you need to set the TargetStatusIdentifier, and you need to set both the NewStatusID and the StatusIdentifier.
 
 On <b>SL_ImbueEffect</b>, you need to set the TargetStatusID and the NewStatusID.
 
 ## SL_StatusEffect
 
-!> <b>Note:</b> You must set either the <b>TargetStatusID</b> or the <b>TargetStatusIdentifier</b>. If you set both, the TargetStatusID will be used.
-
-`TargetStatusID` (integer)
-* The ID of the Status Effect you want to clone from
-
-`TargetStatusIdentifier` (string)
-* The Identifier Name of the Status Effect you want to clone from (only if you did not set a `TargetStatusID`)
-* This is used by a few status effects which do not have a Preset ID.
+`TargetStatusIdentifier` (string) <b>[REQUIRED]</b>
+* The Identifier Name of the Status Effect you want to clone from
 
 `NewStatusID` (integer) <b>[REQUIRED]</b>
 * The ID of the Status Effect you want to apply to. Can be a new or existing ID.
@@ -63,6 +57,11 @@ On <b>SL_ImbueEffect</b>, you need to set the TargetStatusID and the NewStatusID
 `BuildupRecoverySpeed` (float)
 * How quickly the status buildup falls down to 0.
 * Value is how much buildup falls per second.
+
+`AmplifiedStatusIdentifier` (string)
+* Determines the Status Effect which will be received if the player has Shamanic Resonance
+* Set this to the Identifier Name of the Status Effect you want to set.
+* Note: if you're setting this to a custom Status, you should set that one up first. SideLoader applies templates in alphabetical order (of the file name), so use that to apply the other one first.
 
 `IgnoreBuildupIfApplied` (true / false)
 * If false, buildup cannot be added when already 100 or if status is active.
