@@ -681,7 +681,7 @@ Now, back to the fields on SL_ShootProjectile.
 
 Inherits from `SL_ShootProjectile`, and has no extra fields.
 
-This effect <b>requires</b> a `SL_WeaponLoadoutItem` [SL_ItemExtension](Custom/ItemExtensions) on the Item to support this effect.
+This effect <b>requires</b> a `SL_WeaponLoadoutItem` [SL_ItemExtension](Custom/ItemExtensions?id=sl_weaponloadoutitem) on the Item to support this effect.
 
 Used for Bows.
 
