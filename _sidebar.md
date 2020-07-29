@@ -51,7 +51,7 @@
 - External Resources
 
   - [Enums](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources/Types/enums)
-  - [Outward Tools](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=1701861708) (IDs and Tags)
+  - [Outward Tools](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=1701861708)
   - [SL Resources](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources)
   
-SideLoader is by [Sinai#4637](https://github.com/sinaioutlander).
+SideLoader is by [Sinai#4637](https://github.com/sinaioutlander)
