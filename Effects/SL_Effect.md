@@ -56,6 +56,18 @@ Used for simply adding a status effect on activation.
 `ChanceToContract` (float)
 * Usually this is `100` for 100%, but it can be between 0 and 100.
 
+`AffectController` (true/false)
+* Default `false`
+* If true, would override the affected character to the owner of this effect (ie. person creating it)
+
+`AdditionalLevel` (int)
+* Default `0`
+* For Level Status Effects (ie Alert), adds extra levels
+
+`NoDealer` (true/false)
+* Default `false`
+* If true, prevents this effect from knowing who applied it
+
 ## SL_AddStatusEffectRandom
 Used by Jinx to apply a random Status Effect from a list of possible values.
 
@@ -664,6 +676,14 @@ Now, back to the fields on SL_ShootProjectile.
 `ProjectileEffects` (list of SL_EffectTransform)
 * List of actual effects on the projectile.
 * See [the Effects article](Effects/EffectTransforms) for more information.
+
+## SL_ShootItem
+
+Inherits from `SL_ShootProjectile`, and has no extra fields.
+
+This effect <b>requires</b> a `SL_WeaponLoadoutItem` [SL_ItemExtension](Custom/ItemExtensions) on the Item to support this effect.
+
+Used for Bows.
 
 ## SL_ShootProjectilePistol
 Inherits from ShootProjectile, and is used for pistol skills.
