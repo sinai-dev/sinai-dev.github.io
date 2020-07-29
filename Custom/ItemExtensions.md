@@ -40,7 +40,7 @@ All SL_ItemExtension classes have this field.
 
 # Sub-classes
 
-Below are all the subclasses of SL_ItemExtension. These contain the field above, as well as extra fields.
+Below are all the subclasses of `SL_ItemExtension`. These contain the field above, as well as extra fields.
 
 ## SL_Deployable
 Used to deploy or pack a deployable item (tents, crafting stations, etc). This behaviour is pretty specific to the existing Deployable items, you will need to use C# to modify the interactions in a significant way.
@@ -86,7 +86,7 @@ Deployables all have a "Deployed" state version and a "Packed" state version. Th
 * Can be any value off [this list](Resources/Types/enums/GlobalAudioManager.Sounds.txt)
 
 ## SL_ItemAddOn
-SL_ItemAddOn inherits from SL_Deployable, and contains a few extra fields.
+SL_ItemAddOn inherits from `SL_Deployable`, and contains a few extra fields.
 
 This class is for deployable which snap-on to another deployable, such as Alchemy Kit or Cooking Pot.
 
@@ -247,7 +247,7 @@ Used by pistols and bows, it handles the ammunition for the weapon.
 
 ## SL_WeaponLoadoutItem
 
-SL_WeaponLoadoutItem inherits from SL_WeaponLoadout, and contains a few extra fields.
+SL_WeaponLoadoutItem inherits from `SL_WeaponLoadout`, and contains one extra field. It is used by Bows.
 
 `ReduceAmmunitionOnLoad` (true/false)
 * Whether to reduce the ammunition when the weapon is loaded or not.

@@ -229,7 +229,7 @@ Inherits from SL_ProximityCondition, and contains one extra field. This is for s
 * Maximum distance from soulspot.
 
 ## SL_QuestEventAreaCondition
-Checks the current scene for quest event(s).
+Checks the current scene for quest events.
 
 `EventUIDs` (list of string)
 * A list of `<string>` Event UIDs. These are the UIDs to check for.

@@ -39,7 +39,7 @@ For example:
 * Must be exactly one of: `None`, `Normal`, `Activation`, `Restauration`, `Hit`, `Reference` or `Block`
 * See "TransformName" on the [Effect Transforms](Effects/EffectTransforms) article for more information.
 
-# SL_Effect Subclasses
+# SL_Effect sub-classes
 
 Below are all the subclasses of SL_Effect. These contain the 3 fields above, as well as extra fields.
 

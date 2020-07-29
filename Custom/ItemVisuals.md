@@ -48,7 +48,7 @@ Unless you are an advanced user, I would recommend only generating these materia
 
 # Custom Visual Prefabs
 
-There are two parts to setting up your custom Visual Prefab(s).
+There are two parts to setting up your custom Visual Prefabs.
 
 ## In Unity Editor
 

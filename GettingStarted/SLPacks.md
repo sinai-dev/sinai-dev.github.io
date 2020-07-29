@@ -71,7 +71,7 @@ See also: [Custom Items](Custom/Items).
 
 ### Recipes
 
-The `Recipes\` folder is obviously used to define custom recipes. Simply place the xml file(s) in this folder.
+The `Recipes\` folder is obviously used to define custom recipes. Simply place the xml files in this folder.
 
 See also: [Custom Recipes](Custom/ItemRecipes).
 
