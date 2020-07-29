@@ -6,6 +6,7 @@
   - [Overview](GettingStarted/Overview.md)
   - [SL Packs](GettingStarted/SLPacks.md)
   - [SL Menu](GettingStarted/SLMenu.md)
+  - [Guides](GettingStarted/Guides.md)
 
 - C# Documentation
 

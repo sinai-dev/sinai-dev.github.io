@@ -4,10 +4,21 @@
 
 The <b>Outward SideLoader</b> is an API and a tool for Mod Development in the game Outward. It is designed to simplify the process of creating new content and modifying existing content. SideLoader is capable of loading AssetBundles, Textures, Audio, and XML files, as well as offering a powerful C# API.
 
+[SideLoader GitHub](https://github.com/sinaioutlander/Outward-Sideloader) | [SideLoader NexusMods](https://www.nexusmods.com/outward/mods/96)
+
 ## Installing {docsify-ignore}
 
 * <b>[Latest Release](https://github.com/sinaioutlander/Outward-SideLoader/releases)</b>
 * [How To Install](GettingStarted/Installation)
+
+## Getting Started
+
+See these articles to get started making SL mods:
+* [Installation](GettingStarted/Installation.md)
+* [Overview](GettingStarted/Overview.md)
+* [SL Packs](GettingStarted/SLPacks.md)
+* [SL Menu](GettingStarted/SLMenu.md)
+* [Guides & Examples](GettingStarted/Guides.md)
 
 ## Links {docsify-ignore}
 
