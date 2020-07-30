@@ -17,7 +17,14 @@ Now, open the folder `Outward\Mods\SideLoader\_GENERATED\`, this is SideLoader's
 
 ![The `_GENERATED\` folder should look like this.](https://i.imgur.com/tqcQTzc.png)
 
-<b>Cut</b> this Iron Sword folder (Ctrl+X), and go back to the `SideLoader\` folder. Create a new folder in here called `Test\`, create a sub-folder for Items (`Test\Items\`), and <b>Paste</b> (Ctrl+V) the Iron Sword folder in here. It should now look like this: `Outward\Mods\SideLoader\Test\Items\2000010_IronSword\`.
+Now we need to move this folder into our own SL Pack.
+
+1. <b>Cut</b> this Iron Sword folder (Ctrl+X)
+2. Go back to the `SideLoader\` folder. Create a new folder in here called `Test\`. 
+3. Create a sub-folder in Test called Items (`Test\Items\`)
+4. <b>Paste</b> (Ctrl+V) the Iron Sword folder in here. 
+
+It should now look like this: `Outward\Mods\SideLoader\Test\Items\2000010_IronSword\`.
 
 ![Moving the folder to our own SL Pack.](https://i.imgur.com/gjxhoWk.png)
 
