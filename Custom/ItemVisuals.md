@@ -166,7 +166,7 @@ For standard Item Visual prefabs, all you have to do is:
 * Create a <b>GameObject</b> out of your model.
 * Add a <b>BoxCollider</b> to this gameobject
 
-!> <b>Important!</b> <ul><li>Make sure that the <b>scale</b> of your base Transform is <b>(1.0, 1.0, 1.0)</b>.</li><li>If you need to scale the model, use the "Import Settings" on the .fbx in the Unity Editor.</li><li>Use the "Position", "Rotation", "RotationOffset" and "PositionOffset" settings on the SL_Item template to position and rotate the visuals.
+!> <b>Important!</b> Make sure that the <b>scale</b> of your base Transform is <b>(1.0, 1.0, 1.0)</b>. If you need to scale the model, use the "Import Settings" on the .fbx in the Unity Editor. Use the "Position", "Rotation", "RotationOffset" and "PositionOffset" settings on the SL_Item template to position and rotate the visuals.
 
 Once you set that up, build it to an asset bundle and put it in your `[MyPack]/AssetBundles/` folder.
 
