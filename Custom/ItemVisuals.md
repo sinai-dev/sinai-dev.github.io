@@ -65,6 +65,8 @@ For each of those three fields, you can define either a SL_ItemVisual or SL_Armo
 
 These are the fields you can set on a SL_ItemVisual object.
 
+?> <b>Note:</b> the `Prefab_` fields are not required. They're only used if you are using your own custom Visual Prefabs.
+
 `Prefab_SLPack` (string)
 * The name of the SLPack you are using for the visuals.
 * This means you can use Asset Bundles found in other SLPacks, if you want to.
