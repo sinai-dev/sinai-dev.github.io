@@ -9,27 +9,27 @@ First, have a quick read of the [SL Packs](GettingStarted/SLPacks) article to un
 
 Next, start Outward. We are going to use the [SL Menu](GettingStarted/SLMenu) to generate a template from an existing Item for us.
 
-![Using the SL Menu.](https://i.imgur.com/5QQbJnn.png)
-
 In game, press <b>Ctrl + Alt + F6</b> to open the SL Menu. In the Items panel, enter `2000010` as the Target Item ID, as well as the New Item ID. Press the button to generate the template.
 
-![The `_GENERATED\` folder should look like this.](https://i.imgur.com/tqcQTzc.png)
+![Using the SL Menu.](https://i.imgur.com/5QQbJnn.png)
 
 Now, open the folder `Outward\Mods\SideLoader\_GENERATED\`, this is SideLoader's folder for generated templates. Inside here, you should see an `Items\` sub-folder, which should contain a folder called `2000010_IronSword\`.
 
-![Moving the folder to our own SL Pack.](https://i.imgur.com/gjxhoWk.png)
+![The `_GENERATED\` folder should look like this.](https://i.imgur.com/tqcQTzc.png)
 
 <b>Cut</b> this Iron Sword folder (Ctrl+X), and go back to the `SideLoader\` folder. Create a new folder in here called `Test\`, create a sub-folder for Items (`Test\Items\`), and <b>Paste</b> (Ctrl+V) the Iron Sword folder in here. It should now look like this: `Outward\Mods\SideLoader\Test\Items\2000010_IronSword\`.
 
-Have a look at the related article ([Custom Items](Custom/Items)) to get a better understanding of what you're looking at. There might be a lot of information, don't worry if you don't understand it all right away.
+![Moving the folder to our own SL Pack.](https://i.imgur.com/gjxhoWk.png)
 
-![The SL_Item XML file should look something like this.](https://i.imgur.com/zfrmzTJ.png)
+Have a look at the related article ([Custom Items](Custom/Items)) to get a better understanding of what you're looking at. There might be a lot of information, don't worry if you don't understand it all right away.
 
 Now, open the `2000010_IronSword\Iron Sword.xml` file and have a look. Let's do something simple to start with and change the `<Description />`.
 
-![Setting a new description.](https://i.imgur.com/g14TBOZ.png)
+![The SL_Item XML file should look something like this.](https://i.imgur.com/zfrmzTJ.png)
 
 To set a value, we will need to expand the brackets. Replace the value with this: `<Description>Test.</Description>`. 
+
+![Setting a new description.](https://i.imgur.com/g14TBOZ.png)
 
 Start the game, and press F1 to open the in-game Debug Menu (requires a file called `DEBUG.txt` to exist in the folder `Outward\Outward_Data\`). Spawn the Iron Sword and have a look at your changes, our description should now be set.
 
