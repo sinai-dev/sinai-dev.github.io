@@ -57,6 +57,8 @@ With Debug Mode enabled, start Outward. Once in-game, press <b>F1</b> to open th
 
 If there were any errors, SideLoader should log them in the file `Outward\output_log.txt`.
 
+See also: [Custom Items](Custom/Items)
+
 ## Replacing Basic Assets
 
 ?> This guide shows you an example of how you can replace simple assets (Audio / Music).
@@ -69,7 +71,11 @@ Next, rename your audio clip so that it matches the name of an existing audio cl
 
 Start the game, and you should now hear your audio clip.
 
+See also: [Replacing Audio](Replacing/Audio)
+
 For textures (not including certain menu assets), you can replace them in the same fashion with `.png` files. Put the texture `.png` file in the `Texture2D\` sub-folder of your pack. To get the name of a texture for replacement, see [this article](Replacing/Textures?id=finding-textures).
+
+See also: [Replacing Textures](Replacing/Textures)
 
 ## Examples
 
@@ -98,7 +104,3 @@ A <span style="color:red">*</span> indicates that the source code may not be vis
 
 ### Status Effects
 * [Protection Bubble Shield](https://www.nexusmods.com/outward/mods/150)
-
-## WIP
-
-Work-in-progress, please wait...
