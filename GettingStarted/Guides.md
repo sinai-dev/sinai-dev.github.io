@@ -34,17 +34,24 @@ It should now look like this: `Outward\Mods\SideLoader\Test\Items\2000010_IronSw
 
 ![Moving the folder to our own SL Pack.](https://i.imgur.com/gjxhoWk.png)
 
-Have a look at the related article ([Custom Items](Custom/Items)) to get a better understanding of what you're looking at. There might be a lot of information, don't worry if you don't understand it all right away.
+Now let's make a basic change to the Item.
 
-Now, open the `2000010_IronSword\Iron Sword.xml` file and have a look. Let's do something simple to start with and change the `<Description />`.
+1. Open the `2000010_IronSword\Iron Sword.xml` file and have a look. 
+2. Have a look at the <b>Description</b> field. Since there is no value set, it is displayed as `<Description />` in the XML file.
 
 ![The SL_Item XML file should look something like this.](https://i.imgur.com/zfrmzTJ.png)
 
-To set a value, we will need to expand the brackets. Replace the value with this: `<Description>Test.</Description>`. 
+To set a value, we will need to expand the brackets. 
+1. Delete the existing value for the Description completely.
+2. Replace the value with this: `<Description>Test.</Description>`. 
 
 ![Setting a new description.](https://i.imgur.com/g14TBOZ.png)
 
-Start the game, and press F1 to open the in-game Debug Menu (requires a file called `DEBUG.txt` to exist in the folder `Outward\Outward_Data\`). Spawn the Iron Sword and have a look at your changes, our description should now be set.
+Before we start the game and inspect our changes, make sure you have enabled the <b>Outward Debug Menu</b> first:
+1. Open the folder `Outward\Outward_Data\`
+2. Create a .txt file called "DEBUG", it should look like `DEBUG.txt`. <b>Note:</b> if you have "Show File Extensions" disabled, it will need to look like "DEBUG" instead of "DEBUG.txt".
+
+With Debug Mode enabled, start Outward. Once in-game, press <b>F1</b> to open the Item Spawner, then spawn an Iron Sword and have a look, our description should now be set.
 
 ![It worked!](https://i.imgur.com/UxuA8ky.png)
 
