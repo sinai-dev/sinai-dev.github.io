@@ -46,31 +46,7 @@ Unless you are an advanced user, I would recommend only generating these materia
 `_EmissionTex.png`
 * Emissive map (glow map)
 
-# Custom Visual Prefabs
-
-There are two parts to setting up your custom Visual Prefabs.
-
-## In Unity Editor
-
-!> <b>Note:</b> You must use the same version of the Unity Editor that Outward uses to build your asset bundles. Currently, this is <b>[Unity 2018.4.8](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)</b>.
-
-First, make sure you are familiar with the [AssetBundle Workflow](https://docs.unity3d.com/Manual/AssetBundles-Workflow.html) in the Unity Editor as well as working with [SL Pack AssetBundles](SL-Packs#assetbundles).
-
-Secondly, note that custom visual prefabs for <b>Armor</b> or <b>Bows</b> is not supported yet. If you figure it out, please let me know! You need to work out how to use the game's SkinnedMeshRenderer and Human_v.fbx rig to set up your own armor .fbx correctly with Blender.
-
-For standard Item Visual prefabs, all you have to do is:
-* Create a <b>GameObject</b> out of your model.
-* Add a <b>BoxCollider</b> to this gameobject
-
-<B>IMPORTANT!</b>
-* Make sure that the <b>scale</b> of your base Transform is <b>(1.0, 1.0, 1.0)</b>.
-* Make sure that the <b>rotation</b> of your base Transform is <b>(0.0, 0.0, 0.0)</b>.
-* If you need to scale the model, use the "Import Settings" on the .fbx in the Unity Editor.
-* Use the "RotationOffset" and "PositionOffset" settings on the SL_Item template to position and rotate the visuals.
-
-Once you set that up, build it to an asset bundle and chuck it in your `[MyPack]/AssetBundles/` folder.
-
-## SL_Item Template
+# In the SL_Item template
 
 There are three fields in the SL_Item Template which relate to the custom visual prefabs. Each of these fields represent a SL_ItemVisual object, where you can define the data for each type of visuals.
 
@@ -85,7 +61,7 @@ There are three fields in the SL_Item Template which relate to the custom visual
 
 For each of those three fields, you can define either a SL_ItemVisual or SL_ArmorVisuals object. Generally though you should match the type of SL_ItemVisual you are replacing. You can only replace prefabs if the target item also used the same type of visuals at the moment.
 
-### SL_ItemVisual
+## SL_ItemVisual
 
 These are the fields you can set on a SL_ItemVisual object.
 
@@ -101,7 +77,7 @@ These are the fields you can set on a SL_ItemVisual object.
 * Set this to the name of the <b>GameObject</b> in the AssetBundle for your visual prefab.
 * Make sure you actually made a GameObject out of your 3D model and you're not trying to load a Mesh object directly.
 
-#### Vector3 Settings {docsify-ignore}
+### Vector3 Settings {docsify-ignore}
 
 The next 4 settings are Vector3 settings. In xml, a Vector3 looks like this:
 ```xml
@@ -128,7 +104,7 @@ The next 4 settings are Vector3 settings. In xml, a Vector3 looks like this:
 `RotationOffset` (Vector3)
 * An offset applied to the rotation. You can use this to copy the rotation of the original visuals, and only apply an offset from that.
 
-### SL_ArmorVisuals
+## SL_ArmorVisuals
 SL_ArmorVisuals inherits from SL_ItemVisual, and contains two extra fields.
 
 `HideFace`
@@ -137,7 +113,7 @@ SL_ArmorVisuals inherits from SL_ItemVisual, and contains two extra fields.
 `HideHair`
 * For head or chest armor only. Does equipping these visuals hide the player's hair?
 
-### Xml Example
+## Xml Example
 Here is an Xml Example of an SL_ItemVisual object.
 
 ```xml
@@ -173,6 +149,30 @@ Here is an Xml Example of an SL_ItemVisual object.
 <SpecialItemVisuals>
 <!-- etc... -->
 ```
+
+# Custom Visual Prefabs
+
+There are two parts to setting up your custom Visual Prefabs.
+
+## Creating the AssetBundle
+
+!> <b>Note:</b> You must use the same version of the Unity Editor that Outward uses to build your asset bundles. Currently, this is <b>[Unity 2018.4.8](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)</b>.
+
+First, make sure you are familiar with the [AssetBundle Workflow](https://docs.unity3d.com/Manual/AssetBundles-Workflow.html) in the Unity Editor as well as working with [SL Pack AssetBundles](SL-Packs#assetbundles).
+
+Secondly, note that custom visual prefabs for <b>Armor</b> or <b>Bows</b> is not supported yet. If you figure it out, please let me know! You need to work out how to use the game's SkinnedMeshRenderer and Human_v.fbx rig to set up your own armor .fbx correctly with Blender.
+
+For standard Item Visual prefabs, all you have to do is:
+* Create a <b>GameObject</b> out of your model.
+* Add a <b>BoxCollider</b> to this gameobject
+
+!> <b>Important!</b> <ul><li>Make sure that the <b>scale</b> of your base Transform is <b>(1.0, 1.0, 1.0)</b>.</li><li>If you need to scale the model, use the "Import Settings" on the .fbx in the Unity Editor.</li><li>Use the "Position", "Rotation", "RotationOffset" and "PositionOffset" settings on the SL_Item template to position and rotate the visuals.
+
+Once you set that up, build it to an asset bundle and put it in your `[MyPack]/AssetBundles/` folder.
+
+## Set the SL_ItemVisual
+
+Once you've created the AssetBundle, you'll need to set the `Prefab_SLPack`, `Prefab_AssetBundle` and `Prefab_Name` in the SL_ItemVisual template. See above for more details.
 
 # AssetBundle Textures
 SideLoader supports setting textures from an AssetBundle. This is mainly used for bulk texture changes, since doing so with .png files would take an extremely long time.
