@@ -125,16 +125,8 @@ Here is an Xml Example of an SL_ItemVisual object.
     <Prefab_Name>TsarRevolver_prefab</Prefab_Name>
     <!-- 
     I don't define Position or Rotation, so they are copied from the original.
-    <Position>
-        <x></x>
-        <y></y>
-        <z></z>
-    </Position>
-    <Rotation>
-        <x></x>
-        <y></y>
-        <z></z>
-    </Rotation>
+	I simply use the PositionOffset and RotationOffset to adjust my visuals slightly.
+	This was figured out with some trial and error.
     -->
     <PositionOffset>
         <x>-0.02</x>
@@ -167,8 +159,9 @@ Secondly, note that custom visual prefabs for <b>Armor</b> or <b>Bows</b> is not
 For standard Item Visual prefabs, all you have to do is:
 * Create a <b>GameObject</b> out of your model.
 * Add a <b>BoxCollider</b> to this gameobject
+* The base GameObject <b>must have a MeshRenderer on it</b>. It can just be a blank MeshRenderer, but the component must exist.
 
-!> <b>Important!</b> Make sure that the <b>scale</b> of your base Transform is <b>(1.0, 1.0, 1.0)</b>. If you need to scale the model, use the "Import Settings" on the .fbx in the Unity Editor. Use the "Position", "Rotation", "RotationOffset" and "PositionOffset" settings on the SL_Item template to position and rotate the visuals.
+!> <b>Important!</b> Make sure that the <b>scale</b> of your base Transform is <b>(1.0, 1.0, 1.0)</b>. If you need to scale the model, use the "Import Settings" on the .fbx in the Unity Editor. 
 
 Once you set that up, build it to an asset bundle and put it in your `[MyPack]/AssetBundles/` folder.
 
