@@ -2,7 +2,12 @@
 
 <b>Custom Item Visuals</b> (including icons, textures or entire prefabs) can be defined either through your SL Pack, or directly from C#.
 
-# Using PNG Files
+There are three main features SideLoader offers related to Item Visuals:
+* Setting and modifying the textures using <b>.png</b> and <b>.xml</b> files.
+* Setting and modifying visual prefabs using <b>AssetBundles</b> and <b>.xml</b> files.
+* Using AssetBundles to make bulk texture changes quickly.
+
+## Replace Textures with PNGs
 
 First, you <b>need to create a sub-folder for the custom item</b> inside your `Items` folder if you want to use custom png files.
 * It should look like `[SLPack]/Items/[MyItem]/`.
@@ -46,7 +51,54 @@ Unless you are an advanced user, I would recommend only generating these materia
 `_EmissionTex.png`
 * Emissive map (glow map)
 
-# In the SL_Item template
+### SL_Material
+
+SideLoader allows you to adjust the Material and Shader properties through xml files. This is done with a file called <b>properties.xml</b>, which must be placed in the Material sub-folder for the textures.
+
+When you generate a template with the SL Menu, it will include these xml files in the correct structure for you.
+
+?> <b>Tip:</b> you can copy the properties.xml (or sections of it) from one material to another.
+
+`ShaderName` (string)
+* Sets the <b>Shader</b> that will be used on the Material.
+* Unless you know how to find the Shader names, just copy this from other materials if you need to.
+* You can also set this to Unity's default shaders, such as PBR.
+
+`Keywords` (list of string)
+* A list of `<string>` values which determines the <b>enabled keywords</b> on the Shader.
+* Keywords are used to enable certain special features of the Shader.
+
+`Properties` (list of ShaderProperty)
+* A list of `ShaderProperty` objects, used to set properties on the shader.
+* See the ShaderProperty section below.
+
+`TextureConfigs` (list of TextureConfig)
+* A list of `TextureConfig` objects, used to set some config values for the Textures.
+* See the TextureConfig section below.
+
+#### ShaderProperty
+
+A `ShaderProperty` only has one value, called `Value`. However, the type of this value will vary depending on the type of ShaderProperty.
+
+* A <b>FloatProperty</b> will expect a <b>float</b> value (number).
+* A <b>ColorProperty</b> will expect a <b>Color</b> value (`r`, `g`, `b`, `a`)
+* A <b>VectorProperty</b> will expect a <b>Vector4</b> value (`x`, `y`, `z`, `w`)
+
+#### TextureConfig
+
+A `TextureConfig` has a few simple values which determine how SideLoader loads the associated Texture.
+
+`TextureName` (string)
+* Must match the name of one of the textures being set on this material.
+
+`UseMipMap` (true/false)
+* Default `true`
+* If true, will enable <b>MipMap</b> for this texture (adjusts resolution dynamically per distance)
+
+`MipMapBias` (integer)
+* If `UseMipMap = true`, this will set the MipMap Bias level. Only set if you know what you're doing.
+
+## Changing Visual Prefabs
 
 There are three fields in the SL_Item Template which relate to the custom visual prefabs. Each of these fields represent a SL_ItemVisual object, where you can define the data for each type of visuals.
 
@@ -61,7 +113,7 @@ There are three fields in the SL_Item Template which relate to the custom visual
 
 For each of those three fields, you can define either a SL_ItemVisual or SL_ArmorVisuals object. Generally though you should match the type of SL_ItemVisual you are replacing. You can only replace prefabs if the target item also used the same type of visuals at the moment.
 
-## SL_ItemVisual
+### SL_ItemVisual
 
 These are the fields you can set on a SL_ItemVisual object.
 
@@ -79,7 +131,7 @@ These are the fields you can set on a SL_ItemVisual object.
 * Set this to the name of the <b>GameObject</b> in the AssetBundle for your visual prefab.
 * Make sure you actually made a GameObject out of your 3D model and you're not trying to load a Mesh object directly.
 
-### Vector3 Settings {docsify-ignore}
+#### Vector3 Settings {docsify-ignore}
 
 The next 4 settings are Vector3 settings. In xml, a Vector3 looks like this:
 ```xml
@@ -106,7 +158,7 @@ The next 4 settings are Vector3 settings. In xml, a Vector3 looks like this:
 `RotationOffset` (Vector3)
 * An offset applied to the rotation. You can use this to copy the rotation of the original visuals, and only apply an offset from that.
 
-## SL_ArmorVisuals
+### SL_ArmorVisuals
 SL_ArmorVisuals inherits from SL_ItemVisual, and contains two extra fields.
 
 `HideFace`
@@ -115,7 +167,7 @@ SL_ArmorVisuals inherits from SL_ItemVisual, and contains two extra fields.
 `HideHair`
 * For head or chest armor only. Does equipping these visuals hide the player's hair?
 
-## Xml Example
+### Xml Example
 Here is an Xml Example of an SL_ItemVisual object.
 
 ```xml
@@ -144,11 +196,11 @@ Here is an Xml Example of an SL_ItemVisual object.
 <!-- etc... -->
 ```
 
-# Custom Visual Prefabs
+## Custom Visual Prefabs
 
 There are two parts to setting up your custom Visual Prefabs.
 
-## Creating the AssetBundle
+### Creating the AssetBundle
 
 !> <b>Note:</b> You must use the same version of the Unity Editor that Outward uses to build your asset bundles. Currently, this is <b>[Unity 2018.4.8](https://download.unity3d.com/download_unity/9bc9d983d803/Windows64EditorInstaller/UnitySetup64-2018.4.8f1.exe)</b>.
 
@@ -165,16 +217,16 @@ For standard Item Visual prefabs, all you have to do is:
 
 Once you set that up, build it to an asset bundle and put it in your `[MyPack]/AssetBundles/` folder.
 
-## Set the SL_ItemVisual
+### Set the SL_ItemVisual
 
 Once you've created the AssetBundle, you'll need to set the `Prefab_SLPack`, `Prefab_AssetBundle` and `Prefab_Name` in the SL_ItemVisual template. See above for more details.
 
-# AssetBundle Textures
+## AssetBundle Textures
 SideLoader supports setting textures from an AssetBundle. This is mainly used for bulk texture changes, since doing so with .png files would take an extremely long time.
 
 These special AssetBundles must be placed in a folder called `TextureBundles` (case sensitive) in the `Items` folder of your SL Pack. For example, `MyPack\Items\TextureBundles\mybundle`.
 
-### Step 1: {docsify-ignore}
+#### Step 1: {docsify-ignore}
 Firstly, create a new Unity Project. Use Unity version 2018.4.
 
 In the project, create a folder called "Editor", and create a new C# script inside this folder.
@@ -183,7 +235,7 @@ Copy and paste the script provided here (in the "Building the Asset Bundles" sec
 
 You should now see the option to "Build AssetBundles" in the Assets drop-down menu at the top of the Editor.
 
-### Step 2: {docsify-ignore}
+#### Step 2: {docsify-ignore}
 Now you need to create a folder corresponding to each Item you want to set. These folders should be placed directly into the root "Assets" folder of your project. Your "Assets" folder can be thought of as the same as the "Items" folder in your SL Pack.
 
 !> <b>Note:</b> These folder names <b>must start with</b> the Item ID of the item the textures correspond to. When generating from the SL Menu, it will be in this structure by default. You can put whatever you want after the ID, but it must start with the ID.
@@ -200,7 +252,7 @@ It should look something like this:
 
 ![The Unity Project structure](https://i.imgur.com/OG93Kfe.png)
 
-### Step 3: {docsify-ignore}
+#### Step 3: {docsify-ignore}
 Now, go back to the base Assets folder and select all of the Item folders. 
 
 In the bottom right of the Editor next to AssetBundle, click "None" and then click "New..." and pick any name for the bundle.
