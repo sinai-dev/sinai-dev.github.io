@@ -9,17 +9,17 @@ Before we start, have a quick read of the [SL Packs](GettingStarted/SLPacks) art
 
 Next, start Outward. We are going to use the [SL Menu](GettingStarted/SLMenu) to generate a template from an existing Item for us.
 
-# In game, press <b>Ctrl + Alt + F6</b> to open the SL Menu. 
-# In the Items panel, enter `2000010` as the Target Item ID, as well as the New Item ID. 
-# Press the button to generate the template.
+1. In game, press <b>Ctrl + Alt + F6</b> to open the SL Menu. 
+2. In the Items panel, enter `2000010` as the Target Item ID, as well as the New Item ID. 
+3. Press the button to generate the template.
 
 ![Using the SL Menu.](https://i.imgur.com/5QQbJnn.png)
 
 Let's find the template SideLoader generated.
 
-# Open `Outward\Mods\SideLoader\_GENERATED\`, this is where SideLoader generates templates to. 
-# Inside here, you should see an `Items\` sub-folder
-# Inside Items, you should see a folder called `2000010_IronSword\`.
+1. Open `Outward\Mods\SideLoader\_GENERATED\`, this is where SideLoader generates templates to. 
+2. Inside here, you should see an `Items\` sub-folder
+3. Inside Items, you should see a folder called `2000010_IronSword\`.
 
 ![The `_GENERATED\` folder should look like this.](https://i.imgur.com/tqcQTzc.png)
 
