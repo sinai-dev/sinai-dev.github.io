@@ -5,15 +5,21 @@ This page contains some guides and examples to help you get started using SideLo
 ## Making a Custom Item
 ?> This guide introduces you to the concept of SL Packs, and shows you how to edit an Item.
 
-First, have a quick read of the [SL Packs](GettingStarted/SLPacks) article to understand how to work with SideLoader from folders. No knowledge of C# is necessary for this.
+Before we start, have a quick read of the [SL Packs](GettingStarted/SLPacks) article to understand how to work with SideLoader from folders. No knowledge of C# is necessary for this.
 
 Next, start Outward. We are going to use the [SL Menu](GettingStarted/SLMenu) to generate a template from an existing Item for us.
 
-In game, press <b>Ctrl + Alt + F6</b> to open the SL Menu. In the Items panel, enter `2000010` as the Target Item ID, as well as the New Item ID. Press the button to generate the template.
+# In game, press <b>Ctrl + Alt + F6</b> to open the SL Menu. 
+# In the Items panel, enter `2000010` as the Target Item ID, as well as the New Item ID. 
+# Press the button to generate the template.
 
 ![Using the SL Menu.](https://i.imgur.com/5QQbJnn.png)
 
-Now, open the folder `Outward\Mods\SideLoader\_GENERATED\`, this is SideLoader's folder for generated templates. Inside here, you should see an `Items\` sub-folder, which should contain a folder called `2000010_IronSword\`.
+Let's find the template SideLoader generated.
+
+# Open `Outward\Mods\SideLoader\_GENERATED\`, this is where SideLoader generates templates to. 
+# Inside here, you should see an `Items\` sub-folder
+# Inside Items, you should see a folder called `2000010_IronSword\`.
 
 ![The `_GENERATED\` folder should look like this.](https://i.imgur.com/tqcQTzc.png)
 
