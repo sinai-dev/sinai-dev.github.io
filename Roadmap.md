@@ -9,7 +9,8 @@ This is a rough plan of the development of SideLoader. The order is not set in s
 - [x] Custom Items
 
 ## v2.X
-- [x] Custom Tags (C#)
+- [x] Using BepInEx / Harmony
+- [x] Re-write Custom Serializer
 - [x] Custom Item Visuals
 - [x] Item Extensions
 - [x] Item Recipes
@@ -21,6 +22,7 @@ This is a rough plan of the development of SideLoader. The order is not set in s
   - [ ] Savable Characters
   - [ ] SL_Summon Support
 - [x] Custom Enchantments
+- [x] Custom Tags (C#)
 - [x] Hot Reloading
 
 Missing classes:
