@@ -86,7 +86,7 @@ SL 3.0 is probably a long way off, but my rough idea is:
 
 Maybe:
 - [ ] SkinnedMeshRenderer support <span style="color:red">*</span>
-- [ ] XML Skill Trees / Skil Trainer setup
+- [ ] XML Skill Trees / Skill Trainer setup
 - [ ] XML Custom Tags
 - [ ] Item Sources (adding items to merchants, droptables, etc)
 - [ ] Custom Quests, or at least SL_Quest (SL_Item)
