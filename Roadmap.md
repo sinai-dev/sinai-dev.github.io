@@ -11,6 +11,7 @@ This is a rough plan of the development of SideLoader. The order is not set in s
 ## v2.X
 - [x] Using BepInEx / Harmony
 - [x] Re-write Custom Serializer
+- [x] SL Template Generator
 - [x] Custom Item Visuals
 - [x] Item Extensions
 - [x] Item Recipes
