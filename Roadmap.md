@@ -29,3 +29,4 @@ Note: the order is not set in stone, this is a rough plan.
 Maybe:
 - [ ] Item Sources (adding items to merchants, droptables, etc)
 - [ ] Custom Dialogue / NodeCanvas Support
+- [ ] Custom Quests
