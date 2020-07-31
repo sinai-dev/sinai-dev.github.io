@@ -1,4 +1,4 @@
-# SL_Effect
+# Effects
 
 An <b>SL_Effect</b> object can be defined on an [Effect Transform](Effects/EffectTransforms). 
 
@@ -21,7 +21,7 @@ For example:
     <Buildup>60</Buildup>
 </SL_Effect>
 ```
-## SL_Effect Base Fields
+## SL_Effect
 
 <b>All SL_Effect classes have these fields.</b>
 

@@ -1,4 +1,4 @@
-# SL_EffectCondition
+# Effect Conditions
 
 An <b>SL_EffectCondition</b> object can be defined on an [Effect Transform](Effect-Transforms). 
 
@@ -13,7 +13,7 @@ When defining an SL_EffectCondition, simply define them like any other Xml objec
 </SL_EffectCondition>
 ```
 
-## SL_EffectCondition Base Fields
+## SL_EffectCondition
 
 The only base field which is shared by all EffectConditions is:
 
@@ -22,7 +22,7 @@ The only base field which is shared by all EffectConditions is:
 * Used if your condition produces the opposite behaviour than intended.
 * Also used by "XOR" (exclusive-or, or mutually-exclusive) conditions, with one inverted and one not inverted.
 
-# SL_EffectCondition Subclasses
+# SL_EffectCondition sub-classes
 
 These are all the subclasses of SL_EffectCondition. They all contain the Invert field above.
 
@@ -266,3 +266,9 @@ Checks if the weapon in the given slot is loaded or not.
 `SlotToCheck` (enum)
 * The Weapon Slot to check.
 * Must be exactly one of: `MainHand` or `OffHand`.
+
+## SL_WindAltarActivatedCondition
+
+Just checks if the Wind Altar is activated in the current region.
+
+Has no extra fields, just Invert.

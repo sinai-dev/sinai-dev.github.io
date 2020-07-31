@@ -36,3 +36,11 @@ To find the ID of the status you want to dump, use [this Google Sheet](https://d
 Pick any Enchantment ID off [this list](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Enchantments.txt).
 
 The template will be generated to `Mods\SideLoader\_GENERATED\Enchantments\`.
+
+### Hot Reload
+
+The <b>Hot Reloading</b> tab is for reloading and re-applying all SL Pack folders at runtime.
+
+You can use this to speed up the development work-flow when creating your SL mods.
+
+Some aspects of SideLoader may not support Hot Reloading. The C# Events (`OnPacksLoaded`, etc) are <b>NOT</b> called on hot reloads.

@@ -73,6 +73,10 @@ On <b>SL_ImbueEffect</b>, you need to set the TargetStatusID and the NewStatusID
 `IsHidden` (true / false)
 * Is the status completely hidden?
 
+`IsMalusEffect` (true/false)
+* Determines the category this effect is shown under in the HUD.
+* `true` will show this effect in the Negative category, `false` will show it in the Positive category.
+
 `Tags` (list of string)
 * The `Tags` is a list of string (text) values. For statuses, these are not used that much.
 * See [this Google Sheet](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=1840819680) for a list of tags.
