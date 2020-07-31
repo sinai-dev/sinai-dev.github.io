@@ -7,19 +7,19 @@ This is a rough plan of the development of SideLoader. The order is not set in s
 - [x] Texture Replacement
 - [x] Audio Replacement
 - [x] Custom Items
+- [x] Item Visuals
 
 ## v2.X
 - [x] Using BepInEx / Harmony
 - [x] Re-write Custom Serializer
 - [x] SL Template Generator
-- [x] Custom Item Visuals
 - [x] Item Extensions
 - [x] Item Recipes
-- [x] Custom Skill Trees
-- [x] Custom Status Effects
+- [x] Skill Trees
+- [x] Status Effects
 - [x] Effect Serialization
   - [x] Effect Conditions
-- [x] Custom Characters
+- [x] Characters
   - [ ] Savable Characters
   - [ ] SL_Summon Support
 - [x] Custom Enchantments
@@ -30,13 +30,14 @@ Missing classes:
 - [ ] SL_MeleeWeapon
 - [ ] SL_DualMeleeWeapon
 - [ ] SL_ProjectileWeapon
-- [ ] All SL_Effect/SL_EffectCondition sub-classes
+- [ ] Some SL_Effect/SL_EffectCondition sub-classes
 
 Maybe:
 - [ ] Custom or Modified Blast/Projectile Visuals
 
 ## v3.X
 SL 3.0 is probably a long way off, but my rough idea is:
+- [ ] SkinnedMeshRenderer support
 - [ ] Improved SL Menu
   - [ ] Browser for loaded SL Packs
   - [ ] Editing SL templates
