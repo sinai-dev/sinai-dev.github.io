@@ -3,12 +3,12 @@ This is a rough plan of the development of SideLoader. The order is not set in s
 
 <span style="color:red">*</span> = out of my control at the moment.
 
-## V 1.X
+## v1.X
 - [x] Texture Replacement
 - [x] Audio Replacement
 - [x] Custom Items
 
-## V 2.X
+## v2.X
 - [x] Custom Tags (C#)
 - [x] Custom Item Visuals
 - [x] Item Extensions
@@ -26,7 +26,7 @@ This is a rough plan of the development of SideLoader. The order is not set in s
 Maybe:
 - [ ] Custom or Modified Blast/Projectile Visuals
 
-## V 3.X
+## v3.X
 SL 3.0 is probably a long way off, but my rough idea is:
 - [ ] Improved SL Menu
   - [ ] Browser for loaded SL Packs
