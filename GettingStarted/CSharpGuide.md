@@ -28,7 +28,8 @@ The events you can subscribe to are:
 The `SLPack` class is the C# wrapper for SL Pack folders.
 
 * Use `SL.Packs["MyPackName"]` to get a handle on your pack.
-* You can do `myPack.AssetBundles["MyAssetBundle"]`, or `myPack.Texture2D["MyTexturePNGName"]`, etc.
+* You can access certain assets from your SL Pack with this class.
+* See also [SLPack (C# API)](https://sinaioutlander.github.io/_docfx/api/SideLoader.SLPack.html)
 
 ## Custom Items
 
@@ -49,9 +50,12 @@ internal void Awake()
 
 private void BeforePacksLoaded()
 {
-    /* You can define any SL_Item class: SL_Item, SL_Equipment, SL_Skill, SL_Weapon, SL_Bag */
+    /* You can define any SL_Item class, we'll use SL_Weapon for this example. */
     var template = new SL_Weapon()
     {
+		Target_ItemID = 2000010, // iron sword
+		New_ItemID = 2000010,
+		
         Name = "MyItem",
         StatsHolder = new SL_WeaponStats()
         {
@@ -62,7 +66,7 @@ private void BeforePacksLoaded()
 
     /* If setting any custom item visuals or icons, you need to set these next two values. */
 
-    /* The SLPack folder name in the SideLoader/ folder */
+    /* The SLPack folder name which you want to use */
     template.SLPackName = "MyPackName"; 
 
     /* The subfolder name in the Items/ folder of the SLPack for this custom item.
