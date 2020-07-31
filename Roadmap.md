@@ -37,7 +37,7 @@ Maybe:
 
 ## v3.X
 SL 3.0 is probably a long way off, but my rough idea is:
-- [ ] SkinnedMeshRenderer support
+- [ ] SkinnedMeshRenderer support <span style="color:red">*</span>
 - [ ] Improved SL Menu
   - [ ] Browser for loaded SL Packs
   - [ ] Editing SL templates
