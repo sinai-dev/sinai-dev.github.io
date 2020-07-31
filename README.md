@@ -8,12 +8,12 @@ SideLoader elsewhere:
 * [GitHub](https://github.com/sinaioutlander/Outward-Sideloader)
 * [NexusMods](https://www.nexusmods.com/outward/mods/96)
 
-### Installing
+### Installing {docsify-ignore}
 
 * <b>[Latest Release](https://github.com/sinaioutlander/Outward-SideLoader/releases)</b>
 * [How To Install](GettingStarted/Installation)
 
-### Getting Started
+### Getting Started {docsify-ignore}
 
 See these articles to get started making SL mods:
 * [Overview](GettingStarted/Overview.md)
@@ -21,13 +21,13 @@ See these articles to get started making SL mods:
 * [SL Menu](GettingStarted/SLMenu.md)
 * [Guides & Examples](GettingStarted/Guides.md)
 
-### External Links
+### External Links {docsify-ignore}
 
 See these links for useful references, files, examples, etc:
 * [Outward Tools](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=673914692) <i>(IDs, Tags, datamined info, etc).</i>
 * [SideLoader Resources](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources) <i>(GitHub repo of some useful files)</i>
 
-### Credits
+### Credits {docsify-ignore}
 
 SideLoader is written by Sinai.
 
