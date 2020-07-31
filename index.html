@@ -31,10 +31,17 @@
     }
 
     /* make Checkbox Tick look nicer */
-    .task-list-item input:checked {
-      /* display: block; */
-      color: #000 !important;
-      border: 2px solid #000 !important;
+    .task-list-item input[type='checkbox'] {
+      width: 30px !important;
+      height: 30px !important;
+      margin: 5px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -o-appearance: none;
+      appearance:none;
+      outline: 2px solid black;
+      box-shadow: none;
+      font-size: 2em;
     }
   </style>
 </head>
