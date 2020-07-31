@@ -30,8 +30,10 @@
       color: #b8ecf5!important;
     }
 
-    input[type="checkbox"]:checked + label::after {
-      border: 3px solid black !important;
+    /* make Checkbox Tick look nicer */
+    input.task-list-item:checked ~ .task-list-item:after {
+      display: block;
+      color: #000 !important; 
     }
   </style>
 </head>
