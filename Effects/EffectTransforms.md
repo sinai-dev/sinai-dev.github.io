@@ -52,11 +52,11 @@ Example of a Vector3 value in XML:
 
 `Effects` (list of SL_Effect)
 * The actual list of effects for this transform.
-* See [Effects and Conditions](#Effects_and_Conditions) below.
+* See [Effects and Conditions](#effects-and-conditions) below.
 
 `EffectConditions` (list of SL_EffectCondition)
 * An optional list of conditions, which will determine whether or not the effects are activated.
-* See [Effects and Conditions](#Effects_and_Conditions) below.
+* See [Effects and Conditions](#effects-and-conditions) below.
 
 `ChildEffects` (list of SL_EffectTransform)
 * Can contain child SL_EffectTransforms, allowing the same hierarchy structure as Unity Transforms.
