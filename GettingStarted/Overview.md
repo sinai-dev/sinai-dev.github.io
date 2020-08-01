@@ -3,7 +3,7 @@
 ## How are SideLoader mods made?
 There are two ways you can use SideLoader:
 1. Using <b>SL Packs</b> (folders containing <b>XML</b> files and other assets)
-2. Using <b>C#</b> API from your own plugin
+2. Using the <b>C#</b> API from your own plugin
 
 The main SideLoader Documentation primarily focuses on SL Packs and will use XML examples over C# examples, however all of the same rules apply to C# as well (see also: [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html)).
 
