@@ -22,10 +22,42 @@ As mentioned above, an SL_EffectTransform is a container for effects and conditi
 
 The fields on an SL_EffectTransform are:
 
-* `TransformName` - Name of this transform, determines the type of effects
-* `Effects` - List of `SL_Effect` objects
-* `EffectConditions` - Optional list of `SL_EffectCondition` objects
-* `ChildEffects` - Optional nested `SL_EffectTransform` objects
+`TransformName` (string)
+* Determines the <b>effects category</b>, and the name of the transform.
+
+`Position` (Vector3)
+* A vector3 has an `x`, `y` and `z` value.
+* Sets the local position of the transform.
+* By default, this is ignored. You can use this to set a non-zero position for the transform.
+* Certain effects may make use of this (eg. Backstab), but most don't.
+
+Example of a Vector3 value in XML:
+```xml
+<Position>
+	<x>1.5</x>
+	<y>2.0</y>
+	<z>-5.0</z>
+</Position>
+```
+
+`Scale` (Vector3)
+* This vector3 value sets the local scale (size) of the transform.
+* By default this is (1.0, 1.0, 1.0).
+* This would not have any effect in most cases, but for certain things it will affect the size of the effect.
+
+`Rotation` (Vector3)
+* Another vector3 value, sets the local rotation of the transform.
+* This one is even more rarely used, if at all. I included it for completeness.
+
+`Effects` (list of SL_Effect)
+* The actual list of effects for this transform.
+
+`EffectConditions` (list of SL_EffectCondition)
+* An optional list of conditions, which will determine whether or not the effects are activated.
+
+`ChildEffects` (list of SL_EffectTransform)
+* Can contain child SL_EffectTransforms, allowing the same hierarchy structure as Unity Transforms.
+* This is not really needed, but the devs sometimes use this to sort their effects more neatly.
 
 ### TransformName
 
