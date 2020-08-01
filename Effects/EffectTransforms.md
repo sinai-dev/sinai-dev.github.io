@@ -15,7 +15,7 @@ I recommend using the [SideLoader Menu](GettingStarted/SLMenu) to dump some exis
 * `DestroyEffects` will <b>wipe all the existing effects</b> before it applies yours. This is recommended in most cases if you are editing the effects.
 * `OverrideEffects` will <b>only destroy transforms if you have defined one with the same TransformName</b>. You can use this to have greater control and only replace specific transforms. In some cases, it is possible that there are duplicate-name children on one transform, and SideLoader has no way to solve this. You would need to use DestroyEffects and replace everything in this case.
 
-!> <b>Note:</b> Even if you don't define any SL_EffectTransforms, your EffectBehaviour is <b>still applied</b> to the base prefab.
+!> <b>Note:</b> Even if you don't define any SL_EffectTransforms, your EffectBehaviour is <b>still applied</b> to the base prefab. All SL classes have `OverrideEffects` or `NONE` as the default value if not set.
 
 ## SL_EffectTransform
 As mentioned above, an SL_EffectTransform is a container for effects and conditions. When defining your Effects on items, skills or status effects, you are defining a <b>list of SL_EffectTransforms</b>.
@@ -24,6 +24,7 @@ The fields on an SL_EffectTransform are:
 
 `TransformName` (string)
 * Determines the <b>effects category</b>, and the name of the transform.
+* See [TransformName](#TransformName) below.
 
 `Position` (Vector3)
 * A vector3 has an `x`, `y` and `z` value.
@@ -51,9 +52,11 @@ Example of a Vector3 value in XML:
 
 `Effects` (list of SL_Effect)
 * The actual list of effects for this transform.
+* See [Effects and Conditions](#Effects_and_Conditions) below.
 
 `EffectConditions` (list of SL_EffectCondition)
 * An optional list of conditions, which will determine whether or not the effects are activated.
+* See [Effects and Conditions](#Effects_and_Conditions) below.
 
 `ChildEffects` (list of SL_EffectTransform)
 * Can contain child SL_EffectTransforms, allowing the same hierarchy structure as Unity Transforms.
@@ -112,5 +115,12 @@ The base XML structure for an SL_EffectTransform should look like this:
   <ChildEffects>
     <!-- generally you don't need Child Effects for most things, but the game sometimes uses them -->
   </ChildEffects>
+  <!-- You don't need to set Position, Rotation or Scale, but it is used in some cases. -->
+  <!-- These values are all a Vector3. For example, position: -->
+  <Position>
+	<x>1.0</x>
+	<y>2.0</y>
+	<z>-5.0</z>
+  </Position>
 </SL_EffectTransform>
 ```
