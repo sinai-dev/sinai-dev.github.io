@@ -400,6 +400,54 @@ The `Damage` value is a list of `<float></float>` values.
     </Damage>
 ```
 
+## SL_MeleeWeapon
+
+`SL_MeleeWeapon` inherits from `SL_Weapon`, and contains a few extra fields.
+
+`LinecastCount` (int)
+* The amount of line casts (physics check) this weapon performs.
+
+`Radius` (float)
+* The radius of the line cast check
+
+## SL_DualMeleeWeapon
+
+`SL_DualMeleeWeapon` inherits from `SL_MeleeWeapon`, and contains no extra fields. It just tells the game to treat this item as a dual melee weapon (like Gauntlets).
+
+## SL_Ammunition
+
+`SL_Ammunition` inherits from `SL_Weapon`, and contains one extra field.
+
+`PoolCapacity` (int)
+* The maximum amount of arrow projectiles active in the object pool at one time (for this weapon)
+
+## SL_ProjectileWeapon
+
+`SL_ProjectileWeapon` inherits from `SL_Weapon`, and contains a few extra fields.
+
+`AutoLoad` (true/false)
+* Whether this weapon automatically loads?
+
+`UnloadOnSheathe` (true/false)
+* Whether or not to unload the weapon when it is sheathed
+
+`UnloadOnEquip` (true/false)
+* Whether to unload the weapon when it is unequipped
+
+`UnloadOnIncompleteShot` (true/false)
+* Whether to unload the weapon if the owner performs an incomplete shot
+
+`LocomotionEnabledOnReload` (true/false)
+* Whether the owner is able to move while reloading this weapon
+
+`LoadAnim` (enum)
+* A Character.SpellCastType value, sets the animation when loading.
+* See [this reference](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/Character.SpellCastType.txt) for the possible values you can set (there are a lot)
+
+`FullyBentSound` (enum)
+* The sound which plays when the bow is fully drawn.
+* Must be one of these values: [GlobalAudioManager.Sounds](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/GlobalAudioManager.Sounds.txt).
+
 ## SL_Bag
 Bags inherit from SL_Equipment, and contain a few extra fields.
 

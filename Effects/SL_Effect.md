@@ -45,6 +45,24 @@ Below are all the subclasses of SL_Effect. These contain the 3 fields above, as 
 
 ?> <b>Note:</b> There are a lot of subclasses. Use Ctrl+F to find the effects you are interested in.
 
+## SL_AchievementOnEffect
+
+Simply gives the player an Achievement when this effect is used.
+
+`UnlockedAchievement` (enum)
+* The achievement which will be unlocked
+* See [this list](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/AchievementManager.Achievements) for possible values.
+
+## SL_AchievementSetStatOnEffect
+
+Sets an Achievement Stat. These are used to track the player's progress for various Achievements.
+
+`StatToChange` (enum)
+* The AchievementStat to change. Must be one of: `NewRecipeLearned`, `LanternThrown`, `ItemEnchanted`, `SecretBossDefeated`
+
+`IncreaseAmount` (int)
+* The amount to increase the stat value by
+
 ## SL_AddStatusEffect
 Used for simply adding a status effect on activation.
 
@@ -264,6 +282,13 @@ For adding an <b>Imbue Preset</b> to a character.
 `Imbue_Slot` (enum)
 * Must be exactly one of: `MainHand` or `OffHand` 
 * The slot which this imbue preset will be applied to.
+
+## SL_LearnSkillEffect
+
+Simply teaches the player character a skill.
+
+`SkillID` (int)
+* The Item ID of the skill to teach.
 
 ## SL_LightLantern
 This effect lights or un-lights your lantern, if equipped.
