@@ -500,7 +500,7 @@ ShootBlast inherits from SL_Shooter, and contains some extra fields.
 * Determines the behaviour for your BlastEffects.
 * Must be exactly one of: `OverrideEffects`, `DestroyEffects` or `NONE`.
 
-`BlastEffects` (List<SL_EffectTransform>)
+`BlastEffects` (List of SL_EffectTransform)
 * List of actual effects on the blast.
 * See [the Effects article](Effects/EffectTransforms) for more information.
 
