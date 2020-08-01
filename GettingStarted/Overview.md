@@ -1,24 +1,37 @@
 # SL Overview
 
-This page covers some important basics about SideLoader, and clears up some common questions.
-
-## Editing Etiquette
-
-When using SideLoader to <b>edit existing assets</b>, you should be courteous of other modders and only change what you need to.
-
-Generally, you <b>only need to include what you are changing</b>. This goes for the textures and icons sometimes found in the exported files too. Let's say you are only changing the Description of an Item - you can remove everything from the XML template other than the Description field (and the Target / New ID fields), as well as deleting the icons and textures.
-
-By only changing what you need to, this allows your mod to be compatible with other edits to the same asset.
-
-## XML vs C#
-
+## How are SideLoader mods made?
 There are two ways you can use SideLoader:
-1. Using <b>SL Packs</b> and <b>XML</b>
+1. Using <b>SL Packs</b> and <b>XML</b> files
 2. Using <b>C#</b> directly from your own mod
 
-This Wiki mainly focuses on SL Packs / XML, however all of the same rules generally apply to C# as well.
+This Wiki mainly focuses on SL Packs / XML, however you can do most of the same (and more) with C# as well (see also: [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html)).
 
-For documentation on the C#, see the [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html).
+## What SideLoader can do?
+
+SideLoader's features can mostly be broken down into two categories: <b>Simple Replacements</b> of textures and audio, and more complex <b>Custom Assets</b> such as Items, Status Effects, Characters and more.
+
+As well as this, SideLoader offers some additional C# API, and various other helpers for asset loading and replacement, or custom content.
+
+### Simple Replacements
+
+SideLoader allows you to replace certain assets (currently `.png` textures and `.wav` audio) with your own files directly. This is designed to be as simple as possible, all you have to do is use the same file name that the game uses to replace the asset, and place it in the corresponding [SLPack folder](GettingStarted/SLPacks). 
+
+### Custom Assets
+SideLoader also offers an expansive API for all sorts of custom game assets such as Items, Status Effects, Characters and more. You can use this API to <b>edit existing content</b>, or <b>create completely new content</b> as well.
+
+You can do this with no knowledge at all of C# or programming, all you need to do is use the [SL Menu](GettingStarted/SLMenu) to generate templates for you from existing content and edit it as you like. If you do know C# you can also make use of SideLoader's C# API for some additional features.
+
+In a nutshell, SideLoader mirrors the game's classes and strips away everything unnecessary (or non-serializable) so that we can just use simple XML documents to create and edit them. You can also make use of custom textures and even custom AssetBundles for item visuals.
+
+## Editing Etiquette
+When using SideLoader to <b>edit existing assets</b>, you should be courteous of other modders and only include things in your template if you are actually changing them. This allows different types of SideLoader mods to be compatible with each other.
+
+For example, one mod might make changes to lots of item descriptions, and another might make changes to their textures. These two mods would be compatible with each other assuming both authors only included the things they are changing.
+
+The SL Menu can generate templates for you from existing assets, and it will include everything you might want to change when it generates the template. However you don't need to include all of the output when you are making your mod, and in fact you should delete everything you are not changing, other than the few required fields.
+
+When browsing the documentation for the related asset you are making, a few fields will be marked as <b>[REQUIRED]</b> near the top, and these are the only required parts.
 
 ## F.A.Q ##
 ### What should I do to get started? {docsify-ignore}

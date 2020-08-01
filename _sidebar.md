@@ -1,9 +1,9 @@
 - SideLoader
   - [Home](/)
+  - [Setup Guide](GettingStarted/Installation.md)
 
 - Getting Started
 
-  - [Installation](GettingStarted/Installation.md)
   - [Overview](GettingStarted/Overview.md)
   - [SL Packs](GettingStarted/SLPacks.md)
   - [SL Menu](GettingStarted/SLMenu.md)
