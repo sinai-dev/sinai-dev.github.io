@@ -62,12 +62,7 @@ This is a rough plan of the development of SideLoader. The order is not set in s
 - [x] Custom Enchantments
 - [x] Custom Tags (C#)
 - [x] Hot Reloading
-
-Missing classes:
-- [ ] SL_MeleeWeapon
-- [ ] SL_DualMeleeWeapon
-- [ ] SL_ProjectileWeapon
-- [ ] Some SL_Effect/SL_EffectCondition sub-classes
+- [x] All supported SL_Item, SL_Effect and SL_EffectConditions
 
 Maybe:
 - [ ] Custom or Modified Blast/Projectile Visuals

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SL_Weapon
+    <title>Class SL_MeleeWeapon
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SL_Weapon
+    <meta name="title" content="Class SL_MeleeWeapon
    ">
     <meta name="generator" content="docfx 2.56.1.0">
     
@@ -68,10 +68,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SideLoader.SL_Weapon">
+            <article class="content wrap" id="_content" data-uid="SideLoader.SL_MeleeWeapon">
   
   
-  <h1 id="SideLoader_SL_Weapon" data-uid="SideLoader.SL_Weapon" class="text-break">Class SL_Weapon
+  <h1 id="SideLoader_SL_MeleeWeapon" data-uid="SideLoader.SL_MeleeWeapon" class="text-break">Class SL_MeleeWeapon
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -80,13 +80,30 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="SideLoader.SL_Item.html">SL_Item</a></div>
     <div class="level2"><a class="xref" href="SideLoader.SL_Equipment.html">SL_Equipment</a></div>
-    <div class="level3"><span class="xref">SL_Weapon</span></div>
-      <div class="level4"><a class="xref" href="SideLoader.SL_Ammunition.html">SL_Ammunition</a></div>
-      <div class="level4"><a class="xref" href="SideLoader.SL_MeleeWeapon.html">SL_MeleeWeapon</a></div>
-      <div class="level4"><a class="xref" href="SideLoader.SL_ProjectileWeapon.html">SL_ProjectileWeapon</a></div>
+    <div class="level3"><a class="xref" href="SideLoader.SL_Weapon.html">SL_Weapon</a></div>
+    <div class="level4"><span class="xref">SL_MeleeWeapon</span></div>
+      <div class="level5"><a class="xref" href="SideLoader.SL_DualMeleeWeapon.html">SL_DualMeleeWeapon</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_WeaponType">SL_Weapon.WeaponType</a>
+    </div>
+    <div>
+      <a class="xref" href="SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_Unblockable">SL_Weapon.Unblockable</a>
+    </div>
+    <div>
+      <a class="xref" href="SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_SwingSound">SL_Weapon.SwingSound</a>
+    </div>
+    <div>
+      <a class="xref" href="SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_SpecialIsZoom">SL_Weapon.SpecialIsZoom</a>
+    </div>
+    <div>
+      <a class="xref" href="SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_HealthLeechRatio">SL_Weapon.HealthLeechRatio</a>
+    </div>
+    <div>
+      <a class="xref" href="SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_HealthBurnLeechRatio">SL_Weapon.HealthBurnLeechRatio</a>
+    </div>
     <div>
       <a class="xref" href="SideLoader.SL_Equipment.html#SideLoader_SL_Equipment_EquipSlot">SL_Equipment.EquipSlot</a>
     </div>
@@ -225,25 +242,54 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SideLoader.html">SideLoader</a></h6>
   <h6><strong>Assembly</strong>: SideLoader.dll</h6>
-  <h5 id="SideLoader_SL_Weapon_syntax">Syntax</h5>
+  <h5 id="SideLoader_SL_MeleeWeapon_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SL_Weapon : SL_Equipment</code></pre>
+    <pre><code class="lang-csharp hljs">public class SL_MeleeWeapon : SL_Weapon</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon_HealthBurnLeechRatio.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon.HealthBurnLeechRatio%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_MeleeWeapon_LinecastCount.md&amp;value=---%0Auid%3A%20SideLoader.SL_MeleeWeapon.LinecastCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L23">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/Weapon/SL_MeleeWeapon.cs/#L10">View Source</a>
   </span>
-  <h4 id="SideLoader_SL_Weapon_HealthBurnLeechRatio" data-uid="SideLoader.SL_Weapon.HealthBurnLeechRatio">HealthBurnLeechRatio</h4>
+  <h4 id="SideLoader_SL_MeleeWeapon_LinecastCount" data-uid="SideLoader.SL_MeleeWeapon.LinecastCount">LinecastCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float? HealthBurnLeechRatio</code></pre>
+    <pre><code class="lang-csharp hljs">public int? LinecastCount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_MeleeWeapon_Radius.md&amp;value=---%0Auid%3A%20SideLoader.SL_MeleeWeapon.Radius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/Weapon/SL_MeleeWeapon.cs/#L11">View Source</a>
+  </span>
+  <h4 id="SideLoader_SL_MeleeWeapon_Radius" data-uid="SideLoader.SL_MeleeWeapon.Radius">Radius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float? Radius</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,151 +302,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Single</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon_HealthLeechRatio.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon.HealthLeechRatio%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L22">View Source</a>
-  </span>
-  <h4 id="SideLoader_SL_Weapon_HealthLeechRatio" data-uid="SideLoader.SL_Weapon.HealthLeechRatio">HealthLeechRatio</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float? HealthLeechRatio</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Single</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon_SpecialIsZoom.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon.SpecialIsZoom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L20">View Source</a>
-  </span>
-  <h4 id="SideLoader_SL_Weapon_SpecialIsZoom" data-uid="SideLoader.SL_Weapon.SpecialIsZoom">SpecialIsZoom</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? SpecialIsZoom</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon_SwingSound.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon.SwingSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L19">View Source</a>
-  </span>
-  <h4 id="SideLoader_SL_Weapon_SwingSound" data-uid="SideLoader.SL_Weapon.SwingSound">SwingSound</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SwingSoundWeapon? SwingSound</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">SwingSoundWeapon</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon_Unblockable.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon.Unblockable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L18">View Source</a>
-  </span>
-  <h4 id="SideLoader_SL_Weapon_Unblockable" data-uid="SideLoader.SL_Weapon.Unblockable">Unblockable</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? Unblockable</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon_WeaponType.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon.WeaponType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L17">View Source</a>
-  </span>
-  <h4 id="SideLoader_SL_Weapon_WeaponType" data-uid="SideLoader.SL_Weapon.WeaponType">WeaponType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Weapon.WeaponType? WeaponType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Weapon.WeaponType</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -409,13 +310,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon_ApplyToItem_Item_.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon.ApplyToItem(Item)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_MeleeWeapon_ApplyToItem_Item_.md&amp;value=---%0Auid%3A%20SideLoader.SL_MeleeWeapon.ApplyToItem(Item)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L25">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/Weapon/SL_MeleeWeapon.cs/#L13">View Source</a>
   </span>
-  <a id="SideLoader_SL_Weapon_ApplyToItem_" data-uid="SideLoader.SL_Weapon.ApplyToItem*"></a>
-  <h4 id="SideLoader_SL_Weapon_ApplyToItem_Item_" data-uid="SideLoader.SL_Weapon.ApplyToItem(Item)">ApplyToItem(Item)</h4>
+  <a id="SideLoader_SL_MeleeWeapon_ApplyToItem_" data-uid="SideLoader.SL_MeleeWeapon.ApplyToItem*"></a>
+  <h4 id="SideLoader_SL_MeleeWeapon_ApplyToItem_Item_" data-uid="SideLoader.SL_MeleeWeapon.ApplyToItem(Item)">ApplyToItem(Item)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -440,16 +341,16 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="SideLoader.SL_Equipment.html#SideLoader_SL_Equipment_ApplyToItem_Item_">SL_Equipment.ApplyToItem(Item)</a></div>
+  <div><a class="xref" href="SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_ApplyToItem_Item_">SL_Weapon.ApplyToItem(Item)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon_SerializeItem_Item_SideLoader_SL_Item_.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon.SerializeItem(Item%2CSideLoader.SL_Item)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_MeleeWeapon_SerializeItem_Item_SideLoader_SL_Item_.md&amp;value=---%0Auid%3A%20SideLoader.SL_MeleeWeapon.SerializeItem(Item%2CSideLoader.SL_Item)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L58">View Source</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/Weapon/SL_MeleeWeapon.cs/#L29">View Source</a>
   </span>
-  <a id="SideLoader_SL_Weapon_SerializeItem_" data-uid="SideLoader.SL_Weapon.SerializeItem*"></a>
-  <h4 id="SideLoader_SL_Weapon_SerializeItem_Item_SideLoader_SL_Item_" data-uid="SideLoader.SL_Weapon.SerializeItem(Item,SideLoader.SL_Item)">SerializeItem(Item, SL_Item)</h4>
+  <a id="SideLoader_SL_MeleeWeapon_SerializeItem_" data-uid="SideLoader.SL_MeleeWeapon.SerializeItem*"></a>
+  <h4 id="SideLoader_SL_MeleeWeapon_SerializeItem_Item_SideLoader_SL_Item_" data-uid="SideLoader.SL_MeleeWeapon.SerializeItem(Item,SideLoader.SL_Item)">SerializeItem(Item, SL_Item)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -479,7 +380,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="SideLoader.SL_Equipment.html#SideLoader_SL_Equipment_SerializeItem_Item_SideLoader_SL_Item_">SL_Equipment.SerializeItem(Item, SL_Item)</a></div>
+  <div><a class="xref" href="SideLoader.SL_Weapon.html#SideLoader_SL_Weapon_SerializeItem_Item_SideLoader_SL_Item_">SL_Weapon.SerializeItem(Item, SL_Item)</a></div>
 </article>
           </div>
           
@@ -488,10 +389,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_Weapon.md&amp;value=---%0Auid%3A%20SideLoader.SL_Weapon%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_SL_MeleeWeapon.md&amp;value=---%0Auid%3A%20SideLoader.SL_MeleeWeapon%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/SL_Weapon.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Serializer/Item/Equipment/Weapon/SL_MeleeWeapon.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
