@@ -320,6 +320,23 @@ This one is obviously for playing a sound effect. You can pick any sound from th
 `MaxPitch` (float)
 * Maximum pitch (from distance)
 
+## SL_PlayVFX
+Used to play a VFX System (visual effects).
+
+`VFXPrefab` (enum)
+* Can pick any of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/VFXPrefabs.txt)
+* Determines the VFX prefab that will play
+
+`HitPos` (true/false)
+* Determines whether the VFX will play at the position provided by the effect activation
+
+`ParentMode` (enum)
+* Must be exactly one of: `This` or `FXWorld`
+* If `FXWorld`, it will set the parent to the global FX transform holder
+
+`DontInstantiateNew` (true/false)
+* If `false`, it will instantiate a new prefab each activation
+
 ## SL_Puke
 Similar to SL_Cough, used by the Indigestion disease.
 
