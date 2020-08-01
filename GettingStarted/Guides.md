@@ -79,24 +79,17 @@ See also: [Replacing Textures](Replacing/Textures)
 
 ## Examples
 
-See these links for more examples (these are existing SL mods):
+See these links for some examples of existing SideLoader mods.
 
-A <span style="color:red">*</span> indicates that the source code may not be visible or easily accessible.
+You will find other SideLoader mods on NexusMods, but not all of them will be as easy to learn from as these examples, especially mods which use only AssetBundles and/or C# scripts (where the source code is not provided).
 
 ### Items
 * [Imbued Bows & Mana Bow](https://www.nexusmods.com/outward/mods/106)
 * [Arrows](https://www.nexusmods.com/outward/mods/130)
-* [Crusader's Item Pack](https://www.nexusmods.com/outward/mods/134) <span style="color:red">*</span>
-* [Radiant Damage Gear](https://www.nexusmods.com/outward/mods/135) <span style="color:red">*</span>
-* [Runic Scrolls](https://www.nexusmods.com/outward/mods/132) <span style="color:red">*</span>
-* [Holy Avenger Item Pack](https://www.nexusmods.com/outward/mods/128) <span style="color:red">*</span>
 
 ### Skills
 * [Necromancy Skills](https://www.nexusmods.com/outward/mods/105)
 * [Unlimited Rune Works](https://www.nexusmods.com/outward/mods/157)
-* [Skilled at Sitting](https://www.nexusmods.com/outward/mods/127) <span style="color:red">*</span>
-* [The Juggernaut](https://www.nexusmods.com/outward/mods/143) <span style="color:red">*</span>
-* [The Templar](https://www.nexusmods.com/outward/mods/136) <span style="color:red">*</span>
 
 ### Textures
 * [Antiquated Antiques](https://www.nexusmods.com/outward/mods/154)
