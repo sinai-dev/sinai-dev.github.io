@@ -2,6 +2,13 @@
 
 If you have trouble getting SL mods to work, this page should help you diagnose most problems.
 
+## Check these things first
+
+Before you dive too far into troubleshooting, you should make sure that:
+1. You are on the [latest release of SideLoader](https://github.com/sinaioutlander/Outward-SideLoader/releases)
+2. You have the latest version of Outward, and BepInEx.
+3. You have checked [Outward Wiki: Troubleshooting Mods](https://outward.gamepedia.com/Installing_Mods#Troubleshooting) as well.
+
 ## Error logging
 
 SideLoader has extensive logging, and you should be able to tell if something major has gone wrong from the log file.
