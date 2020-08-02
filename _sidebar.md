@@ -1,6 +1,7 @@
 - SideLoader
   - [Home](/)
   - [Setup Guide](GettingStarted/Installation.md)
+  - [Troubleshooting](Troubleshooting.md)
 
 - Getting Started
 
