@@ -52,11 +52,11 @@ Example of a Vector3 value in XML:
 
 `Effects` (list of SL_Effect)
 * The actual list of effects for this transform.
-* See [Effects and Conditions](#effects-and-conditions) below.
+* See [SL_Effect](Effects/SL_Effect)
 
 `EffectConditions` (list of SL_EffectCondition)
 * An optional list of conditions, which will determine whether or not the effects are activated.
-* See [Effects and Conditions](#effects-and-conditions) below.
+* See [SL_EffectCondition](Effects/SL_EffectCondition)
 
 `ChildEffects` (list of SL_EffectTransform)
 * Can contain child SL_EffectTransforms, allowing the same hierarchy structure as Unity Transforms.
@@ -87,11 +87,6 @@ The game checks if your TransformName <b>contains</b> one of the following <b>ke
 There is one unique exception: if the TransformName is <b>exactly</b> "`Effects`", "`Effect`", "`ExtraEffects`" or "`HiddenEffects`", it works the same as the `Normal` keyword.
 
 This covers everything about the SL_EffectTransform itself, see the linked articles below for details on SL_Effect and SL_EffectCondition classes.
-
-## Effects and Conditions
-
-* [SL_Effect](Effects/SL_Effect), defined in the `Effects` field.
-* [SL_EffectCondition](Effects/SL_EffectCondition), defined in the `EffectConditions` field.
 
 ## Xml Example
 The base XML structure for an SL_EffectTransform should look like this:
