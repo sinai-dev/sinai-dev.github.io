@@ -9,7 +9,7 @@ This documentation primarily focuses on SL Packs and will use XML examples over 
 
 To get the most out of SideLoader, it is recommended to use both the SL Pack folders to load your assets, and the C# API for extended features.
 
-## What SideLoader can do?
+## What can SideLoader do?
 
 SideLoader's features can mostly be broken down into two categories: <b>Simple Replacements</b> of textures and audio, and more complex <b>Custom Assets</b> such as Items, Status Effects, Characters and more.
 
