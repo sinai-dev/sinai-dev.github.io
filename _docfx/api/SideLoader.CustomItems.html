@@ -511,19 +511,19 @@ This is called by CustomItems.CreateCustomItem</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomItems_SetItemTags_Item_System_Collections_Generic_List_System_String__System_Boolean_.md&amp;value=---%0Auid%3A%20SideLoader.CustomItems.SetItemTags(Item%2CSystem.Collections.Generic.List%7BSystem.String%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/sinaioutlander/Outward-SideLoader/new/master/apiSpec/new?filename=SideLoader_CustomItems_SetItemTags_Item_System_String___System_Boolean_.md&amp;value=---%0Auid%3A%20SideLoader.CustomItems.SetItemTags(Item%2CSystem.String%5B%5D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/sinaioutlander/Outward-SideLoader/blob/master/SideLoader/SideLoader/Custom/CustomItems.cs/#L197">View Source</a>
   </span>
   <a id="SideLoader_CustomItems_SetItemTags_" data-uid="SideLoader.CustomItems.SetItemTags*"></a>
-  <h4 id="SideLoader_CustomItems_SetItemTags_Item_System_Collections_Generic_List_System_String__System_Boolean_" data-uid="SideLoader.CustomItems.SetItemTags(Item,System.Collections.Generic.List{System.String},System.Boolean)">SetItemTags(Item, List&lt;String&gt;, Boolean)</h4>
+  <h4 id="SideLoader_CustomItems_SetItemTags_Item_System_String___System_Boolean_" data-uid="SideLoader.CustomItems.SetItemTags(Item,System.String[],System.Boolean)">SetItemTags(Item, String[], Boolean)</h4>
   <div class="markdown level1 summary"><p>Adds the range of tags to the Items' TagSource, and optionally destroys the existing tags.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetItemTags(Item item, List&lt;string&gt; tags, bool destroyExisting)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SetItemTags(Item item, string[] tags, bool destroyExisting)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -541,7 +541,7 @@ This is called by CustomItems.CreateCustomItem</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">tags</span></td>
         <td></td>
       </tr>
