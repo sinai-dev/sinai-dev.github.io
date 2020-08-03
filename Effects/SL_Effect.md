@@ -573,9 +573,10 @@ Derives from `SL_ShootBlast`. Used by Hive AI enemies to shoot a lingering blast
 `HornetPassiveTargetRange` (float)
 * Max range of the passive attacks
 
-## SL_ShootBlastProximity
-* Derives from `SL_ShootBlast`.
-* Contains no extra fields, this works by having a `SL_ProximityCondition` EffectCondition on the same Effect Transform.
+## SL_ShootBlastsProximity
+Derives from `SL_ShootBlast`.
+
+Contains no extra fields, this works by having a `SL_ProximityCondition` EffectCondition on the same Effect Transform.
 
 ## SL_ShootEnchantmentBlast
 Inherits from `SL_ShootBlast`.
