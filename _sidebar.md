@@ -13,7 +13,7 @@
 - C# Documentation
 
   - [C# Overview](GettingStarted/CSharpGuide.md)
-  - [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html ':target=_self')
+  - [C# API](https://sinai-dev.github.io/_docfx/api/SideLoader.html ':target=_self')
   
 - Replacing Assets
 
@@ -52,9 +52,9 @@
   
 - External Resources
 
-  - [Enums](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources/Types/enums)
+  - [Enums](https://github.com/sinai-dev/Outward-SideLoader/tree/master/Resources/Types/enums)
   - [Outward Tools](https://docs.google.com/spreadsheets/d/1btxPTmgeRqjhqC5dwpPXWd49-_tX_OVLN1Uvwv525K4/edit#gid=1701861708)
-  - [SL Resources](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources)
+  - [SL Resources](https://github.com/sinai-dev/Outward-SideLoader/tree/master/Resources)
   
 - Roadmap
 

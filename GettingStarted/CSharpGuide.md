@@ -4,7 +4,7 @@ This is a brief summary of how to use the SideLoader directly from your own C# m
 
 ## C# API
 
-See the [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html) (work-in-progress) for proper documentation. This documentation can also be seen as hints in your IDE when you are using SideLoader's API.
+See the [C# API](https://sinai-dev.github.io/_docfx/api/SideLoader.html) (work-in-progress) for proper documentation. This documentation can also be seen as hints in your IDE when you are using SideLoader's API.
 
 ## Adding the Reference
 
@@ -29,13 +29,13 @@ The `SLPack` class is the C# wrapper for SL Pack folders.
 
 * Use `SL.Packs["MyPackName"]` to get a handle on your pack.
 * You can access certain assets from your SL Pack with this class.
-* See also [SLPack (C# API)](https://sinaioutlander.github.io/_docfx/api/SideLoader.SLPack.html)
+* See also [SLPack (C# API)](https://sinai-dev.github.io/_docfx/api/SideLoader.SLPack.html)
 
 ## Custom Items
 
 The main SideLoader classes for custom items are `CustomItems` and `SL_Item`, and `CustomItemVisuals`.
 
-See also: [SideLoader.CustomItems (C# API)](https://sinaioutlander.github.io/_docfx/api/SideLoader.CustomItems.html).
+See also: [SideLoader.CustomItems (C# API)](https://sinai-dev.github.io/_docfx/api/SideLoader.CustomItems.html).
 
 Defining custom items from C# is the same as the XML method, except you're defining the SL_Item object from code instead of XML. You should subscribe to `SL.BeforePacksLoaded` and set up your custom items at this point. For any changes you want to make which depend on the template being applied, you should make those changes on `SL.OnPacksLoaded`.
 

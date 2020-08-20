@@ -5,7 +5,7 @@ There are two ways you can use SideLoader:
 1. Using <b>SL Packs</b> (folders containing <b>XML</b> files and other assets)
 2. Using the <b>C#</b> API from your own plugin
 
-This documentation primarily focuses on SL Packs and will use XML examples over C# examples, however all of the same rules apply to C# as well. See the [C# API](https://sinaioutlander.github.io/_docfx/api/SideLoader.html) for C#-specific documentation, but note that it does not usually go into as much detail as these articles will.
+This documentation primarily focuses on SL Packs and will use XML examples over C# examples, however all of the same rules apply to C# as well. See the [C# API](https://sinai-dev.github.io/_docfx/api/SideLoader.html) for C#-specific documentation, but note that it does not usually go into as much detail as these articles will.
 
 To get the most out of SideLoader, it is recommended to use both the SL Pack folders to load your assets, and the C# API for extended features.
 

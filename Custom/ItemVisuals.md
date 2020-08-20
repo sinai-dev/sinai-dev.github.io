@@ -25,7 +25,7 @@ These two files go in the base `Textures\` folder:
 
 `icon.png` (84x128px)
 * Replaces the <b>main item icon</b>
-* A blank icon template can be found here: [for items](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/ItemIcon.png), or [for skills](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/ActiveSkillIcon.png), or [for passives](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/PassiveSkillIcon.png)
+* A blank icon template can be found here: [for items](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/ItemIcon.png), or [for skills](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/ActiveSkillIcon.png), or [for passives](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/PassiveSkillIcon.png)
 
 `skillicon.png` (50x50px)
 * The small icon used for <b>Skill Tree icons</b>

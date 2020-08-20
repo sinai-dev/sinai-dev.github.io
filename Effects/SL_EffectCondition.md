@@ -92,7 +92,7 @@ Checks an equipment slot, and checks if it has enough durability.
 
 `EquipmentSlot` (enum)
 * The equipment slot to check.
-* Must be exactly one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
+* Must be exactly one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
 
 `MinimumDurability` (float)
 * The minimum durability value (flat).
@@ -180,7 +180,7 @@ Checks if the given EquipmentSlot has something equipped or not.
 
 `EquipmentSlot` (enum)
 * The slot to check.
-* Must be one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
+* Must be one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
 
 ## SL_IsWorldHostCondition
 Self-explanatory condition. Is the caster the world host or not? This condition has no extra fields.

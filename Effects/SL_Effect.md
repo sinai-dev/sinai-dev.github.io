@@ -51,7 +51,7 @@ Simply gives the player an Achievement when this effect is used.
 
 `UnlockedAchievement` (enum)
 * The achievement which will be unlocked
-* See [this list](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/AchievementManager.Achievements) for possible values.
+* See [this list](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/AchievementManager.Achievements) for possible values.
 
 ## SL_AchievementSetStatOnEffect
 
@@ -309,7 +309,7 @@ This effects loads a weapon (ie. Pistol).
 This one is obviously for playing a sound effect. You can pick any sound from the global list.
 
 `Sound` (enum)
-* Pick any sound of [this list](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/GlobalAudioManager.Sounds.txt).
+* Pick any sound of [this list](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/GlobalAudioManager.Sounds.txt).
 
 `Follow` (true/false)
 * Should the sound follow the affected character?
@@ -324,7 +324,7 @@ This one is obviously for playing a sound effect. You can pick any sound from th
 Used to play a VFX System (visual effects).
 
 `VFXPrefab` (enum)
-* Can pick any of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/VFXPrefabs.txt)
+* Can pick any of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/VFXPrefabs.txt)
 * Determines the VFX prefab that will play
 
 `HitPos` (true/false)
@@ -389,7 +389,7 @@ Simple effect which reduces durability of some equipment.
 * How much durability is lost (flat amount)
 
 `EquipmentSlot` (enum)
-* Which slot to affect. Must be one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
+* Which slot to affect. Must be one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
 
 ## SL_ReduceStatusLevel
 For Status Effects which <b>levels</b> (eg the new Alertness status in the DLC).
@@ -402,7 +402,7 @@ For Status Effects which <b>levels</b> (eg the new Alertness status in the DLC).
 Simply removes the Imbue from a given Equipment Slot.
 
 `AffectSlot` (enum)
-* Must be one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
+* Must be one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
 
 ## SL_RemoveStatusEffect
 Used to remove a status effect from the affected character.
@@ -461,7 +461,7 @@ ShootBlast inherits from SL_Shooter, and contains some extra fields.
 
 `BaseBlast` (enum)
 * This determines the base visuals for your blast.
-* You can pick any value from [this list](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/BlastPrefabs.txt) (there are a lot).
+* You can pick any value from [this list](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/BlastPrefabs.txt) (there are a lot).
 
 `Radius` (float)
 * The radius of the blast. Generally between 1 to 5.
@@ -505,7 +505,7 @@ ShootBlast inherits from SL_Shooter, and contains some extra fields.
 
 `ImpactSoundMaterial` (enum)
 * The sound on impact.
-* Must be one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSoundMaterials.txt).
+* Must be one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSoundMaterials.txt).
 
 `DontPlayHitSound` (true/false)
 * Whether to play the hit sound on hit
@@ -592,7 +592,7 @@ SL_ShootProjectile inherits from SL_Shooter. It is similar to ShootBlast, this s
 
 `BaseProjectile` (enum)
 * This determines the base visuals for your projectile.
-* You can pick any value from [this list](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/ProjectilePrefabs.txt) (there are a lot).
+* You can pick any value from [this list](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/ProjectilePrefabs.txt) (there are a lot).
 
 `InstantiatedAmount` (int)
 * Determines how many projectiles are created on cast
@@ -696,7 +696,7 @@ Now, back to the fields on SL_ShootProjectile.
 
 `ImpactSoundMaterial` (enum)
 * The sound on impact.
-* Must be one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSoundMaterials.txt).
+* Must be one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSoundMaterials.txt).
 
 `LightIntensityFade` (Vector2)
 * Fade applied to the Light on the projectile, if any.
@@ -827,7 +827,7 @@ Simply unloads the weapon in the given AffectSlot.
 
 `AffectSlot` (enum)
 * The equipment slot to unlaod from.
-* Must be exactly one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
+* Must be exactly one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSlot.EquipmentSlotIDs.txt).
 
 ## SL_UseLoadoutAmmunition
 Uses ammunition from a WeaponLoadout.

@@ -33,7 +33,7 @@ To find the ID of the status you want to dump, use [this Google Sheet](https://d
 
 ### Enchantments
 
-Pick any Enchantment ID off [this list](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Enchantments.txt).
+Pick any Enchantment ID off [this list](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Enchantments.txt).
 
 The template will be generated to `Mods\SideLoader\_GENERATED\Enchantments\`.
 

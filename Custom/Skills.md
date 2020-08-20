@@ -62,7 +62,7 @@ If a skill is an "Attack Skill" you can use these fields. Attack Skills are any 
 `RequiredWeaponTypes` (list of WeaponType)
 * A list of required main-hand weapon types, used for skills that require a certain type of weapon. 
 * Characters can have ANY entry on the list to use the skill.
-* Values must be exactly one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/Weapon.WeaponType.txt) (Weapon Type enum)
+* Values must be exactly one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/Weapon.WeaponType.txt) (Weapon Type enum)
 
 It should look like this in XML:
 ```xml
@@ -133,11 +133,11 @@ Inherits from SL_MeleeSkill, and contains some extra fields.
 
 `BlockDamageTypes` (list of DamageType)
 * A list of DamageType.Types objects which this skill can <b>block</b>.
-* See [this page](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/DamageType.Types.txt) for a list of Damage Types.
+* See [this page](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/DamageType.Types.txt) for a list of Damage Types.
 
 `CounterDamageTypes` (list of DamageType)
 * A list of DamageType.Types objects which this skill can <b>counter</b>.
-* See [this page](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/DamageType.Types.txt) for a list of Damage Types.
+* See [this page](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/DamageType.Types.txt) for a list of Damage Types.
 
 `MaxRange` (float)
 * Maximum range of the counter/block.

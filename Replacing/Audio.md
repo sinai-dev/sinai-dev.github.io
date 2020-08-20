@@ -10,7 +10,7 @@ For example, `Mods\SideLoader\MyPack\AudioClip\BGM_GeneralTitleScreen.wav` would
 
 ## Audio Clip Names
 
-You can see a full list of audio clip names [here](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/GlobalAudioManager.Sounds.txt).
+You can see a full list of audio clip names [here](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/GlobalAudioManager.Sounds.txt).
 
 The names start with a prefix which is used as a category for the sound, you can use this to find the type of sound you are interested in:
 * `BGM_` is background music

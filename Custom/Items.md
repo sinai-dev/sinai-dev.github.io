@@ -76,7 +76,7 @@ All custom items have these fields.
 
 `CastType` (enum)
 * The animation when this item is "Used", or if it's a skill the animation when it is used
-* See [this reference](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/Character.SpellCastType.txt) for the possible values you can set (there are a lot)
+* See [this reference](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/Character.SpellCastType.txt) for the possible values you can set (there are a lot)
 
 `CastModifier` (enum)
 * A modifier on the character when you use or activate this item/skill.
@@ -276,11 +276,11 @@ For example:
 
 `GearSoundMaterial` (enum)
 * Sets the general movement sound of the equipment
-* Must be exactly one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSoundMaterials.txt).
+* Must be exactly one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSoundMaterials.txt).
 
 `ImpactSoundMaterial` (enum)
 * The sound when the armor is hit
-* Must be exactly one of [these values](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSoundMaterials.txt).
+* Must be exactly one of [these values](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/EquipmentSoundMaterials.txt).
 
 ## SL_Weapon
 
@@ -288,7 +288,7 @@ As well as all the fields on SL_Item and SL_Equipment, weapons also have a few m
 
 `WeaponType` (enum)
 * Sets the type of weapon.
-* Must be one of these values: [Weapon.WeaponType](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/Weapon.WeaponType.txt)
+* Must be one of these values: [Weapon.WeaponType](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/Weapon.WeaponType.txt)
 
 `Unblockable` (true/false)
 * Sets the unblockable behaviour. Is this weapon <b>unblockable</b>? Currently no weapons in the live game have this as true, but it does work.
@@ -442,11 +442,11 @@ The `Damage` value is a list of `<float></float>` values.
 
 `LoadAnim` (enum)
 * A Character.SpellCastType value, sets the animation when loading.
-* See [this reference](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/Character.SpellCastType.txt) for the possible values you can set (there are a lot)
+* See [this reference](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/Character.SpellCastType.txt) for the possible values you can set (there are a lot)
 
 `FullyBentSound` (enum)
 * The sound which plays when the bow is fully drawn.
-* Must be one of these values: [GlobalAudioManager.Sounds](https://github.com/sinaioutlander/Outward-SideLoader/blob/master/Resources/Types/enums/GlobalAudioManager.Sounds.txt).
+* Must be one of these values: [GlobalAudioManager.Sounds](https://github.com/sinai-dev/Outward-SideLoader/blob/master/Resources/Types/enums/GlobalAudioManager.Sounds.txt).
 
 ## SL_Bag
 Bags inherit from SL_Equipment, and contain a few extra fields.

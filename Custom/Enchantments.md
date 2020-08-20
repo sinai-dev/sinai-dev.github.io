@@ -86,7 +86,7 @@ In Xml, the TimeOfDay should look something like this:
 
 `Areas` (list of enum)
 * A list of AreaEnum objects, corresponding to areas where this recipe is valid.
-* You can pick any value off [this list](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources/Types/enums/AreaManager.AreaEnum.txt).
+* You can pick any value off [this list](https://github.com/sinai-dev/Outward-SideLoader/tree/master/Resources/Types/enums/AreaManager.AreaEnum.txt).
 
 In Xml, this would look like:
 ```xml
@@ -149,7 +149,7 @@ In Xml, this would look like:
 ```
 
 The `StatModifications` is a list of StatModification objects. Each StatModification has:
-* `Stat` (enum): Pick any value off [this list](https://github.com/sinaioutlander/Outward-SideLoader/tree/master/Resources/Types/enums/Enchantment.Stat.txt).
+* `Stat` (enum): Pick any value off [this list](https://github.com/sinai-dev/Outward-SideLoader/tree/master/Resources/Types/enums/Enchantment.Stat.txt).
 * `Type` (enum): How to add this stat. Must be one of `Bonus` or `Modifier`
 * `Value` (float): The value applied to this stat.
 
