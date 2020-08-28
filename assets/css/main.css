@@ -1409,10 +1409,7 @@
 	}
 
 	body {
-		background-color: #000;
-		background-image: url("../../images/bg.jpg");
-		background-size: cover;
-		background-position: top center;
+		background-color: rgb(17, 17, 17);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1445,7 +1442,7 @@
 		}
 
 	a {
-		color: inherit;
+		color: #7ce5ff;
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		-moz-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1454,10 +1451,14 @@
 		transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	}
 
-		a:hover {
-			color: #ffffff;
-			border-bottom-color: transparent;
-		}
+	a, img {
+		border-bottom: none !important;
+	}
+
+	a:hover {
+		color: #ffffff;
+		border-bottom-color: transparent;
+	}
 
 	strong, b {
 		color: #ffffff;
